@@ -42,14 +42,15 @@ off, leaving me to write all the content myself.
 
 Many of the essays on Hacknot take a stab at some sacred cow of the software
 development field, such as Extreme Programming, Open Source and Function Point
-Analysis. These subjects tend to attract fanatical adherents who don’t take
-kindly to someone criticizing what for them has become an object of veneration.
-The vitriol of some of the e-mail I receive is testament to the fact that some
-people need to get out more and get a sense of perspective. It is partially
-because of the controversial nature of these topics that I have always written
-behind a pseudonym; either “Ed”, “Mr. Ed” or “Ed Johnson”. I also favor
-anonymity because it makes a nice change from the relentless self-promotion
-engaged in by so many members of the IT community.
+Analysis. These subjects tend to attract fanatical adherents who
+don’t take kindly to someone criticizing what for them has become an
+object of veneration. The vitriol of some of the e-mail I receive is testament
+to the fact that some people need to get out more and get a sense of
+perspective. It is partially because of the controversial nature of these topics
+that I have always written behind a pseudonym; either
+“Ed”, “Mr. Ed” or “Ed
+Johnson”. I also favor anonymity because it makes a nice change from
+the relentless self-promotion engaged in by so many members of the IT community.
 
 **  The Hacknot Book
 
@@ -72,7 +73,8 @@ This work is licensed under the Creative Commons Attribution License. To view a 
 • Visithttp://creativecommons.org/licenses/by/2.5/or
 • Sendaletterto:
 Creative Commons
-543 Howard Street, 5th Floor San Francisco
+543 Howard Street, 5th Floor San F
+rancisco
 California
 94105, USA
 
@@ -151,75 +153,412 @@ blames third parties, vendors and colleagues for errors that are actually his
 own.
 
 *** C++ Colin
-Colin is the local language bigot, whose language of preference is C++. He began programming in C, moved on to C++ when commercial forces threw the OO paradigm at him, and has been working in C++ ever since. Colin has watched the ascent of Java with a mixture of disdain and veiled jealousy. Initially, it was easy to defend C++ against criticisms from the Java camp, by pointing to C++'s superior performance. But with the growing speed of JVMs, this advantage has been lost. Now, most of the advantages that Colin claims for C++ are the same language features that Java enthusiasts see as disadvantages. Java developers (or, "Java weenies" as Colin is fond of calling them) point to automatic memory reclamation as an eliminator of a whole category of bugs that C++ developers must still contend with. Colin sees garbage collection as disempowering the programmer, referring to the random intrusion of garbage collection cycles as payback for those too lazy to free memory themselves. Java weenies consider the absence of multiple inheritance in Java an advantage because it avoids any confusion over the rules used to resolve inheritance of conflicting features; Colin sees it as an unforgivable limitation to effective and accurate domain modeling. Java weenies consider C++'s operator overloading to be an archaic syntax shortcut, rife with potential for error; Colin sees it as a concise and natural way to capture operations upon objects. Colin displays a certain bitterness, resulting from the dwindling variety of work available to him within the language domain he is comfortable with.
+Colin is the local language bigot, whose language of preference is C++. He began
+programming in C, moved on to C++ when commercial forces threw the OO paradigm
+at him, and has been working in C++ ever since. Colin has watched the ascent of
+Java with a mixture of disdain and veiled jealousy. Initially, it was easy to
+defend C++ against criticisms from the Java camp, by pointing to C++'s superior
+performance. But with the growing speed of JVMs, this advantage has been lost.
+Now, most of the advantages that Colin claims for C++ are the same language
+features that Java enthusiasts see as disadvantages. Java developers (or, "Java
+weenies" as Colin is fond of calling them) point to automatic memory reclamation
+as an eliminator of a whole category of bugs that C++ developers must still
+contend with. Colin sees garbage collection as disempowering the programmer,
+referring to the random intrusion of garbage collection cycles as payback for
+those too lazy to free memory themselves. Java weenies consider the absence of
+multiple inheritance in Java an advantage because it avoids any confusion over
+the rules used to resolve inheritance of conflicting features; Colin sees it as
+an unforgivable limitation to effective and accurate domain modeling. Java
+weenies consider C++'s operator overloading to be an archaic syntax shortcut,
+rife with potential for error; Colin sees it as a concise and natural way to
+capture operations upon objects. Colin displays a certain bitterness, resulting
+from the dwindling variety of work available to him within the language domain
+he is comfortable with.
 
 *** Distracted Daniel
-Daniel's mind is only ever half on the job, or to put it another way, he doesn't have his head in the game. Daniel lives a very full life – indeed, so full that his private life overflows copiously into his professional one. He has several hobbies that he is passionate about, and he is always ready to regale a colleague with tales of his weekend exploits in one of them. It looks as if his job is just a way of funding his many (often expensive) hobbies. His work is strictly a nine to five endeavor, and it would be very rare to find him reading around a particular work-related topic in his own time, or putting in an extraordinary effort to meet a deadline or project milestone. He is constantly taking off at lunch times to take care of one task or another, and does not seem to be particularly productive even when he is in the office. Daniel refers to this as "leading a balanced life". He may be right.
+Daniel's mind is only ever half on the job, or to put it another way, he doesn't
+have his head in the game. Daniel lives a very full life – indeed, so
+full that his private life overflows copiously into his professional one. He has
+several hobbies that he is passionate about, and he is always ready to regale a
+colleague with tales of his weekend exploits in one of them. It looks as if his
+job is just a way of funding his many (often expensive) hobbies. His work is
+strictly a nine to five endeavor, and it would be very rare to find him reading
+around a particular work-related topic in his own time, or putting in an
+extraordinary effort to meet a deadline or project milestone. He is constantly
+taking off at lunch times to take care of one task or another, and does not seem
+to be particularly productive even when he is in the office. Daniel refers to
+this as "leading a balanced life". He may be right.
 
 *** Essential Eric
-Eric knows that knowledge is power. Partly by happenstance but mostly by design, Eric has become irreplaceable to his employer. There just seems to be a vast amount of technical and procedural arcana that only Eric knows. If he should ever leave, the company would be in a mess, as he would take so much critical information with him. This gives him a good deal of bargaining power with management, and good job security. A few of the company's managers have recognized the unhealthy dependence that exists upon him, and have attempted to document some of the valuable knowledge about certain pieces of software central to the business, but Eric always finds a way to get out of it. There always seems to be something more pressing for him to do, and if he is forced to put pen to paper, what results tends to be incoherent nonsense. It seems that he just can't write things down - or rather, that he chooses to be so poor at it that no one even bothers to ask him to document things any more. Eric is not keen to help others in those domains that he is master of, as he doesn't want to dilute the power of his monopoly.
+Eric knows that knowledge is power. Partly by happenstance but mostly by design,
+Eric has become irreplaceable to his employer. There just seems to be a vast
+amount of technical and procedural arcana that only Eric knows. If he should
+ever leave, the company would be in a mess, as he would take so much critical
+information with him. This gives him a good deal of bargaining power with
+management, and good job security. A few of the company's managers have
+recognized the unhealthy dependence that exists upon him, and have attempted to
+document some of the valuable knowledge about certain pieces of software central
+to the business, but Eric always finds a way to get out of it. There always
+seems to be something more pressing for him to do, and if he is forced to put
+pen to paper, what results tends to be incoherent nonsense. It seems that he
+just can't write things down - or rather, that he chooses to be so poor at it
+that no one even bothers to ask him to document things any more. Eric is not
+keen to help others in those domains that he is master of, as he doesn't want to
+dilute the power of his monopoly.
 
 *** Feature Creep Frank
-Most of the trouble that Frank has got himself into over the years has been heralded by the phrase "Wouldn't if be cool if ... ". No matter how feature-laden his current project may be, Frank can always think of one more bell or whistle to tack onto it that will make it so much cooler. Having decided that a particular feature is critical to user acceptance of the application, it is a very difficult task to stop him adding it in. He has been known to work nights and weekends just to get his favorite feature incorporated into the code base – whether he has got permission to do so or not. Part of Frank's cavalier attitude to these "enhancements" comes from his unwillingness to consider the long term consequences of each addition. He tends to think of the work being over once the feature has been coded, but he fails to consider that this feature must now be tested, debugged and otherwise maintained in all future versions of the product. Once the users have seen it, they may grow accustomed to it, and so removing it from future versions may well be impossible. They may even like the feature so much that they begin requesting extensions and modifications to it, creating further burden on the development team. Frank justifies his actions to others in terms of providing value to users, and often professes a greater knowledge of the user demographic than what he actually possesses, so that he can claim how much the users will need a particular feature. But Frank's real motivations are not really about user satisfaction, but are about satisfying his own ego. Each new feature is an opportunity for him to demonstrate how clever he is, and how in touch with the user community.
+Most of the trouble that Frank has got himself into over the years has been
+heralded by the phrase "Wouldn't if be cool if ... ". No matter how
+feature-laden his current project may be, Frank can always think of one more
+bell or whistle to tack onto it that will make it so much cooler. Having decided
+that a particular feature is critical to user acceptance of the application, it
+is a very difficult task to stop him adding it in. He has been known to work
+nights and weekends just to get his favorite feature incorporated into the code
+base – whether he has got permission to do so or not. Part of Frank's
+cavalier attitude to these "enhancements" comes from his unwillingness to
+consider the long term consequences of each addition. He tends to think of the
+work being over once the feature has been coded, but he fails to consider that
+this feature must now be tested, debugged and otherwise maintained in all future
+versions of the product. Once the users have seen it, they may grow accustomed
+to it, and so removing it from future versions may well be impossible. They may
+even like the feature so much that they begin requesting extensions and
+modifications to it, creating further burden on the development team. Frank
+justifies his actions to others in terms of providing value to users, and often
+professes a greater knowledge of the user demographic than what he actually
+possesses, so that he can claim how much the users will need a particular
+feature. But Frank's real motivations are not really about user satisfaction,
+but are about satisfying his own ego. Each new feature is an opportunity for him
+to demonstrate how clever he is, and how in touch with the user community.
 
 *** Generic George
-George delights in the design process. Pathologically incapable of solving just the immediate problem at hand, George always creates the most generic, flexible and adaptable solution possible, paying for the capabilities he thinks he will need in the future with extra complexity now. Sadly, George always seems to anticipate incorrectly. The castles in the air that he continually builds rarely end up with more than a single room occupied. Meanwhile, everyone must cope with the inordinate degree of time and effort that is needlessly invested in managing the complexity of an implementation whose flexibility is never required. It is a usual characteristic of George's work that it takes at least a dozen classes working together to accomplish even trivial functionality. He is generally the first to declare "Let's build a framework" whenever the opportunity presents itself, and the last to want to use the framework thus created.
+George delights in the design process. Pathologically incapable of solving just
+the immediate problem at hand, George always creates the most generic, flexible
+and adaptable solution possible, paying for the capabilities he thinks he will
+need in the future with extra complexity now. Sadly, George always seems to
+anticipate incorrectly. The castles in the air that he continually builds rarely
+end up with more than a single room occupied. Meanwhile, everyone must cope with
+the inordinate degree of time and effort that is needlessly invested in managing
+the complexity of an implementation whose flexibility is never required. It is a
+usual characteristic of George's work that it takes at least a dozen classes
+working together to accomplish even trivial functionality. He is generally the
+first to declare "Let's build a framework" whenever the opportunity presents
+itself, and the last to want to use the framework thus created.
 
 *** Hacker Henry
-Henry considers himself to be a true hacker – a code poet and geek guru. Still in the early stages of his career, he spends most of his life in front of a keyboard. Even when not at work, he is working on his own projects, participating in online discussion forums and learning about the latest languages and utilities. Software is his principal passion in life. This single-minded pursuit of technical knowledge has made him quite proficient in many areas, and has engendered a certain arrogance that generally manifests as a disdain directed towards those of his colleagues whom he regards as not being "true hackers". For his managers, Henry is a bit of a problem. They know that they can rely on him to overcome pretty much any technical challenge that might be presented to him, provided that the solution can be reached by doing nothing but coding. For unless it's coding, Henry's not interested. He won't document anything; certainly not his code, because he feels that good code is self-documenting. He is early enough into his career to have not yet been presented with the task of adopting a large code base from someone who subscribes to that same belief, and to have thereby seen the problems with it. Also, Henry can generally only be given "mind-size" tasks to do. His tasks have to be small and well defined enough for him to fit all their details in his head at once, as he simply refuses to write anything down. The architecture of enterprise-scale systems will likely forever be a mystery to him as he does not possess, and has no interest in developing, the facility with abstractions and modeling that is necessary to manage the design of large systems.
+Henry considers himself to be a true hacker – a code poet and geek
+guru. Still in the early stages of his career, he spends most of his life in
+front of a keyboard. Even when not at work, he is working on his own projects,
+participating in online discussion forums and learning about the latest
+languages and utilities. Software is his principal passion in life. This
+single-minded pursuit of technical knowledge has made him quite proficient in
+many areas, and has engendered a certain arrogance that generally manifests as a
+disdain directed towards those of his colleagues whom he regards as not being
+"true hackers". For his managers, Henry is a bit of a problem. They know that
+they can rely on him to overcome pretty much any technical challenge that might
+be presented to him, provided that the solution can be reached by doing nothing
+but coding. For unless it's coding, Henry's not interested. He won't document
+anything; certainly not his code, because he feels that good code is
+self-documenting. He is early enough into his career to have not yet been
+presented with the task of adopting a large code base from someone who
+subscribes to that same belief, and to have thereby seen the problems with it.
+Also, Henry can generally only be given "mind-size" tasks to do. His tasks have
+to be small and well defined enough for him to fit all their details in his head
+at once, as he simply refuses to write anything down. The architecture of
+enterprise-scale systems will likely forever be a mystery to him as he does not
+possess, and has no interest in developing, the facility with abstractions and
+modeling that is necessary to manage the design of large systems.
 
 *** Incompetent Ian
-Ian is a nice enough guy but is genuinely incapable of performing most of the job functions his position requires. It's not clear whether this is a result of inadequate education, limited experience or simply a lack of native ability. Either way, it is clear to anyone who works with Ian for any length of time that he is not really on the ball, and takes a very long time to complete even basic tasks. Worst of all, Ian seems to be blissfully unaware of his own incompetence. This can make for some embarrassing situations for everyone, as Ian's attempts to weigh in on technical discussions leave him looking naive and ignorant – which he also fails to notice. Ian tends to get work based upon his personable manner and the large number of friends he has working in the industry. Most of his employers have come to view him as a "retrospective hiring error".
+Ian is a nice enough guy but is genuinely incapable of performing most of the
+job functions his position requires. It's not clear whether this is a result of
+inadequate education, limited experience or simply a lack of native ability.
+Either way, it is clear to anyone who works with Ian for any length of time that
+he is not really on the ball, and takes a very long time to complete even basic
+tasks. Worst of all, Ian seems to be blissfully unaware of his own incompetence.
+This can make for some embarrassing situations for everyone, as Ian's attempts
+to weigh in on technical discussions leave him looking naive and ignorant
+– which he also fails to notice. Ian tends to get work based upon his
+personable manner and the large number of friends he has working in the
+industry. Most of his employers have come to view him as a "retrospective hiring
+error".
 
 *** Jailbird John
-John has been working for his current employer a long time. A very long time. Longer than most of the senior management in fact. John has been working here so long that it is highly unlikely he will ever be able to work anywhere else. Over the years, his skill set has deteriorated so greatly and become so stale that he has become an entirely unmarketable commodity. He knows all there is to know about the company's legacy applications – after all, he wrote most of them. He has been keeping himself employed for the last decade just patching them up and making one piecemeal addition after another in order to try and keep them abreast of the business's changing function. Tired of chasing the latest and greatest technologies, he has not bothered learning new ones, sticking to the comfortable territory defined by the small stable of dodgy applications he has been shepherding for some years. John gets along with everyone, particularly those more senior to him. He can't afford the possibility of getting into conflict with anyone who might influence his employment status, as he knows that this will likely be the last good job he ever has. So he tries to stay under the radar, hoping that the progressive re-engineering of his pet applications with more modern technologies takes long enough for him to make it over the finish line.
+John has been working for his current employer a long time. A very long time.
+Longer than most of the senior management in fact. John has been working here so
+long that it is highly unlikely he will ever be able to work anywhere else. Over
+the years, his skill set has deteriorated so greatly and become so stale that he
+has become an entirely unmarketable commodity. He knows all there is to know
+about the company's legacy applications – after all, he wrote most of
+them. He has been keeping himself employed for the last decade just patching
+them up and making one piecemeal addition after another in order to try and keep
+them abreast of the business's changing function. Tired of chasing the latest
+and greatest technologies, he has not bothered learning new ones, sticking to
+the comfortable territory defined by the small stable of dodgy applications he
+has been shepherding for some years. John gets along with everyone, particularly
+those more senior to him. He can't afford the possibility of getting into
+conflict with anyone who might influence his employment status, as he knows that
+this will likely be the last good job he ever has. So he tries to stay under the
+radar, hoping that the progressive re-engineering of his pet applications with
+more modern technologies takes long enough for him to make it over the finish
+line.
 
 *** Kludgy Kevin
-Kevin is remarkably quick to fix bugs. It seems that he's no sooner started on a bug fix than he's checking in the solution. And then, as if by magic, the very same bug reappears. "I thought I fixed that", declares Kevin – and indeed he did – but not properly. In his rush to move on to something else, Kevin invariably forgets to check that his "fix" works correctly under some boundary condition or special case, and ends up having to go back and fix it again. Sometimes a third or even fourth attempt will be necessary. This is Kevin's version of "iterative development."
+Kevin is remarkably quick to fix bugs. It seems that he's no sooner started on a
+bug fix than he's checking in the solution. And then, as if by magic, the very
+same bug reappears. "I thought I fixed that", declares Kevin – and
+indeed he did – but not properly. In his rush to move on to something
+else, Kevin invariably forgets to check that his "fix" works correctly under
+some boundary condition or special case, and ends up having to go back and fix
+it again. Sometimes a third or even fourth attempt will be necessary. This is
+Kevin's version of "iterative development."
 
 *** Loudmouth Lincoln
-Terror of the cubicle farm, Lincoln incurs the ire of all those who sit anywhere near him, but remains blissfully unaware that he is so unpopular. His voice is louder than anyone else's by a least a factor of two, and he seems unable to converse at any volume other than full volume. When Lincoln is talking, everyone else is listening, whether they want to or not. People in his part of the office know a great deal more about Lincoln's personal life than they would like, as they have heard one end of the half dozen or so telephone calls that he seems to receive from his wife every day. Lincoln's favorite instrument of torture is the speakerphone. He always listens to his voicemail on speakerphone each morning, so that he can unpack his briefcase while doing so. He also likes to place calls on speakerphone so that his hands are free to type at his keyboard while conversing with someone else. He either doesn't realize or doesn't care that he is disturbing those nearby. Nobody seems to be game enough to tell him how inconsiderate he is being.
+Terror of the cubicle farm, Lincoln incurs the ire of all those who sit anywhere
+near him, but remains blissfully unaware that he is so unpopular. His voice is
+louder than anyone else's by a least a factor of two, and he seems unable to
+converse at any volume other than full volume. When Lincoln is talking, everyone
+else is listening, whether they want to or not. People in his part of the office
+know a great deal more about Lincoln's personal life than they would like, as
+they have heard one end of the half dozen or so telephone calls that he seems to
+receive from his wife every day. Lincoln's favorite instrument of torture is the
+speakerphone. He always listens to his voicemail on speakerphone each morning,
+so that he can unpack his briefcase while doing so. He also likes to place calls
+on speakerphone so that his hands are free to type at his keyboard while
+conversing with someone else. He either doesn't realize or doesn't care that he
+is disturbing those nearby. Nobody seems to be game enough to tell him how
+inconsiderate he is being.
 
 *** Martyr Morris
-Morris is very conscious of the impression others form of him. Probably a little too concerned. He has observed that many of his colleagues associate long hours with hard work and dedication. The longer the hours, the harder you're working – and having a reputation as a hard worker can only be a good thing when it comes performance review time. So Morris makes sure he is at the office when his boss arrives of a morning, and that he is still working away when his boss leaves of an afternoon. Everyone agrees that Morris certainly puts in the hard yards, but are a little perplexed as to why his code is so often buggy and poorly structured. In fact, it seems like Morris has to put in extended hours in order to compensate for the poor quality of his work. The net result is that he gets almost as much achieved as his team mates who work more sensible hours. Morris hasn't yet twigged to the fact that his defect injection rate rises dramatically as he fatigues, meaning that the extra hours he works often have a negative effect on his productivity. Worse yet, his know-nothing manager rewards him for his dedication, thereby reinforcing the faulty behavior.
+Morris is very conscious of the impression others form of him. Probably a little
+too concerned. He has observed that many of his colleagues associate long hours
+with hard work and dedication. The longer the hours, the harder you're working
+– and having a reputation as a hard worker can only be a good thing
+when it comes performance review time. So Morris makes sure he is at the office
+when his boss arrives of a morning, and that he is still working away when his
+boss leaves of an afternoon. Everyone agrees that Morris certainly puts in the
+hard yards, but are a little perplexed as to why his code is so often buggy and
+poorly structured. In fact, it seems like Morris has to put in extended hours in
+order to compensate for the poor quality of his work. The net result is that he
+gets almost as much achieved as his team mates who work more sensible hours.
+Morris hasn't yet twigged to the fact that his defect injection rate rises
+dramatically as he fatigues, meaning that the extra hours he works often have a
+negative effect on his productivity. Worse yet, his know-nothing manager rewards
+him for his dedication, thereby reinforcing the faulty behavior.
 
 *** Not-Invented-Here Nick
-Nick has an overwhelming drive to write everything himself. Due to hubris and ambition, he is rarely satisfied with buying a third party utility or library to help in his development efforts. It seems to him that the rest of the industry must be incompetent, for every time he looks to buy rather than build, he finds so many shortcomings in the products on offer that he invariably concludes that there's nothing for it but to write the whole thing himself. It also seems that his particular requirements are always so unique that no generally available tool has just the functionality that he needs. Not wanting to work inefficiently, he insists on only using tools that do exactly what he wants – nothing more, nothing less. Little wonder then that he finds himself having to write such fundamental utilities as text editors, file transfer programs, string and math utility libraries. The real problem is not that Nick's requirements are so unique, but that he deliberately fabricates requirements so specific that he can find commercial offerings lacking, and thereby justify reinvention of those offerings himself. In short, he is looking for excuses to write what he considers to be the "fun stuff" (the development tools) rather than the "boring stuff" (the application code). He generally has little difficulty in finding such justifications. Most people who work with Nick note with interest that the tools that he writes himself are rarely of the quality of the equivalent commercial offerings.
+Nick has an overwhelming drive to write everything himself. Due to hubris and
+ambition, he is rarely satisfied with buying a third party utility or library to
+help in his development efforts. It seems to him that the rest of the industry
+must be incompetent, for every time he looks to buy rather than build, he finds
+so many shortcomings in the products on offer that he invariably concludes that
+there's nothing for it but to write the whole thing himself. It also seems that
+his particular requirements are always so unique that no generally available
+tool has just the functionality that he needs. Not wanting to work
+inefficiently, he insists on only using tools that do exactly what he wants
+– nothing more, nothing less. Little wonder then that he finds
+himself having to write such fundamental utilities as text editors, file
+transfer programs, string and math utility libraries. The real problem is not
+that Nick's requirements are so unique, but that he deliberately fabricates
+requirements so specific that he can find commercial offerings lacking, and
+thereby justify reinvention of those offerings himself. In short, he is looking
+for excuses to write what he considers to be the "fun stuff" (the development
+tools) rather than the "boring stuff" (the application code). He generally has
+little difficulty in finding such justifications. Most people who work with Nick
+note with interest that the tools that he writes himself are rarely of the
+quality of the equivalent commercial offerings.
 
 *** Open Source Oliver
-Oliver is very enthusiastic about open source software development. He contributes to several open source projects himself, and tries to incorporate open source products into his projects wherever possible – and it's always possible; mainly because Oliver begins a project for the principal purpose of providing himself with an opportunity to try out the latest and greatest CVS build from Apache, Jakarta or wherever. Oliver rarely has to justify his technology selections to his colleagues, as he is always sure to surround himself with other open source believers. On occasions when he needs to explain the failure or buggy nature of some open source package, he relies upon the old saw "we can always fix it ourselves". However there never seems to be enough time in the schedule for this to actually occur; so every release of his project bristles with the underlying warts of its open source components. If all else fails, it can at least be said that the price is right.
+Oliver is very enthusiastic about open source software development. He
+contributes to several open source projects himself, and tries to incorporate
+open source products into his projects wherever possible – and it's
+always possible; mainly because Oliver begins a project for the principal
+purpose of providing himself with an opportunity to try out the latest and
+greatest CVS build from Apache, Jakarta or wherever. Oliver rarely has to
+justify his technology selections to his colleagues, as he is always sure to
+surround himself with other open source believers. On occasions when he needs to
+explain the failure or buggy nature of some open source package, he relies upon
+the old saw "we can always fix it ourselves". However there never seems to be
+enough time in the schedule for this to actually occur; so every release of his
+project bristles with the underlying warts of its open source components. If all
+else fails, it can at least be said that the price is right.
 
 *** Process Peter
-If you want to see Peter get worked up, just start a discussion with him about the poor state of software development today. He will hold forth at length, and with passion, on where it has all go wrong. And Peter has decided that all of software's woes have a common genesis – a lack of disciplined process. Peter's career history reads like a marketing brochure of process trends. BPR, Clean Room, Six Sigma, ISO – he's been a whole- hearted enthusiast of them all at one time or another. His dedication to strict process adherence as a panacea to a project's quality ills is absolute, and he will do almost anything to ensure that ticks appear in the relevant boxes. Unfortunately, this uncompromising approach is often self- defeating, as it denies him the flexibility to adapt quality levels on a case- by-case basis. It has also made him more than a few enemies over the years. He is prone to considering the people component of software development as a largely secondary consideration, and views programmers a little like assembly line production workers – interchangeable parts whose individual talents and proclivities are not so important as the procedures they follow to do their work. Those subject to such views tend to find it more than a little dehumanizing and impersonal.
+If you want to see Peter get worked up, just start a discussion with him about
+the poor state of software development today. He will hold forth at length, and
+with passion, on where it has all go wrong. And Peter has decided that all of
+software's woes have a common genesis – a lack of disciplined
+process. Peter's career history reads like a marketing brochure of process
+trends. BPR, Clean Room, Six Sigma, ISO – he's been a whole- hearted
+enthusiast of them all at one time or another. His dedication to strict process
+adherence as a panacea to a project's quality ills is absolute, and he will do
+almost anything to ensure that ticks appear in the relevant boxes.
+Unfortunately, this uncompromising approach is often self- defeating, as it
+denies him the flexibility to adapt quality levels on a case- by-case basis. It
+has also made him more than a few enemies over the years. He is prone to
+considering the people component of software development as a largely secondary
+consideration, and views programmers a little like assembly line production
+workers – interchangeable parts whose individual talents and
+proclivities are not so important as the procedures they follow to do their
+work. Those subject to such views tend to find it more than a little
+dehumanizing and impersonal.
 
 *** Quiet Quincy
-Quincy is one of those guys who has no need to brag about his technical skills or the depth of his technical knowledge. He's not much interested in being "alpha geek" at the office, he just wants to do a good job and then go home to his wife and children. Quietly spoken and unassuming, he looks on with amusement at Zealous Zack's ever-changing enthusiasms and shakes his head, knowing that in a few more years Zack will have gained enough experience to know that the computing industry is full of "next big things" that generally aren't. Given a task, he just sits down and does it. He doesn't succumb to heroic bug-fixing and late night coding efforts – his code is good enough to begin with that there are rarely any problems with it. He probably won't get many pats on the back from management, whose attention will largely be captured by the technical prima donnas that swan around the project space, dropping buzzwords and acronyms like they were the names of celebrities they knew personally. But without Quincy and those of his ilk, the project would fail – because someone has to get the work done.
+Quincy is one of those guys who has no need to brag about his technical skills
+or the depth of his technical knowledge. He's not much interested in being
+"alpha geek" at the office, he just wants to do a good job and then go home to
+his wife and children. Quietly spoken and unassuming, he looks on with amusement
+at Zealous Zack's ever-changing enthusiasms and shakes his head, knowing that in
+a few more years Zack will have gained enough experience to know that the
+computing industry is full of "next big things" that generally aren't. Given a
+task, he just sits down and does it. He doesn't succumb to heroic bug-fixing and
+late night coding efforts – his code is good enough to begin with
+that there are rarely any problems with it. He probably won't get many pats on
+the back from management, whose attention will largely be captured by the
+technical prima donnas that swan around the project space, dropping buzzwords
+and acronyms like they were the names of celebrities they knew personally. But
+without Quincy and those of his ilk, the project would fail – because
+someone has to get the work done.
 
 *** Rank Rodger
-Rodger is very good at what he does. He's a techie through and through, and delights in problem solving. The problem is that Rodger lives in his head. At times he feels like a brain on legs, so focused is he upon intellectual pursuits. His body is a much neglected container for cortical function that he generally pays little attention to, except to meet its basic functional requirements for food and clothing. As a result, there is a certain funk surrounding Rodger which nearby colleagues are all too aware of, but of which Rodger is olfactorily ignorant. Halitosis is his constant companion and dandruff a regular visitor. In general, he has unkempt appearance – his shirt often buttoned incorrectly, hair not combed and tie (which he wears only under the greatest duress) knotted irregularly. Rodger doesn't really care what others think of him and is largely unaware of the message his poor grooming and hygiene is sending to others. Rodger is likely to remain unaware for a long time, as nobody can think of a way of broaching the topic with him that wouldn't cause offense.
+Rodger is very good at what he does. He's a techie through and through, and
+delights in problem solving. The problem is that Rodger lives in his head. At
+times he feels like a brain on legs, so focused is he upon intellectual
+pursuits. His body is a much neglected container for cortical function that he
+generally pays little attention to, except to meet its basic functional
+requirements for food and clothing. As a result, there is a certain funk
+surrounding Rodger which nearby colleagues are all too aware of, but of which
+Rodger is olfactorily ignorant. Halitosis is his constant companion and dandruff
+a regular visitor. In general, he has unkempt appearance – his shirt
+often buttoned incorrectly, hair not combed and tie (which he wears only under
+the greatest duress) knotted irregularly. Rodger doesn't really care what others
+think of him and is largely unaware of the message his poor grooming and hygiene
+is sending to others. Rodger is likely to remain unaware for a long time, as
+nobody can think of a way of broaching the topic with him that wouldn't cause
+offense.
 
 *** Skill Set Sam
-Sam is just passing through. If he is a contractor, everyone will already be aware of this. If he is permanent staff, his colleagues might be a little surprised to know just how certain he is that he won't be working here in a year's time. Sam is committed to accumulating as much experience with as many technologies as he possibly can, in order to make himself more attractive to future employers. His career objective is simply that he remain continually employed, earning progressively higher salaries until he is ready to retire.
+Sam is just passing through. If he is a contractor, everyone will already be
+aware of this. If he is permanent staff, his colleagues might be a little
+surprised to know just how certain he is that he won't be working here in a
+year's time. Sam is committed to accumulating as much experience with as many
+technologies as he possibly can, in order to make himself more attractive to
+future employers. His career objective is simply that he remain continually
+employed, earning progressively higher salaries until he is ready to retire.
 
 *** Toolsmith Trevor
-Trevor loves to build development tools. He can whip you up a build script in a few minutes and automate just about any development task you might mention. In fact, Trevor can't be stopped from doing these things. He is actively looking for things to automate – whether they need it or not. For some reason, Trevor doesn't see the writing of development tools as a means to an end, but an end in itself. The living embodiment of the "Do It Yourself" ethic, Trev insists on writing common development tools himself, even if an off-the-shelf solution is readily available. Rather than chose one of the million commercially available bug tracking applications, you can rely on Trevor to come up with an argument as to why none of them are adequate for your purposes, and there is no solution but for him to write one. At the very least, he will have to take an open source tool and customize it extensively. So too with version management, document templates and editor configuration files. Trevor is right into metawork, with the emphasis on the meta.
-Unintelligible Uri
-English is not Uri's native tongue. This is blatantly obvious to anyone who attempts to communicate with him. He speaks with a thick accent and at such a rapid pace that listeners can go several minutes in conversation with him without having a clear idea of what he has said. Trying to work with Uri can be an excruciating experience. He cannot contribute to technical discussions effectively, regardless of how well informed he might be, because he is always shouted down by those with more rhetorical flair, regardless how uninformed they might be. Delegating work to him is a dangerous undertaking because you can never be certain that he has really understood the description of his assignment; he tends to respond with affirmative clichés that can be easily said, but don't necessarily reflect that information has been successfully communicated. Very often, people choose simply not to bother communicating with Uri, because they find it both exhausting and frustrating. Whoever hired Uri has failed to appreciate that fluency in a natural language is worth ten times as much as fluency in a programming language.
+Trevor loves to build development tools. He can whip you up a build script in a
+few minutes and automate just about any development task you might mention. In
+fact, Trevor can't be stopped from doing these things. He is actively looking
+for things to automate – whether they need it or not. For some
+reason, Trevor doesn't see the writing of development tools as a means to an
+end, but an end in itself. The living embodiment of the "Do It Yourself" ethic,
+Trev insists on writing common development tools himself, even if an
+off-the-shelf solution is readily available. Rather than chose one of the
+million commercially available bug tracking applications, you can rely on Trevor
+to come up with an argument as to why none of them are adequate for your
+purposes, and there is no solution but for him to write one. At the very least,
+he will have to take an open source tool and customize it extensively. So too
+with version management, document templates and editor configuration files.
+Trevor is right into metawork, with the emphasis on the meta.
+
+*** Unintelligible Uri
+English is not Uri's native tongue. This is blatantly obvious to anyone who
+attempts to communicate with him. He speaks with a thick accent and at such a
+rapid pace that listeners can go several minutes in conversation with him
+without having a clear idea of what he has said. Trying to work with Uri can be
+an excruciating experience. He cannot contribute to technical discussions
+effectively, regardless of how well informed he might be, because he is always
+shouted down by those with more rhetorical flair, regardless how uninformed they
+might be. Delegating work to him is a dangerous undertaking because you can
+never be certain that he has really understood the description of his
+assignment; he tends to respond with affirmative clichés that can be
+easily said, but don't necessarily reflect that information has been
+successfully communicated. Very often, people choose simply not to bother
+communicating with Uri, because they find it both exhausting and frustrating.
+Whoever hired Uri has failed to appreciate that fluency in a natural language is
+worth ten times as much as fluency in a programming language.
 
 *** VB Victor
-Sometime in the nineties Victor underwent what is colloquially referred to as a "Visual Basic Lobotomy". He found himself a programmer on a misconceived and overly ambitious VB project, and fought to write a serious enterprise application for some years in a language that was never conceived for more than small scale usage. Visual Basic Land is a warm and soothing place, and Victor let his skill set atrophy while he slaved away at VB, until eventually VB was all he was good for. Now, dispirited and deskilled, he is a testament to the hazards of building your career upon a narrow technological basis. Victor will likely survive a few more years, pottering from one VB project to the next, until he loses the enthusiasm even for that.
+Sometime in the nineties Victor underwent what is colloquially referred to as a
+"Visual Basic Lobotomy". He found himself a programmer on a misconceived and
+overly ambitious VB project, and fought to write a serious enterprise
+application for some years in a language that was never conceived for more than
+small scale usage. Visual Basic Land is a warm and soothing place, and Victor
+let his skill set atrophy while he slaved away at VB, until eventually VB was
+all he was good for. Now, dispirited and deskilled, he is a testament to the
+hazards of building your career upon a narrow technological basis. Victor will
+likely survive a few more years, pottering from one VB project to the next,
+until he loses the enthusiasm even for that.
 
 *** Word Salad Warren
-Unlike Uri, Warren's native tongue is English; but it does him little good. Listening to Warren explain something technical is like listening to Dr Seuss – all the words make sense when taken individually, but assembled together they seem to be mostly gibberish with no coherent message. Such is Warren's talent for obfuscation, he can take simple concepts and make them sound complex; take complex topics and make them sound entirely incomprehensible. This is big problem for everyone attempting to collaborate with Warren, for they generally find it impossible to understand the approach Warren is taking in solving his part of the problem, which virtually guarantees it won't work properly in conjunction with other's work. On those rare occasions when he tries to document his code, the comments aren't useful, as they make no more sense than Warren would if he were explaining the code verbally. Management has made the mistake of assuming that Warren's diatribes are inscrutable because he is so technically advanced and is describing something that is inherently complex. That's why he is in a senior technical position. But his pathetic communication skills are a major impediment to the duties he must perform as a senior developer, which routinely involve directing and coordinating the technical work of others by giving instructions and feedback. Warren is a source of great frustration to his colleagues, who would give anything for precise and concise communication.
+Unlike Uri, Warren's native tongue is English; but it does him little good.
+Listening to Warren explain something technical is like listening to Dr Seuss
+– all the words make sense when taken individually, but assembled
+together they seem to be mostly gibberish with no coherent message. Such is
+Warren's talent for obfuscation, he can take simple concepts and make them sound
+complex; take complex topics and make them sound entirely incomprehensible. This
+is big problem for everyone attempting to collaborate with Warren, for they
+generally find it impossible to understand the approach Warren is taking in
+solving his part of the problem, which virtually guarantees it won't work
+properly in conjunction with other's work. On those rare occasions when he tries
+to document his code, the comments aren't useful, as they make no more sense
+than Warren would if he were explaining the code verbally. Management has made
+the mistake of assuming that Warren's diatribes are inscrutable because he is so
+technically advanced and is describing something that is inherently complex.
+That's why he is in a senior technical position. But his pathetic communication
+skills are a major impediment to the duties he must perform as a senior
+developer, which routinely involve directing and coordinating the technical work
+of others by giving instructions and feedback. Warren is a source of great
+frustration to his colleagues, who would give anything for precise and concise
+communication.
 
 *** X-Files Xavier
-Xavier takes a little getting used to. Although his programming skills are decidedly mature, his personality seems to be lagging behind. He has an unhealthy fascination with Star Trek, Dr Who and Babylon 5. Graphic novels and Dungeons and Dragons rule books are littered about his cubicle, and he can often be found reading them during his lunch break, which he always spends in front of his computer, surfing various science fiction fan sites and overseas toy stores. Project meetings involving Xavier are generally ... interesting, but somewhat tiring. He regularly interjects quotations from Star Wars movies and episodes of Red Dwarf, laughing in an irritating way at his own humor, oblivious to the fact that others without his rich fantasy life are not amused by his obscure pop culture references. Xavier seems to spend most of his time by himself. No one has ever heard him mention a girl-friend. Those who have worked with him for any length of time know that he is best kept away from customers and other "normal people" who would not understand his eccentricities.
+Xavier takes a little getting used to. Although his programming skills are
+decidedly mature, his personality seems to be lagging behind. He has an
+unhealthy fascination with Star Trek, Dr Who and Babylon 5. Graphic novels and
+Dungeons and Dragons rule books are littered about his cubicle, and he can often
+be found reading them during his lunch break, which he always spends in front of
+his computer, surfing various science fiction fan sites and overseas toy stores.
+Project meetings involving Xavier are generally ... interesting, but somewhat
+tiring. He regularly interjects quotations from Star Wars movies and episodes of
+Red Dwarf, laughing in an irritating way at his own humor, oblivious to the fact
+that others without his rich fantasy life are not amused by his obscure pop
+culture references. Xavier seems to spend most of his time by himself. No one
+has ever heard him mention a girl-friend. Those who have worked with him for any
+length of time know that he is best kept away from customers and other "normal
+people" who would not understand his eccentricities.
 
 *** Young Yasmin
-Yasmin has only been out of University for a few years. She is constantly surprised by the discrepancy between what she was taught in lectures and what actually appears to happen in industry. In fact, there seems to be a good deal that happens in practice that was not anticipated at all by her tertiary education. She concludes that the numerous shortcuts, reactive management and run-away bug count of her projects are just localized eccentricities, rather than a widespread phenomenon. Yasmin fits well into the startup company environment, with its prevailing attitude of "total dedication." Indeed, she is the target employee demographic of such firms. She is at that stage of life where she has the stamina to work 60 and 70 hour weeks on a regular basis. She is not distracted by family commitments, and is ambitious and eager enough to still be willing to do what is necessary to impress others. Lacking industry experience and the perspective that comes with maturity, she is not assertive enough to stand up to management when they make excessive demands of her.
+Yasmin has only been out of University for a few years. She is constantly
+surprised by the discrepancy between what she was taught in lectures and what
+actually appears to happen in industry. In fact, there seems to be a good deal
+that happens in practice that was not anticipated at all by her tertiary
+education. She concludes that the numerous shortcuts, reactive management and
+run-away bug count of her projects are just localized eccentricities, rather
+than a widespread phenomenon. Yasmin fits well into the startup company
+environment, with its prevailing attitude of "total dedication." Indeed, she is
+the target employee demographic of such firms. She is at that stage of life
+where she has the stamina to work 60 and 70 hour weeks on a regular basis. She
+is not distracted by family commitments, and is ambitious and eager enough to
+still be willing to do what is necessary to impress others. Lacking industry
+experience and the perspective that comes with maturity, she is not assertive
+enough to stand up to management when they make excessive demands of her.
 
 *** Zealous Zack
-Zack is a very enthusiastic guy. In fact, there seems to be very little going on in the world of computing that Zack is not enthusiastic about. Like a kid staring in the candy store window, Zack gazes longingly at every new buzzword, acronym and advertising campaign that crosses his path, immediately becoming a disciple of every new movement and technology craze that comes along. Sometimes these enthusiasms bring with them certain ideological conflicts, but Zack is too busy downloading the Beta version of the next big thing to be worried about such matters. He runs Linux on his home PC, has a Mac Mini in his living room, and worships at the church of Agile. Having Zack on your project can be challenging, particularly if he exercises any control over technology selection. He will invariably try and load down your project with whatever "cool" technologies he is presently over-enthused about, and delight in the interoperability problems that result as an opportunity to introduce even more technologies to save the day. Zack never quite learnt to distinguish work from play.
+Zack is a very enthusiastic guy. In fact, there seems to be very little going on
+in the world of computing that Zack is not enthusiastic about. Like a kid
+staring in the candy store window, Zack gazes longingly at every new buzzword,
+acronym and advertising campaign that crosses his path, immediately becoming a
+disciple of every new movement and technology craze that comes along. Sometimes
+these enthusiasms bring with them certain ideological conflicts, but Zack is too
+busy downloading the Beta version of the next big thing to be worried about such
+matters. He runs Linux on his home PC, has a Mac Mini in his living room, and
+worships at the church of Agile. Having Zack on your project can be challenging,
+particularly if he exercises any control over technology selection. He will
+invariably try and load down your project with whatever "cool" technologies he
+is presently over-enthused about, and delight in the interoperability problems
+that result as an opportunity to introduce even more technologies to save the
+day. Zack never quite learnt to distinguish work from play.
 
 - First published 24 Jan 2006 at http://www.hacknot.info/hacknot/action/showEntry?eid=81
 
@@ -322,66 +661,263 @@ conviction can be misrepresented as being the result of rational analysis.
 
 *** The Causes
 **** Novelty
-The majority of irrational technical selections I've seen have their origin in a senior techie's fascination with a new technology. For an uncommon number of developers, the lure of an untried API or the novelty of a new development model is simply irresistible. Such folks seem to be focused on the journey rather than the destination – which is philosophically delightful but practically frustrating. The urge to play with a new toy seems to overwhelm the ability to rationally evaluate a technology on its merits, as if it's "newness" excused any faults and weaknesses it might have. There seems to be a strong "grass is greener" effect at work here. The weaknesses of existing technologies are known because they have been teased out by the development community's experience with it. But a new technology has an unblemished record. The absence of community experience means that no one has encountered its inevitable flaws, or pushed the boundaries of its capabilities. Psychologically, it is easy to be drawn to the new technology based on the implied promise of perfection, as compared to the manifest imperfections of current technologies.
+The majority of irrational technical selections I've seen have their origin in a
+senior techie's fascination with a new technology. For an uncommon number of
+developers, the lure of an untried API or the novelty of a new development model
+is simply irresistible. Such folks seem to be focused on the journey rather than
+the destination – which is philosophically delightful but practically
+frustrating. The urge to play with a new toy seems to overwhelm the ability to
+rationally evaluate a technology on its merits, as if it's "newness" excused any
+faults and weaknesses it might have. There seems to be a strong "grass is
+greener" effect at work here. The weaknesses of existing technologies are known
+because they have been teased out by the development community's experience with
+it. But a new technology has an unblemished record. The absence of community
+experience means that no one has encountered its inevitable flaws, or pushed the
+boundaries of its capabilities. Psychologically, it is easy to be drawn to the
+new technology based on the implied promise of perfection, as compared to the
+manifest imperfections of current technologies.
 
 **** Ego
-Programmers are not a group lacking in self-confidence; at least when it comes to technical matters. In fact, the intellectual arrogance of some can be quite stunning. For those with decision-making authority, the burden of ego can be a substantial liability. A technology selection based solely upon technical merit is easily defended by dispassionate reference to facts, but once the outcome is identified with the individual who made it, ego comes into play. Any challenge to the decision tends to be interpreted as a challenge to the authority of the decision maker. Any criticism of the selected technology tends to be emotionally defended, because the party who selected it feels that fault is being found with them personally. They are likely also sensitive to the potential for injury to their image and reputation that might come from being responsible for a poor technology decision. It is difficult to retain status as the alpha geek when you are known to have made poor technical decisions. Managers, in particular, are acutely aware of the way their behavior and ability is perceived by others. Having been drawn in by the false promises of glossy product brochures, the misinformed technical manager is poorly positioned to subsequently defend technology decisions. Such managers are frequently those to be found most passionately and aggressively defending their decisions.
+Programmers are not a group lacking in self-confidence; at least when it comes
+to technical matters. In fact, the intellectual arrogance of some can be quite
+stunning. For those with decision-making authority, the burden of ego can be a
+substantial liability. A technology selection based solely upon technical merit
+is easily defended by dispassionate reference to facts, but once the outcome is
+identified with the individual who made it, ego comes into play. Any challenge
+to the decision tends to be interpreted as a challenge to the authority of the
+decision maker. Any criticism of the selected technology tends to be emotionally
+defended, because the party who selected it feels that fault is being found with
+them personally. They are likely also sensitive to the potential for injury to
+their image and reputation that might come from being responsible for a poor
+technology decision. It is difficult to retain status as the alpha geek when you
+are known to have made poor technical decisions. Managers, in particular, are
+acutely aware of the way their behavior and ability is perceived by others.
+Having been drawn in by the false promises of glossy product brochures, the
+misinformed technical manager is poorly positioned to subsequently defend
+technology decisions. Such managers are frequently those to be found most
+passionately and aggressively defending their decisions.
 
 **** Fashion
-An alarming number of developers seem to be slaves to technical fashion. Plagued by a "gotta get me some of that" mentality, the arrival of almost any new product or development tool is accompanied by an almost salivatory response. They rush to evaluate the new offering and to share their experiences with like-minded others who also like to be at the leading edge. These programmers fit well and truly into the "early adopter" category, or as I like to call them "crash test dummies." Like their mannequin counterparts, they are forever running head long into collisions – in this case, with technologies. By observing the results, the rest of us can learn from their often hard-won experiences, without having to suffer the frequent injuries that tend to result.
+An alarming number of developers seem to be slaves to technical fashion. Plagued
+by a "gotta get me some of that" mentality, the arrival of almost any new
+product or development tool is accompanied by an almost salivatory response.
+They rush to evaluate the new offering and to share their experiences with
+like-minded others who also like to be at the leading edge. These programmers
+fit well and truly into the "early adopter" category, or as I like to call them
+"crash test dummies." Like their mannequin counterparts, they are forever
+running head long into collisions – in this case, with technologies.
+By observing the results, the rest of us can learn from their often hard-won
+experiences, without having to suffer the frequent injuries that tend to result.
 
 **** Ideology
-As frequent as it is unrecognized, ideological conviction seems to be a major driver behind many technology decisions. Many developers remain convinced that open source software will save the world, enable black and white peoples to live in racial harmony, cure cancer and eliminate hunger and poverty. They may be right, but none of these are rational reasons to select a particular offering over a proprietary alternative for a particular commercial application. But for many, it is automatic and unquestioned that open source software is the way to go, as a matter of moral imperative, regardless of the merits or otherwise of that software.
+As frequent as it is unrecognized, ideological conviction seems to be a major
+driver behind many technology decisions. Many developers remain convinced that
+open source software will save the world, enable black and white peoples to live
+in racial harmony, cure cancer and eliminate hunger and poverty. They may be
+right, but none of these are rational reasons to select a particular offering
+over a proprietary alternative for a particular commercial application. But for
+many, it is automatic and unquestioned that open source software is the way to
+go, as a matter of moral imperative, regardless of the merits or otherwise of
+that software.
 
 *** The Techniques
-Once the commitment to a particular technology has been publicly made, its proponents must then be prepared to defend their decision in the light of any negative development experience. If the technology was selected for irrational reasons, then those identified with its selection must now become apologists for the technology, seeking to minimize and quash any information that might reflect poorly on the technology and transitively, upon themselves.
-Here are twelve techniques I have seen used to sustain a bad technology decision in the face of experience that puts that technology's selection in doubt
+Once the commitment to a particular technology has been publicly made, its
+proponents must then be prepared to defend their decision in the light of any
+negative development experience. If the technology was selected for irrational
+reasons, then those identified with its selection must now become apologists for
+the technology, seeking to minimize and quash any information that might reflect
+poorly on the technology and transitively, upon themselves.
+
+Here are twelve techniques I have seen used to sustain a bad technology decision
+in the face of experience that puts that technology's selection in doubt
 
 1. Deny That Negative Experiences Exist
-This is a common technique amongst the "kick ass" school of management. When faced with evidence that casts your technology selection in an unfavorable light, simple deny that the evidence exists. Even if someone can demonstrate to you first hand the problems that have been encountered, you can employ a "shoot the messenger" approach to distract attention away from the evidence being presented, and put the messenger on the defensive. You will need to be in a position of sufficient authority, and surrounded by suitably spineless colleagues, to make "black is white" declarations hold fast and create a localized reality distortion zone. It may sound fantastic, but in practice it is quite common for authority to usurp reality.
+This is a common technique amongst the "kick ass" school of management. When
+faced with evidence that casts your technology selection in an unfavorable
+light, simple deny that the evidence exists. Even if someone can demonstrate to
+you first hand the problems that have been encountered, you can employ a "shoot
+the messenger" approach to distract attention away from the evidence being
+presented, and put the messenger on the defensive. You will need to be in a
+position of sufficient authority, and surrounded by suitably spineless
+colleagues, to make "black is white" declarations hold fast and create a
+localized reality distortion zone. It may sound fantastic, but in practice it is
+quite common for authority to usurp reality.
 
-It is not a technique unique to the IT profession. In his memoirs "Inside the Third Reich", Albert Speer relates a situation in which Hermann Göering employed exactly this technique. When Göering was advised that American fighters had began to encroach upon German skies, he refused to accept the report, despite being presented with irrefutable evidence by one of his generals. He simply issued an official order stating that nobody had seen any fighters.
+It is not a technique unique to the IT profession. In his memoirs "Inside the
+Third Reich", Albert Speer relates a situation in which Hermann Göering
+employed exactly this technique. When Göering was advised that American
+fighters had began to encroach upon German skies, he refused to accept the
+report, despite being presented with irrefutable evidence by one of his
+generals. He simply issued an official order stating that nobody had seen any
+fighters.
 
 2. Claim "We'll Fix It Ourselves"
-When an open source product is selected but ultimately found wanting, the "we can fix it ourselves" apology is often the first one that is trotted out. The availability of the source code means that you can ostensibly patch the product yourself, submit that patch to the open source project, and then carry on. Whenever a colleague finds a bug in the technology, just dismiss their complaints with the directive to "just fix it yourself", and the problem will go away ... for you, anyway.
+When an open source product is selected but ultimately found wanting, the "we
+can fix it ourselves" apology is often the first one that is trotted out. The
+availability of the source code means that you can ostensibly patch the product
+yourself, submit that patch to the open source project, and then carry on.
+Whenever a colleague finds a bug in the technology, just dismiss their
+complaints with the directive to "just fix it yourself", and the problem will go
+away ... for you, anyway.
 
 2. Claim That Bugs Are Intellectual Property
-This is a sneaky but effective one. Make it known to your colleagues that they cannot report any problems they find with the new technology to the vendor (or the community, in the case of open source software) as that would equate to divulgence of information that has been gathered at company expense. In the strictest sense, the knowledge of the bug’s existence is the company's intellectual property. Exactly what kind of intellectual property it is, is open to question. It could be "confidential", but it seems doubtful that it is of enough significance to possess the necessary "quality of confidence". In any case, it doesn't really matter. You can rely upon others being sufficiently intimidated by the implied threat of prosecution for IP infringement to remain silent.
+This is a sneaky but effective one. Make it known to your colleagues that they
+cannot report any problems they find with the new technology to the vendor (or
+the community, in the case of open source software) as that would equate to
+divulgence of information that has been gathered at company expense. In the
+strictest sense, the knowledge of the bug’s existence is the
+company's intellectual property. Exactly what kind of intellectual property it
+is, is open to question. It could be "confidential", but it seems doubtful that
+it is of enough significance to possess the necessary "quality of confidence".
+In any case, it doesn't really matter. You can rely upon others being
+sufficiently intimidated by the implied threat of prosecution for IP
+infringement to remain silent.
 
 2. Claim "It Will Be Fixed In The Next Release"
-This piece of misdirection can be used to postpone problems almost indefinitely. It is particularly handy for products that are on a short release cycle, as the promise of a fix is always just around the corner (and with it, the potential for the introduction of new bugs – but ignore that). If the bug is not actually fixed in the next release, then it's hardly your fault. Blame the vendor, blame the development community, lament the state of software development in general ... do anything to divert attention away from the original source of the technology's selection.
+This piece of misdirection can be used to postpone problems almost indefinitely.
+It is particularly handy for products that are on a short release cycle, as the
+promise of a fix is always just around the corner (and with it, the potential
+for the introduction of new bugs – but ignore that). If the bug is
+not actually fixed in the next release, then it's hardly your fault. Blame the
+vendor, blame the development community, lament the state of software
+development in general ... do anything to divert attention away from the
+original source of the technology's selection.
 
 2. Make The Bug Reporting Process Unwieldy And Onerous
-A worthwhile bug report takes a bit of effort to produce. Sample code, screenshots and instructions to reproduce the buggy behavior are all part of a conscientiously compiled bug report. But if that is all that is required, there will be some developers willing to take the time to write them. You can make the lodging of a bug report more daunting by requiring developers to lodge an entire specification of the desired (non-buggy) behavior, including requirements, a mock-up or prototype, design specification and test specification. This can take days. They'll quickly learn that it's simply not worth the effort to report bugs via such a lengthy process, and to move directly from discovery of a bug to the search for workarounds or alternative approaches.
+A worthwhile bug report takes a bit of effort to produce. Sample code,
+screenshots and instructions to reproduce the buggy behavior are all part of a
+conscientiously compiled bug report. But if that is all that is required, there
+will be some developers willing to take the time to write them. You can make the
+lodging of a bug report more daunting by requiring developers to lodge an entire
+specification of the desired (non-buggy) behavior, including requirements, a
+mock-up or prototype, design specification and test specification. This can take
+days. They'll quickly learn that it's simply not worth the effort to report bugs
+via such a lengthy process, and to move directly from discovery of a bug to the
+search for workarounds or alternative approaches.
 
 6. Claim "It Works For Me"
-An indirect form of denial exists in claiming that you have been unable to reproduce the bug yourself, so the complainant must be doing something wrong. Due to the almost unlimited potential for interactions between software components, libraries and operating system functions, it is easy to simply point somewhere in the direction of this programmatic thicket and declare "the problem's probably in there."
+An indirect form of denial exists in claiming that you have been unable to
+reproduce the bug yourself, so the complainant must be doing something wrong.
+Due to the almost unlimited potential for interactions between software
+components, libraries and operating system functions, it is easy to simply point
+somewhere in the direction of this programmatic thicket and declare "the
+problem's probably in there."
 
 7. Appeal To Non-Quantifiable Benefits Yet To Be Realized
-If enough difficulties are encountered with your chosen technology, it's only a matter of time until someone starts suggesting alternatives. When your opponents open fire with the feature list of their favorite competing technology or product, you need a reply. It is best to appeal to non- quantifiable and non-functional benefits as it is impossible to prove that they have not been realized. "Flexibility" and "maintainability" are a few non-functional favorites that you can claim are being realized by your technology selection, regardless of what the reality may be.
+If enough difficulties are encountered with your chosen technology, it's only a
+matter of time until someone starts suggesting alternatives. When your opponents
+open fire with the feature list of their favorite competing technology or
+product, you need a reply. It is best to appeal to non- quantifiable and
+non-functional benefits as it is impossible to prove that they have not been
+realized. "Flexibility" and "maintainability" are a few non-functional favorites
+that you can claim are being realized by your technology selection, regardless
+of what the reality may be.
 
 8. Employ The Power Of Standards
-A technology that has been embodied in a standard already has a significant head start on non-standardized competitors. If the standard is one that has been accepted by major vendors as a basis for their own product offerings, then all the better. The psychological principal being appealed to here is that of "social proof" - the belief that popularity is indicative of worth. Indeed, widespread acceptance of a standard (or a technology implementing a standard) is unlikely to occur if the notion is completely without value, but there is no guarantee of you achieving the same success in your own context as others have achieved in theirs. However, many will ignore the need to consider application-specific issues in deciding the merit of a technology. If IBM, Microsoft or some other big name says it's good, then it must be good - for everyone, all the time, regardless of what the constraints of their particular problem may be. To appreciate how seductive this faulty reasoning can be, consider how many times you've seen a J2EE application that was written simply for the sake of using J2EE, even though there was no real need for a solution with a distributed architecture.
+A technology that has been embodied in a standard already has a significant head
+start on non-standardized competitors. If the standard is one that has been
+accepted by major vendors as a basis for their own product offerings, then all
+the better. The psychological principal being appealed to here is that of
+"social proof" - the belief that popularity is indicative of worth. Indeed,
+widespread acceptance of a standard (or a technology implementing a standard) is
+unlikely to occur if the notion is completely without value, but there is no
+guarantee of you achieving the same success in your own context as others have
+achieved in theirs. However, many will ignore the need to consider
+application-specific issues in deciding the merit of a technology. If IBM,
+Microsoft or some other big name says it's good, then it must be good - for
+everyone, all the time, regardless of what the constraints of their particular
+problem may be. To appreciate how seductive this faulty reasoning can be,
+consider how many times you've seen a J2EE application that was written simply
+for the sake of using J2EE, even though there was no real need for a solution
+with a distributed architecture.
 
 3. Maximize Investment
-One of the best ways to get a technology on a solid foothold in your organization is to maximize your investment in it as quickly as possible. This can be achieved by forward-scheduling tasks that use the technology the most, so that the number of hours invested in using it accrue quickly. You might justify this by presenting the host project to management as a "pilot" of some sort, where the technology is being evaluated on its merits. But so long as you can silence any negative findings that might emerge from that ersatz "evaluation", you are also strengthening the project's commitment to the continued use of that technology. What project wants to incur the schedule burden of having to swap technologies and re- implement those parts of the project based upon the now defunct technology? If you can just suppress criticism for long enough, the project will soon reach a point of no return, after which it becomes infeasible to make technology changes without incurring an unacceptable schedule penalty.
+One of the best ways to get a technology on a solid foothold in your
+organization is to maximize your investment in it as quickly as possible. This
+can be achieved by forward-scheduling tasks that use the technology the most, so
+that the number of hours invested in using it accrue quickly. You might justify
+this by presenting the host project to management as a "pilot" of some sort,
+where the technology is being evaluated on its merits. But so long as you can
+silence any negative findings that might emerge from that ersatz "evaluation",
+you are also strengthening the project's commitment to the continued use of that
+technology. What project wants to incur the schedule burden of having to swap
+technologies and re- implement those parts of the project based upon the now
+defunct technology? If you can just suppress criticism for long enough, the
+project will soon reach a point of no return, after which it becomes infeasible
+to make technology changes without incurring an unacceptable schedule penalty.
 
-The bigger a company's financial investment in a technology, the more reticent it will be to discard it. So you will find it easier to keep expensive technologies in use. You can increase expenditure by purchasing entire product suites, or choosing products so complex that you can justify hiring highly paid consultants to tailor them to your project environment or teach your staff how to use them. Once all that time and money has been invested, it will become extremely difficult for anyone to abandon the technology due the financial inertia it has acquired.
+The bigger a company's financial investment in a technology, the more reticent
+it will be to discard it. So you will find it easier to keep expensive
+technologies in use. You can increase expenditure by purchasing entire product
+suites, or choosing products so complex that you can justify hiring highly paid
+consultants to tailor them to your project environment or teach your staff how
+to use them. Once all that time and money has been invested, it will become
+extremely difficult for anyone to abandon the technology due the financial
+inertia it has acquired.
 
 2. Exclude The Technically Informed From The Decision Making
-As a self-appointed evangelist for your chosen technology, your worst enemy is the voice of reason. The technology's inability to fulfill the promises its vendor makes should be no obstacle to its adoption in your organization – and indeed, it won't be, so long as you can keep those who make the decisions away from those who know about the technology's failings. Let their be no delusion amongst your staff and colleagues that it is management's purview to make these decisions, and the techie’s job to implement their decision. Some will try and argue that those who know the technology most intimately (technical staff) are in the best position to judge its value. Assure them that this is not so and that only those with an organizational perspective (management) are in a position to assess the technology's "fit" with the corporate strategy. Allude to unspoken factors that influence the decision to use this technology, but are too sensitive for you to discuss openly (conveniently making that decision unassailable).
+As a self-appointed evangelist for your chosen technology, your worst enemy is
+the voice of reason. The technology's inability to fulfill the promises its
+vendor makes should be no obstacle to its adoption in your organization
+– and indeed, it won't be, so long as you can keep those who make the
+decisions away from those who know about the technology's failings. Let their be
+no delusion amongst your staff and colleagues that it is management's purview to
+make these decisions, and the techie’s job to implement their
+decision. Some will try and argue that those who know the technology most
+intimately (technical staff) are in the best position to judge its value. Assure
+them that this is not so and that only those with an organizational perspective
+(management) are in a position to assess the technology's "fit" with the
+corporate strategy. Allude to unspoken factors that influence the decision to
+use this technology, but are too sensitive for you to discuss openly
+(conveniently making that decision unassailable).
 
 11. Sell The Positives To Upper Management, Hide The Negatives
 
 Question: How does a fish rot? Answer: From the head down.
 
-If you can get those in senior management to develop some identification with the technology then you will have made some powerful allies. Assuming they are technically uninformed, make your management a sales pitch for the technology in which you emphasize all the positives and completely neglect the negatives. Give them glossy brochures advocating the technology, and appeal to their competitiveness by providing testimonials from big-name managers, as if to suggest "this technology is what the best managers are getting behind"; the implication being that your own management are not amongst "the best" unless they follow suit. The ego-driven push from above is almost impossible to counter with a factual push from below. Authority trumps reason in many organizations.
+If you can get those in senior management to develop some identification with
+the technology then you will have made some powerful allies. Assuming they are
+technically uninformed, make your management a sales pitch for the technology in
+which you emphasize all the positives and completely neglect the negatives. Give
+them glossy brochures advocating the technology, and appeal to their
+competitiveness by providing testimonials from big-name managers, as if to
+suggest "this technology is what the best managers are getting behind"; the
+implication being that your own management are not amongst "the best" unless
+they follow suit. The ego-driven push from above is almost impossible to counter
+with a factual push from below. Authority trumps reason in many organizations.
 
 2. Put A Head On A Pike
-It is part of the barbarian tradition to place a head on a pike at the entrance to your domain, to warn those approaching of the fate that awaits them if they don't follow the rules. It's crude, but undeniably effective. Actual decapitation is frowned upon in most office environments, but you can still put a figurative "head on a pike" to make it clear to others that dispute over your chosen technology will not be tolerated. If you have the authority, firing someone who expresses a dissenting opinion should be adequate to ensure the remaining staff fall into line. Otherwise, some form of public humiliation – a verbal dressing down in a common area of the office, for instance – will have to do. In either case, it is important that you adopt some pretense for your actions that is not directly related to the issue of technology selection. Unfair dismissal laws being what they are, you need to be a bit careful here. Witnesses will know, however, from the greater context that the real reason for this retribution is the target's opposition to the technology decision you made, and will make a note to themselves not to express their own concerns about the technology, lest they also be made an example of.
+It is part of the barbarian tradition to place a head on a pike at the entrance
+to your domain, to warn those approaching of the fate that awaits them if they
+don't follow the rules. It's crude, but undeniably effective. Actual
+decapitation is frowned upon in most office environments, but you can still put
+a figurative "head on a pike" to make it clear to others that dispute over your
+chosen technology will not be tolerated. If you have the authority, firing
+someone who expresses a dissenting opinion should be adequate to ensure the
+remaining staff fall into line. Otherwise, some form of public humiliation
+– a verbal dressing down in a common area of the office, for instance
+– will have to do. In either case, it is important that you adopt
+some pretense for your actions that is not directly related to the issue of
+technology selection. Unfair dismissal laws being what they are, you need to be
+a bit careful here. Witnesses will know, however, from the greater context that
+the real reason for this retribution is the target's opposition to the
+technology decision you made, and will make a note to themselves not to express
+their own concerns about the technology, lest they also be made an example of.
 
 *** Conclusion
-IT managers, developers and other technical staff are no less susceptible to self-deception and political ambition, simply because they work in a field in which analytical thought is traditionally valued. When it comes to the selection of a technology from a field of competitors, the complexity and number of factors to consider often leads to a tendency to abandon detailed, rational analysis and make decisions on an arbitrary, emotive basis. If the technology selected fails to live up to its promise, those who selected it then face the difficult task of rationalizing its continued usage, lest their decision be overturned and they lose face as a result. By employing one or more of the techniques identified above, a skilful manager or senior technician can avoid this embarrassment and force the continued usage of an unsuitable technology, while they work by other means to distance themselves from the original decision.
+IT managers, developers and other technical staff are no less susceptible to
+self-deception and political ambition, simply because they work in a field in
+which analytical thought is traditionally valued. When it comes to the selection
+of a technology from a field of competitors, the complexity and number of
+factors to consider often leads to a tendency to abandon detailed, rational
+analysis and make decisions on an arbitrary, emotive basis. If the technology
+selected fails to live up to its promise, those who selected it then face the
+difficult task of rationalizing its continued usage, lest their decision be
+overturned and they lose face as a result. By employing one or more of the
+techniques identified above, a skilful manager or senior technician can avoid
+this embarrassment and force the continued usage of an unsuitable technology,
+while they work by other means to distance themselves from the original
+decision.
 
 
 ** My Kingdom for a Door
@@ -390,85 +926,297 @@ IT managers, developers and other technical staff are no less susceptible to sel
 :END:
 
 
-“All men's miseries derive from not being able to sit in a quiet room alone.” – Blaise Pascal
+“All men's miseries derive from not being able to sit in a quiet room
+alone.” – Blaise Pascal
 
-In some interviews there comes a point where you realize that you don't want the job. It might be the moment you discover that the employer has conveniently omitted from the published job description the requirement for the incumbent to spend 50% of their time maintaining a one million line legacy application, written in Visual Basic. It may be shortly after you state your salary expectation, only to be greeted with a look of blank astonishment. For me, it is often the point at which the interviewer reaches into their bag of interview clichés and asks a question so trite that it betrays the total absence of advance preparation and original thought. Once the role has been safely relegated to the "no thanks" pile, it is difficult to resist adopting a certain playfulness while waiting out the duration of the interview, as courtesy demands.
+In some interviews there comes a point where you realize that you don't want the
+job. It might be the moment you discover that the employer has conveniently
+omitted from the published job description the requirement for the incumbent to
+spend 50% of their time maintaining a one million line legacy application,
+written in Visual Basic. It may be shortly after you state your salary
+expectation, only to be greeted with a look of blank astonishment. For me, it is
+often the point at which the interviewer reaches into their bag of interview
+clichés and asks a question so trite that it betrays the total absence of
+advance preparation and original thought. Once the role has been safely
+relegated to the "no thanks" pile, it is difficult to resist adopting a certain
+playfulness while waiting out the duration of the interview, as courtesy
+demands.
 
-For example, when asked "Where do you see yourself in five years time?" I like to borrow a witticism from comedian Steven Wright, and respond "I don't know – I don't have any special powers like that." If asked "Why are manhole covers round?" I might reply "Because God made them that way", simply to see if they will dare broach a topic traditionally considered taboo in interviews. And if they should enquire "What are your career goals?" I will almost certainly reply "I have only one – I want a door."
+For example, when asked "Where do you see yourself in five years time?" I like
+to borrow a witticism from comedian Steven Wright, and respond "I don't know
+– I don't have any special powers like that." If asked "Why are
+manhole covers round?" I might reply "Because God made them that way", simply to
+see if they will dare broach a topic traditionally considered taboo in
+interviews. And if they should enquire "What are your career goals?" I will
+almost certainly reply "I have only one – I want a door."
 
-But in this last I'm only partially being facetious, for one of the most consistently difficult aspects of every software development effort I've been a part of has been the physical environment in which it is conducted. Having abandoned the lofty career goals of my youth (such as producing quality software) I have deliberately set my sights a little lower. These days, my sole ambition is to have an office with a door. My professional nirvana would then be to close that door, so I can get on with my work undisturbed.
+But in this last I'm only partially being facetious, for one of the most
+consistently difficult aspects of every software development effort I've been a
+part of has been the physical environment in which it is conducted. Having
+abandoned the lofty career goals of my youth (such as producing quality
+software) I have deliberately set my sights a little lower. These days, my sole
+ambition is to have an office with a door. My professional nirvana would then be
+to close that door, so I can get on with my work undisturbed.
 
-As challenging as technical issues can be, they are at least considered approachable by most organizations. But environmental problems, particularly noise levels, seem to universally receive short shrift, and are often dismissed as an unfortunate but unavoidable part of office life and beyond anyone's ability to deal with.
-Of course, the problem of office noise is far from intractable. Numerous approaches can be taken to relieve or at least ameliorate the problem, the most obvious of which involves the reintroduction of an antiquated and long neglected piece of spatial division technology – the door. The real reasons that environmental issues go unattended are somewhat different.
+As challenging as technical issues can be, they are at least considered
+approachable by most organizations. But environmental problems, particularly
+noise levels, seem to universally receive short shrift, and are often dismissed
+as an unfortunate but unavoidable part of office life and beyond anyone's
+ability to deal with.
 
-Brain Time Versus Body Time
+Of course, the problem of office noise is far from intractable. Numerous
+approaches can be taken to relieve or at least ameliorate the problem, the most
+obvious of which involves the reintroduction of an antiquated and long neglected
+piece of spatial division technology – the door. The real reasons
+that environmental issues go unattended are somewhat different.
 
-Software developers are knowledge workers. Our job is to produce intellectual property. You would think it self-evident that work of this nature requires sustained concentration, and that it is easier to concentrate when things are quiet.
+*** Brain Time Versus Body Time
 
-Back in my school days, these facts seemed to be widely known and accepted. When you went to the library, the school librarian (who, in my school, was a particularly ferocious woman the students referred to as "Conan The Librarian") would do her best to see that the library was quiet. Why? Because people were trying to study, to think, to concentrate. When there was an exam to be done, the exam would be conducted in complete silence. Why? Because it's easier to concentrate on your exam when it's quiet. When the teacher gave the class time to work on an assignment, the class was expected to be silent. Why? Because it's easier to think about your assignment when it's quiet.
+Software developers are knowledge workers. Our job is to produce intellectual
+property. You would think it self-evident that work of this nature requires
+sustained concentration, and that it is easier to concentrate when things are
+quiet.
 
-In university too, there was little dispute about the necessity for a quiet environment when doing intellectual work. The libraries and exam halls are silent, the lecture theaters and tutorial rooms are quiet so that the speaker may be heard and their message understood.
+Back in my school days, these facts seemed to be widely known and accepted. When
+you went to the library, the school librarian (who, in my school, was a
+particularly ferocious woman the students referred to as "Conan The Librarian")
+would do her best to see that the library was quiet. Why? Because people were
+trying to study, to think, to concentrate. When there was an exam to be done,
+the exam would be conducted in complete silence. Why? Because it's easier to
+concentrate on your exam when it's quiet. When the teacher gave the class time
+to work on an assignment, the class was expected to be silent. Why? Because it's
+easier to think about your assignment when it's quiet.
 
-Prior to entering the workforce, I thought nothing of it. It all seemed to be just common sense. Imagine my surprise then to discover that the corporate world had decided that none of it was true. That, in fact, you don't need quiet in order to concentrate effectively – you can work just as well when immersed in an environment that is a noisy as your local shopping center. Or so I infer is the reasoning, because the standards in both office accommodation and behavior seem to have been determined with such an assumption in mind.
+In university too, there was little dispute about the necessity for a quiet
+environment when doing intellectual work. The libraries and exam halls are
+silent, the lecture theaters and tutorial rooms are quiet so that the speaker
+may be heard and their message understood.
 
-Sitting at my desk at work, I am surrounded by distraction and diversion, which everyone just seems to accept will not impair my ability to work at all. But my own impression is very much to the contrary. I find myself constantly frustrated and annoyed by the ceaseless chatter around me and the incessant whir of printers and photocopiers. I have never known a workplace to be any different.
+Prior to entering the workforce, I thought nothing of it. It all seemed to be
+just common sense. Imagine my surprise then to discover that the corporate world
+had decided that none of it was true. That, in fact, you don't need quiet in
+order to concentrate effectively – you can work just as well when
+immersed in an environment that is a noisy as your local shopping center. Or so
+I infer is the reasoning, because the standards in both office accommodation and
+behavior seem to have been determined with such an assumption in mind.
 
-How is it that the corporate and academic worlds seem to have completely different ideas about what characterizes an environment conducive to intellectual activity? Why is it that the academic community seems to have got it right, and the corporate community ubiquitously has it wrong? Surely employers are not knowingly paying their staff to be only semi-productive, are they? Unless the corporate world is consistently behaving in a self-defeating and irrational way, I must simply be mistaken about the effect this office noise is having on me.
+Sitting at my desk at work, I am surrounded by distraction and diversion, which
+everyone just seems to accept will not impair my ability to work at all. But my
+own impression is very much to the contrary. I find myself constantly frustrated
+and annoyed by the ceaseless chatter around me and the incessant whir of
+printers and photocopiers. I have never known a workplace to be any different.
 
-Perhaps I am actually quite unaffected by the conversations that my cubicle neighbors are having, on matters unrelated to my work ... all day. Perhaps the four foot high partition which separates me from them is actually enough to reduce their inane chatter and laughter to a distant whisper – I guess the sound dampening cloth on it must have some effect. Although the partition only covers two of the four sides of my "cubicle", perhaps adopting a "glass half full" attitude would make the lack of privacy less disturbing. Perhaps the sound of the printers and copiers in the facilities area, just three feet away from my desk, really isn't that loud. Perhaps the guy in the next cubicle who insists on checking his voice mail through the speakerphone isn't the sociopath he appears to be, and I'm just not sufficiently tolerant of others. Perhaps it's not really all that visually distracting to have people walking through the corridor beside my cubicle every few minutes. Maybe some blinkers, like those given to cart horses, would lessen the effect of constant movement at the periphery of my vision. And perhaps the ten mobile phone calls that my surrounding cubies seem to get every day, each one heralded by a distinctive and piercing ring- tone sampled from some Top 10 dance hit, really isn't as wearing as what I think it is. And maybe having a pair programming partner leaning over your shoulder, barking in your ear and correcting your every typographic error isn't an obnoxious novelty that removes what little remaining chance there is of thoughtful consideration occurring in the modern workplace, but a mechanism for solving complex problems by having a chat over a nice cup of tea.
+How is it that the corporate and academic worlds seem to have completely
+different ideas about what characterizes an environment conducive to
+intellectual activity? Why is it that the academic community seems to have got
+it right, and the corporate community ubiquitously has it wrong? Surely
+employers are not knowingly paying their staff to be only semi-productive, are
+they? Unless the corporate world is consistently behaving in a self-defeating
+and irrational way, I must simply be mistaken about the effect this office noise
+is having on me.
 
-Or perhaps, just perhaps, the cubicle farm is a fundamentally unsuitable work environment for software developers. But how could that be, when the "open plan" office is the corporate norm? Could organizations really be so blind as to routinely give their staff an environment which is not conducive to the conduct of their work?
+Perhaps I am actually quite unaffected by the conversations that my cubicle
+neighbors are having, on matters unrelated to my work ... all day. Perhaps the
+four foot high partition which separates me from them is actually enough to
+reduce their inane chatter and laughter to a distant whisper – I
+guess the sound dampening cloth on it must have some effect. Although the
+partition only covers two of the four sides of my "cubicle", perhaps adopting a
+"glass half full" attitude would make the lack of privacy less disturbing.
+Perhaps the sound of the printers and copiers in the facilities area, just three
+feet away from my desk, really isn't that loud. Perhaps the guy in the next
+cubicle who insists on checking his voice mail through the speakerphone isn't
+the sociopath he appears to be, and I'm just not sufficiently tolerant of
+others. Perhaps it's not really all that visually distracting to have people
+walking through the corridor beside my cubicle every few minutes. Maybe some
+blinkers, like those given to cart horses, would lessen the effect of constant
+movement at the periphery of my vision. And perhaps the ten mobile phone calls
+that my surrounding cubies seem to get every day, each one heralded by a
+distinctive and piercing ring- tone sampled from some Top 10 dance hit, really
+isn't as wearing as what I think it is. And maybe having a pair programming
+partner leaning over your shoulder, barking in your ear and correcting your
+every typographic error isn't an obnoxious novelty that removes what little
+remaining chance there is of thoughtful consideration occurring in the modern
+workplace, but a mechanism for solving complex problems by having a chat over a
+nice cup of tea.
 
-How could such a patently irrational trend develop and persist?
+Or perhaps, just perhaps, the cubicle farm is a fundamentally unsuitable work
+environment for software developers. But how could that be, when the "open plan"
+office is the corporate norm? Could organizations really be so blind as to
+routinely give their staff an environment which is not conducive to the conduct
+of their work?
 
-It's About Money
+*** How could such a patently irrational trend develop and persist?
 
-The modern cubicle had its genesis in 1968, when University of Colorado fine-arts professor Robert Propst came up with the "Action Office" – later commercialized by Herman Miller1. At the time, offices usually contained rows of desks, without any separation between them. At least cubicles were an improvement. But once the facilities management people cottoned onto the idea of putting people in boxes, their focus became achieving maximum packing density and consideration of noise and interruption went out the window (if you could find one). That mentality persists today, largely because the costs associated with office accommodation and office space rental are concrete expenditures that appear on a balance sheet somewhere. Somebody is accountable for those costs, and therefore seeks to minimize them. But the costs of lost productivity due to an unsuitable work environment aren't readily quantified, they just disappear "into the air", and so are easily forgotten or disregarded. There are also tax breaks in some localities, where legislation exists making it quicker to write off the depreciation of cubicles more quickly than traditional offices.2
+**** It's About Money
 
-It's About Rationalization
+The modern cubicle had its genesis in 1968, when University of Colorado
+fine-arts professor Robert Propst came up with the "Action Office" –
+later commercialized by Herman Miller1. At the time, offices usually contained
+rows of desks, without any separation between them. At least cubicles were an
+improvement. But once the facilities management people cottoned onto the idea of
+putting people in boxes, their focus became achieving maximum packing density
+and consideration of noise and interruption went out the window (if you could
+find one). That mentality persists today, largely because the costs associated
+with office accommodation and office space rental are concrete expenditures that
+appear on a balance sheet somewhere. Somebody is accountable for those costs,
+and therefore seeks to minimize them. But the costs of lost productivity due to
+an unsuitable work environment aren't readily quantified, they just disappear
+"into the air", and so are easily forgotten or disregarded. There are also tax
+breaks in some localities, where legislation exists making it quicker to write
+off the depreciation of cubicles more quickly than traditional offices.2
 
-The ostensible benefits of an open-plan office are its moderate cost, flexibility, facilitation of teamwork and efficient use of space. These are the attributes by which cubicle systems are marketed3. Note that the ability to create an environment suitable for knowledge workers is not amongst those features.
-Flexibility, although a possibility, is seldom realized in IT-centric environments where the need to re-route power and network cabling makes people reticent to re-arrange cubicles to any significant extent. Even individual variation and customization is discouraged in many workplaces, where such non-conformity is viewed as a threat to the establishment.
+**** It's About Rationalization
 
-It is also commonly held that cubicles "promote communication" amongst staff. Unfortunately, one man's "communication" is another man's "distraction", the difference being whether the desire to participate is mutual. Alistair Cockburn, never one stuck for a metaphor, describes the wafting of conversation from one cube to the next as "convection currents of information"4 and promotes the benefits that might arise from incidental communication. But when one is trying to concentrate, these currents of information become rip-tides of noise pollution that one cannot escape. The result is frustration and aggravation for the party on the listening end.
-Unsurprisingly, companies that produce modular office furniture claim that cubicles are fabulous, and choose to selectively ignore their manifest disadvantages. In the advertising literature7 for their "Resolve" furniture system, Herman Miller lauds the necessity of teamwork:
-All the accepted research in this field says you have to have more visual and acoustic openness to get the benefits of a team-based organization.
-... and downplays the need for individual work:
+The ostensible benefits of an open-plan office are its moderate cost,
+flexibility, facilitation of teamwork and efficient use of space. These are the
+attributes by which cubicle systems are marketed3. Note that the ability to
+create an environment suitable for knowledge workers is not amongst those
+features.
 
-Although there will always be types of work that require intense concentration and protection from distraction, our research suggests that these needs can be effectively met outside assigned, enclosed workstations – through remote work locations or on-site, shared, "quiet rooms" for instance.
-In other words, the workplace should be optimized for collaborative work, and those who want to concentrate can go elsewhere. Indeed, it seems to be a growing misconception amongst designers and managers that a high level of interaction and collaboration is a universal good, the more the better, and that the downsides don't matter.
+Flexibility, although a possibility, is seldom realized in IT-centric
+environments where the need to re-route power and network cabling makes people
+reticent to re-arrange cubicles to any significant extent. Even individual
+variation and customization is discouraged in many workplaces, where such
+non-conformity is viewed as a threat to the establishment.
 
-For knowledge workers, who spend the vast majority of their time in isolated contemplation, this is decidedly bad news. Those who fit out offices seem to be either gullible enough to believe glib rhetoric such as the above, or more likely, choose to remain willfully ignorant of the fundamental requirements of their staff. Herman Miller would have you believe that the cubicle environment is good for your software development effort as well:
+It is also commonly held that cubicles "promote communication" amongst staff.
+Unfortunately, one man's "communication" is another man's "distraction", the
+difference being whether the desire to participate is mutual. Alistair Cockburn,
+never one stuck for a metaphor, describes the wafting of conversation from one
+cube to the next as "convection currents of information"4 and promotes the
+benefits that might arise from incidental communication. But when one is trying
+to concentrate, these currents of information become rip-tides of noise
+pollution that one cannot escape. The result is frustration and aggravation for
+the party on the listening end.
 
-But the benefits of physical openness are gaining recognition even among the "gold-collar" engineers and programmers of Silicon Valley.
-"The programming code we write has to work together seamlessly, so we should work together seamlessly as well", says a Netscape Communication programmer and open-plan advocate quoted recently in the New York Times.
+Unsurprisingly, companies that produce modular office furniture claim that
+cubicles are fabulous, and choose to selectively ignore their manifest
+disadvantages. In the advertising literature7 for their "Resolve" furniture
+system, Herman Miller lauds the necessity of teamwork: All the accepted research
+in this field says you have to have more visual and acoustic openness to get the
+benefits of a team-based organization. ... and downplays the need for individual
+work:
 
-Clearly, it is inane to suggest that software can be invested with desirable runtime behavior by adopting parallel behavior in the team that develops it. Does the code execute more quickly if we write it more quickly? Will it be more user friendly if the developers are more friendly toward each other? No – it is just nonsensical wordplay. But the use of such faulty "proof by metaphor" techniques is illustrative of how desperate the furniture industry is to ignore the workplace realities they are producing, and the superficial level of thought that they employ in promoting their ostensible success.
+Although there will always be types of work that require intense concentration
+and protection from distraction, our research suggests that these needs can be
+effectively met outside assigned, enclosed workstations – through
+remote work locations or on-site, shared, "quiet rooms" for instance. In other
+words, the workplace should be optimized for collaborative work, and those who
+want to concentrate can go elsewhere. Indeed, it seems to be a growing
+misconception amongst designers and managers that a high level of interaction
+and collaboration is a universal good, the more the better, and that the
+downsides don't matter.
+
+For knowledge workers, who spend the vast majority of their time in isolated
+contemplation, this is decidedly bad news. Those who fit out offices seem to be
+either gullible enough to believe glib rhetoric such as the above, or more
+likely, choose to remain willfully ignorant of the fundamental requirements of
+their staff. Herman Miller would have you believe that the cubicle environment
+is good for your software development effort as well:
+
+But the benefits of physical openness are gaining recognition even among the
+"gold-collar" engineers and programmers of Silicon Valley. "The programming code
+we write has to work together seamlessly, so we should work together seamlessly
+as well", says a Netscape Communication programmer and open-plan advocate quoted
+recently in the New York Times.
+
+Clearly, it is inane to suggest that software can be invested with desirable
+runtime behavior by adopting parallel behavior in the team that develops it.
+Does the code execute more quickly if we write it more quickly? Will it be more
+user friendly if the developers are more friendly toward each other? No
+– it is just nonsensical wordplay. But the use of such faulty "proof
+by metaphor" techniques is illustrative of how desperate the furniture industry
+is to ignore the workplace realities they are producing, and the superficial
+level of thought that they employ in promoting their ostensible success.
 
 Consider the following statement, again from Herman Miller:
 
-Recent studies also indicate that people become habituated to background office noise after prolonged exposure. Over time, people get used to the sounds of a given environment, and noises that initially have a negative impact on performance eventually lose their disruptive effect.
-Or perhaps, workers simply give up on the issue of office noise after their prolonged attempts to deal with it are continually met with stonewalling and denial. No references are given, so it is impossible to gauge the validity or relevance of these studies. But it sounds so inconsistent with known research in this area that one cannot help but be suspicious.
+Recent studies also indicate that people become habituated to background office
+noise after prolonged exposure. Over time, people get used to the sounds of a
+given environment, and noises that initially have a negative impact on
+performance eventually lose their disruptive effect. Or perhaps, workers simply
+give up on the issue of office noise after their prolonged attempts to deal with
+it are continually met with stonewalling and denial. No references are given, so
+it is impossible to gauge the validity or relevance of these studies. But it
+sounds so inconsistent with known research in this area that one cannot help but
+be suspicious.
 
-Many studies have examined the effect of background speech on human performance.5 One phenomena that consistently recurs is the "Irrelevant Speech Effect" (ISE). In ISE experiments, participants are given tasks to do while being subject to speech that is unrelated to the task at hand. Susceptibility to ISE varies between individuals, but in general ISE is found to be "detrimental to reading comprehension, short-term memory, proofreading and mathematical computations."6 In general, work that requires focus and ongoing access to short-term memory will suffer in the presence of ISE and other distractions and interruptions.
+Many studies have examined the effect of background speech on human
+performance.5 One phenomena that consistently recurs is the "Irrelevant Speech
+Effect" (ISE). In ISE experiments, participants are given tasks to do while
+being subject to speech that is unrelated to the task at hand. Susceptibility to
+ISE varies between individuals, but in general ISE is found to be "detrimental
+to reading comprehension, short-term memory, proofreading and mathematical
+computations."6 In general, work that requires focus and ongoing access to
+short-term memory will suffer in the presence of ISE and other distractions and
+interruptions.
 
-It's About Status
+**** It's About Status
 
-Real estate has always been an indicator of status. Whether you're a feudal lord or a middle manager, the area in your command is usually proportional to your perceived status and importance. Those who suggest that the cubicle is an unavoidable part of the office landscape are often those whose status precludes them from ever having to occupy one, and who have a vested interest in the distribution of office space remaining exactly as it is – in their favor. The unstated purpose of the cubicle is to serve as a container for the "have-nots", to more obviously distinguish them from the "haves." The preoccupation with offices (and the number of windows therein) and car parking spaces is often quite baffling to techies, who think first in terms of utility rather than perception. But for those more "image oriented," the true worth of corporate real estate has nothing to do with functionality and everything to do with positioning.
+Real estate has always been an indicator of status. Whether you're a feudal lord
+or a middle manager, the area in your command is usually proportional to your
+perceived status and importance. Those who suggest that the cubicle is an
+unavoidable part of the office landscape are often those whose status precludes
+them from ever having to occupy one, and who have a vested interest in the
+distribution of office space remaining exactly as it is – in their
+favor. The unstated purpose of the cubicle is to serve as a container for the
+"have-nots", to more obviously distinguish them from the "haves." The
+preoccupation with offices (and the number of windows therein) and car parking
+spaces is often quite baffling to techies, who think first in terms of utility
+rather than perception. But for those more "image oriented," the true worth of
+corporate real estate has nothing to do with functionality and everything to do
+with positioning.
 
-Float Your Mind Upstream
+*** Float Your Mind Upstream
 
-I would like to be able to say that companies are gradually realizing that knowledge workers such as software developers need support for both team interaction and distraction-free individual work, and are making changes to workplace accommodation accordingly. But I would be lying.
+I would like to be able to say that companies are gradually realizing that
+knowledge workers such as software developers need support for both team
+interaction and distraction-free individual work, and are making changes to
+workplace accommodation accordingly. But I would be lying.
 
-In truth, the workplace's suitability as a place to work is likely to sink below even its currently deplorable standard. The trend is towards ever smaller cubicles with fewer and lower dividing partitions. A 1990 study by Reder and Schwab found that the average duration of uninterrupted work for developers in a particular software development firm was 10 minutes. That's revealing, because it generally takes about 15 minutes to descend into that deep state of contemplative involvement in work called "flow". During the period in which one is transitioning to a state of flow, one is particularly sensitive to noise and interruption7. If you're interrupted every 10 minutes or so, chances are you spend your day struggling to focus on what you're doing, being constantly prevented from thoughtful contemplation of the problem before you by visual and auditory distractions around you ... and that's the typical working day of many software developers. As DeMarco and Lister comment "In most of the office space we encounter today, there is enough noise and interruption to make any serious thinking virtually impossible." With the addition of some doors into the environment, developers could at least control their noise exposure.
+In truth, the workplace's suitability as a place to work is likely to sink below
+even its currently deplorable standard. The trend is towards ever smaller
+cubicles with fewer and lower dividing partitions. A 1990 study by Reder and
+Schwab found that the average duration of uninterrupted work for developers in a
+particular software development firm was 10 minutes. That's revealing, because
+it generally takes about 15 minutes to descend into that deep state of
+contemplative involvement in work called "flow". During the period in which one
+is transitioning to a state of flow, one is particularly sensitive to noise and
+interruption7. If you're interrupted every 10 minutes or so, chances are you
+spend your day struggling to focus on what you're doing, being constantly
+prevented from thoughtful contemplation of the problem before you by visual and
+auditory distractions around you ... and that's the typical working day of many
+software developers. As DeMarco and Lister comment "In most of the office space
+we encounter today, there is enough noise and interruption to make any serious
+thinking virtually impossible." With the addition of some doors into the
+environment, developers could at least control their noise exposure.
 
-Look around you now, and what do you see? Chances are there will be at least one and probably many of your colleagues wearing headphones. It's common practice for software developers to retreat into an isolated sonic world as the only way they have of overcoming the incessant distraction around them. Some companies pipe white noise into individual cubicles to try and mask the surrounding noise. I've found it helpful to run a few USB-powered fans from my computer – their quiet hum serves much the same purpose, as well as compensating for the often inadequate air conditioning.
+Look around you now, and what do you see? Chances are there will be at least one
+and probably many of your colleagues wearing headphones. It's common practice
+for software developers to retreat into an isolated sonic world as the only way
+they have of overcoming the incessant distraction around them. Some companies
+pipe white noise into individual cubicles to try and mask the surrounding noise.
+I've found it helpful to run a few USB-powered fans from my computer
+– their quiet hum serves much the same purpose, as well as
+compensating for the often inadequate air conditioning.
 
-Why don't developers revolt? Why is it so rare to hear them vocalize their complaints? Talk to them in private and they'll likely concede that their work environment is too noisy to enable them to work effectively. But they're unlikely to make those concerns public, for fear of retribution or simply because they know that the noise level will be dismissed as being an inherently intractable problem.
+Why don't developers revolt? Why is it so rare to hear them vocalize their
+complaints? Talk to them in private and they'll likely concede that their work
+environment is too noisy to enable them to work effectively. But they're
+unlikely to make those concerns public, for fear of retribution or simply
+because they know that the noise level will be dismissed as being an inherently
+intractable problem.
 
-So we will continue to grind our teeth and shake our heads in disbelief while listening to the dull roar of the combined efforts of the printers, fax machines, photocopiers, telephones, speakerphones, inconsiderate coworkers, slamming doors, hallway conversations immediately beside our desks and wonder how we can be expected to work effectively amidst such a furor. And as long as developers continue to tolerate unsatisfactory noise levels, and work longer hours to compensate for their negative effect on their productivity, organizations will continue to ignore their dissatisfaction.
+So we will continue to grind our teeth and shake our heads in disbelief while
+listening to the dull roar of the combined efforts of the printers, fax
+machines, photocopiers, telephones, speakerphones, inconsiderate coworkers,
+slamming doors, hallway conversations immediately beside our desks and wonder
+how we can be expected to work effectively amidst such a furor. And as long as
+developers continue to tolerate unsatisfactory noise levels, and work longer
+hours to compensate for their negative effect on their productivity,
+organizations will continue to ignore their dissatisfaction.
 
-Linda Tischler, FastCompany, June 2005
+1 Linda Tischler, FastCompany, June 2005
 2 The Man Behind the Cubicle, Yvonne Abraham, Metropolis, November 1998
 3 “Resolve” product literature, Herman Miller
 4 Agile Software Development, Alistair Cockburn, Addison Wesley, 2002
@@ -482,36 +1230,110 @@ Linda Tischler, FastCompany, June 2005
 :EXPORT_FILE_NAME: hacknot-peopleware-interview-with-a-sociopath
 :END:
 
-Recently I have had the misfortune to be playing the interview circuit again; parading from one interrogation to the next like some prisoner of technical war. The experience has been both frustrating and humiliating – and unpleasant reminder of how appallingly most technical interviews are conducted.
+Recently I have had the misfortune to be playing the interview circuit again;
+parading from one interrogation to the next like some prisoner of technical war.
+The experience has been both frustrating and humiliating – and
+unpleasant reminder of how appallingly most technical interviews are conducted.
 
-So ignorant is the conduct of many interviewers, one could be forgiven for thinking they have undertaken the interview process with the deliberate intent of minimizing the chances of finding the right person for the job, and maximizing the opportunity for their own ego gratification. Such behavior is a common feature of the sociopathic personality.
+So ignorant is the conduct of many interviewers, one could be forgiven for
+thinking they have undertaken the interview process with the deliberate intent
+of minimizing the chances of finding the right person for the job, and
+maximizing the opportunity for their own ego gratification. Such behavior is a
+common feature of the sociopathic personality.
 
-Based on my recent interview experiences, I've assembled below a list of the techniques commonly practiced by the sociopathic interviewer.
+Based on my recent interview experiences, I've assembled below a list of the
+techniques commonly practiced by the sociopathic interviewer.
 
 *** Put No Effort Into The Position Description
-The best way to ensure you don't accidentally get the right person for the job is to have no idea who you're looking for and what role they will be fulfilling in your organization. A meager and perfunctory PD (position description) helps to convey that "don't care" attitude right from the start of the hiring process. If you're working through a recruiting service, simply tell the recruiter that you don't have time to write out a decent PD. Rattle off a few buzzwords and acronyms and leave them to patch something together themselves.
+The best way to ensure you don't accidentally get the right person for the job
+is to have no idea who you're looking for and what role they will be fulfilling
+in your organization. A meager and perfunctory PD (position description) helps
+to convey that "don't care" attitude right from the start of the hiring process.
+If you're working through a recruiting service, simply tell the recruiter that
+you don't have time to write out a decent PD. Rattle off a few buzzwords and
+acronyms and leave them to patch something together themselves.
 
-If you are somehow compelled to write a PD, fill it out with the usual platitudes about "excellent communication skills", "ability to work well in a team", "delivering high quality code" ... and other such nonsense that 90% of programmer PDs include and which nobody can effectively appraise in an interview situation.
+If you are somehow compelled to write a PD, fill it out with the usual
+platitudes about "excellent communication skills", "ability to work well in a
+team", "delivering high quality code" ... and other such nonsense that 90% of
+programmer PDs include and which nobody can effectively appraise in an interview
+situation.
 
 *** Conduct Phone Interviews With A Poor Quality Speakerphone
-Phone interviews provide an excellent opportunity to explore the aural aspects of discourtesy. Always use a low quality speakerphone; even if you are the sole interviewer. Make the call from the largest, echo-filled room that you have access to, and sit a long way from the speakerphone. If there is more than one interviewer, make sure you constantly interrupt and talk over each other, making it impossible for the candidate to distinguish who they are currently talking to. The frustration of the constant struggle to understand and be understood will eventually wear down even the most ardent of candidates, often with comic effect.
+Phone interviews provide an excellent opportunity to explore the aural aspects
+of discourtesy. Always use a low quality speakerphone; even if you are the sole
+interviewer. Make the call from the largest, echo-filled room that you have
+access to, and sit a long way from the speakerphone. If there is more than one
+interviewer, make sure you constantly interrupt and talk over each other, making
+it impossible for the candidate to distinguish who they are currently talking
+to. The frustration of the constant struggle to understand and be understood
+will eventually wear down even the most ardent of candidates, often with comic
+effect.
 
 *** Be Poorly Organized
-Some candidates have the audacity to view the organization of an interview as being representative of the organizational capabilities of your company as a whole. They reason that finding someone to fill a role is effectively a mini-project in itself, and if you can't schedule and coordinate even a minor project like that, how could you manage a larger and more complex undertaking like a software project? These people are clearly thinking too hard and too critically. They are exactly the ones that you want to turn off. Therefore you should make every effort to have the interviewing process reflect the abysmal state of project management in your company as closely as possible.
+Some candidates have the audacity to view the organization of an interview as
+being representative of the organizational capabilities of your company as a
+whole. They reason that finding someone to fill a role is effectively a
+mini-project in itself, and if you can't schedule and coordinate even a minor
+project like that, how could you manage a larger and more complex undertaking
+like a software project? These people are clearly thinking too hard and too
+critically. They are exactly the ones that you want to turn off. Therefore you
+should make every effort to have the interviewing process reflect the abysmal
+state of project management in your company as closely as possible.
 
-Demonstrate your inability to estimate and track tasks by scheduling candidates' interviews too close together, booting one candidate out the door just as the next is about to give up hope that their own interview will ever commence. Having started the interview late, make it clear from the outset that you don't have much time to devote to each individual so you will have to rush. This will demonstrate your tendency to meet deadlines by making heroic efforts rather than rational adjustments of scope.
+Demonstrate your inability to estimate and track tasks by scheduling candidates'
+interviews too close together, booting one candidate out the door just as the
+next is about to give up hope that their own interview will ever commence.
+Having started the interview late, make it clear from the outset that you don't
+have much time to devote to each individual so you will have to rush. This will
+demonstrate your tendency to meet deadlines by making heroic efforts rather than
+rational adjustments of scope.
 
-Then reveal that you have no questions prepared for the candidate. Just “um” and “ah” your way through a random series of queries that reveal no overall structure or intent, thereby conveying your inability to structure a work effort appropriately.
+Then reveal that you have no questions prepared for the candidate. Just
+“um” and “ah” your way through a
+random series of queries that reveal no overall structure or intent, thereby
+conveying your inability to structure a work effort appropriately.
 
 *** Focus On Technical Arcana
-Technical interviews are a sociopath's utopia, for they provide you with infinite opportunity to humiliate a candidate while engendering feelings of supreme inadequacy. Even if a candidate has been using a particular technology for many years, chances are that they have only dealt with the most commonly used 80% or so of that technology's features. Therefore your questions relating to that technology should target the seldom encountered 20% at the periphery. Identify those aspects of the technology so infrequently used that most developers have either never been called upon to use them, or if they have, have not done so sufficiently to internalize the finer points of its operation. Drill the candidate mercilessly on these obscure and largely irrelevant details. When they fail to provide the correct answers, assume a facial expression that betrays your amazement that they have managed to survive in the industry without having immediate recall on every aspect of the technology they deal with.
+Technical interviews are a sociopath's utopia, for they provide you with
+infinite opportunity to humiliate a candidate while engendering feelings of
+supreme inadequacy. Even if a candidate has been using a particular technology
+for many years, chances are that they have only dealt with the most commonly
+used 80% or so of that technology's features. Therefore your questions relating
+to that technology should target the seldom encountered 20% at the periphery.
+Identify those aspects of the technology so infrequently used that most
+developers have either never been called upon to use them, or if they have, have
+not done so sufficiently to internalize the finer points of its operation. Drill
+the candidate mercilessly on these obscure and largely irrelevant details. When
+they fail to provide the correct answers, assume a facial expression that
+betrays your amazement that they have managed to survive in the industry without
+having immediate recall on every aspect of the technology they deal with.
 
 *** Hire A List Of Products And Acronyms, Not A Person
-The topic of "business value" should be avoided at all costs. Do not ask about the candidates' contributions to the businesses they have worked in, as this implies that all that boring business stuff is actually of concern to you. The sort of person you want is one who is solely focused upon decorating their CV with the latest buzzwords, and playing around with whatever "cool" technologies that vendors have most recently grunted out. You'll get such a person by ignoring the business aspect of software development, and assessing candidates solely on the amount of technical trivia they know. Clearly, those who take a "technology first" approach are motivated more by self-interest than professional responsibility, and are more likely to be suitable company for the sociopathic interviewer.
+The topic of "business value" should be avoided at all costs. Do not ask about
+the candidates' contributions to the businesses they have worked in, as this
+implies that all that boring business stuff is actually of concern to you. The
+sort of person you want is one who is solely focused upon decorating their CV
+with the latest buzzwords, and playing around with whatever "cool" technologies
+that vendors have most recently grunted out. You'll get such a person by
+ignoring the business aspect of software development, and assessing candidates
+solely on the amount of technical trivia they know. Clearly, those who take a
+"technology first" approach are motivated more by self-interest than
+professional responsibility, and are more likely to be suitable company for the
+sociopathic interviewer.
 
 *** Pose Unsolvable Problems
-A favorite ploy of sociopathic interviewers everywhere is to ask questions that have no concrete answer. The standard defense of this technique is the claim that it verifies the candidates' ability to take a logical approach to problem solving. Of course, there is no empirical evidence correlating the ability to solve logic puzzles with the ability to develop software - but no matter.
-The real reason for asking questions that permit no solution is to watch the candidate squirm "on the hook", and to experience that feeling of smug self-satisfaction that you get when you finally acknowledge that there is no solution to the problem – it's just an exercise.
+A favorite ploy of sociopathic interviewers everywhere is to ask questions that
+have no concrete answer. The standard defense of this technique is the claim
+that it verifies the candidates' ability to take a logical approach to problem
+solving. Of course, there is no empirical evidence correlating the ability to
+solve logic puzzles with the ability to develop software - but no matter.
+
+The real reason for asking questions that permit no solution is to watch the
+candidate squirm "on the hook", and to experience that feeling of smug
+self-satisfaction that you get when you finally acknowledge that there is no
+solution to the problem – it's just an exercise.
+
 Such questions include:
 - "HowwouldyoucountthenumberofgasstationsintheUS?"
 - "HowwouldyoumeasurethenumberoflitersofwaterinSydneyHarbor?"
@@ -520,49 +1342,134 @@ Such questions include:
 ... which are all variants on the classic quandary "How long is a piece of string?" and equally deserving of serious consideration.
 
 *** Ask About MVC
-For some reason, it has become accepted in technical circles that all programming interviews must contain a question about the Model-View- Controller pattern. Every candidate expects it, every interviewer asks it – and there's no good reason for you to challenge the tradition. At least it chews up some interview time and spares you having to think of your own questions.
+For some reason, it has become accepted in technical circles that all
+programming interviews must contain a question about the Model-View- Controller
+pattern. Every candidate expects it, every interviewer asks it – and
+there's no good reason for you to challenge the tradition. At least it chews up
+some interview time and spares you having to think of your own questions.
 
 *** Ask General Questions But Expect A Specific Answer
-This technique is the staple of anti-social interviewers everywhere. It's particularly handy if you want to devote no cognitive energy whatsoever to the proceedings. Ask a question that is general enough to permit multiple answers, but badger the candidate until they provide the specific answer that you have in mind. Thus a technical query turns into a guessing game, which is great fun for everyone – providing you're not the one doing the guessing.
+This technique is the staple of anti-social interviewers everywhere. It's
+particularly handy if you want to devote no cognitive energy whatsoever to the
+proceedings. Ask a question that is general enough to permit multiple answers,
+but badger the candidate until they provide the specific answer that you have in
+mind. Thus a technical query turns into a guessing game, which is great fun for
+everyone – providing you're not the one doing the guessing.
 
 *** Take Every Opportunity To Demonstrate How Clever You Are
-For the sociopath, the interview is mainly about them and only peripherally about the candidate. They view an interview as an opportunity to demonstrate their natural intellectual and technical superiority. That they control the questions and have had time to research the answers doesn't hurt either.
-You should make frequent, derogatory references to the quality of the candidates you have previously interviewed, the implication being that the current candidate can expect to be discussed in similarly negative terms once they are absent.
+For the sociopath, the interview is mainly about them and only peripherally
+about the candidate. They view an interview as an opportunity to demonstrate
+their natural intellectual and technical superiority. That they control the
+questions and have had time to research the answers doesn't hurt either.
 
-Don't hesitate to mock the candidate if they answer a question incorrectly. If it looks like they are about to provide a correct answer, interrupt them and change or augment the original question with additional complexities, creating a moving target that they will eventually abandon hope of ever hitting.
+You should make frequent, derogatory references to the quality of the candidates
+you have previously interviewed, the implication being that the current
+candidate can expect to be discussed in similarly negative terms once they are
+absent.
 
-A technique that will certainly annoy the candidate (and people react in so much more interesting ways once they're angry, don't they?) is to deliberately misinterpret the candidates answer, exaggerate or distort it, then throw it back to them as a challenge i.e. create a straw man from their answer. Here is an example from one of my recent interviews:
+Don't hesitate to mock the candidate if they answer a question incorrectly. If
+it looks like they are about to provide a correct answer, interrupt them and
+change or augment the original question with additional complexities, creating a
+moving target that they will eventually abandon hope of ever hitting.
+
+A technique that will certainly annoy the candidate (and people react in so much
+more interesting ways once they're angry, don't they?) is to deliberately
+misinterpret the candidates answer, exaggerate or distort it, then throw it back
+to them as a challenge i.e. create a straw man from their answer. Here is an
+example from one of my recent interviews:
 
 Interviewer: Ed:
 Interviewer:
 Have you participated in code reviews before?
 Yes. I've reviewed other team member's code on many occasions.
 So you don't trust your colleagues, then?
-An attitude of willful antagonism will enable you to goad even the most dispassionate of candidates into an angry (and entertaining) response.
+
+An attitude of willful antagonism will enable you to goad even the most
+dispassionate of candidates into an angry (and entertaining) response.
 
 *** Set COMP101 Programming Problems
-Companies intent upon creating the impression that they really care about the quality of their people will give potential candidates a hokey COMP101-level programming problem to solve prior to granting them an audience. The solution provided is then dissected carefully and assessed according to criteria that the candidate was not made aware of at the time the assignment was set. Ridiculous extrapolations and inferences about the author's general programming ability are then made based upon the given code sample.
+Companies intent upon creating the impression that they really care about the
+quality of their people will give potential candidates a hokey COMP101-level
+programming problem to solve prior to granting them an audience. The solution
+provided is then dissected carefully and assessed according to criteria that the
+candidate was not made aware of at the time the assignment was set. Ridiculous
+extrapolations and inferences about the author's general programming ability are
+then made based upon the given code sample.
 
-The beauty of this technique is that because the problem has been offered context-free, the candidate has no idea what design forces should influence their solution.
-They don't know what importance to assign to non-functional criteria such as performance, extensibility, genericity and memory consumption. The weight of these factors might significantly influence the form of the solution. By withholding them, and because these factors are often in conflict with each other, it is impossible for the candidate to submit a solution that is correct. Simply change the criteria for evaluation to the opposite of whatever qualities their solution actually contains.
+The beauty of this technique is that because the problem has been offered
+context-free, the candidate has no idea what design forces should influence
+their solution. They don't know what importance to assign to non-functional
+criteria such as performance, extensibility, genericity and memory consumption.
+The weight of these factors might significantly influence the form of the
+solution. By withholding them, and because these factors are often in conflict
+with each other, it is impossible for the candidate to submit a solution that is
+correct. Simply change the criteria for evaluation to the opposite of whatever
+qualities their solution actually contains.
 
-For example, if their solution is readily extensible, claim that it is too complex. If they have favored clarity over efficiency, criticize their solution for its verbosity and memory footprint. If they have provided you only with code, select documentation-level and handover-readiness as the criteria-du-jour – question the absence of release notes.
+For example, if their solution is readily extensible, claim that it is too
+complex. If they have favored clarity over efficiency, criticize their solution
+for its verbosity and memory footprint. If they have provided you only with
+code, select documentation-level and handover-readiness as the criteria-du-jour
+– question the absence of release notes.
 
 *** Treat Senior Candidates The Same As Junior Candidates
-Those who have been in the industry for a few decades will probably arrive at the interview expecting you to draw upon their extensive experience as a source of examples of problems you have solved, applications you have implemented and difficulties you have overcome. A sociopathic interviewer should demonstrate their contempt for the candidates' life's work by completing ignoring their work history. Make it clear that you don't care about the past by treating even the most senior of candidates like a fresh-faced rookie, demonstrating an appropriately condescending and patronizing attitude. After all, even the most worldly- wise candidate appears naive when put alongside your own towering genius.
+Those who have been in the industry for a few decades will probably arrive at
+the interview expecting you to draw upon their extensive experience as a source
+of examples of problems you have solved, applications you have implemented and
+difficulties you have overcome. A sociopathic interviewer should demonstrate
+their contempt for the candidates' life's work by completing ignoring their work
+history. Make it clear that you don't care about the past by treating even the
+most senior of candidates like a fresh-faced rookie, demonstrating an
+appropriately condescending and patronizing attitude. After all, even the most
+worldly- wise candidate appears naive when put alongside your own towering
+genius.
 
-The most effective means of convey your disdain for the candidate that I have witnessed is to ask them to take an IQ test, thereby implying that it is not their professional qualifications which are in doubt, but their native intelligence.
+The most effective means of convey your disdain for the candidate that I have
+witnessed is to ask them to take an IQ test, thereby implying that it is not
+their professional qualifications which are in doubt, but their native
+intelligence.
 
 *** Make The Interview Process Long And Arduous
-There is a lot of folk wisdom surrounding the hiring process. One common misperception is that the more arduous the interview process (i.e. the more rounds it contains, the greater the size of the interview panel etc.) then the more worth the position actually has. In other words, the harder the journey the better the destination must be. Clearly, the logic is flawed – it is quite possible for a long and demanding journey to conclude in a cesspit.
-In an organizational context, a protracted interview process may simply indicate that the company is disorganized, indecisive and have failed to gather the information they needed in an efficient manner. But the myth persists, so you can exploit it to maximum effect, creating ever greater hoops for the candidate to jump through, on the pretext that you are being thorough or somehow testing their commitment. Be careful not to let on that you are really only demonstrating your own ineptitude and disrespect for the candidate's time.
+There is a lot of folk wisdom surrounding the hiring process. One common
+misperception is that the more arduous the interview process (i.e. the more
+rounds it contains, the greater the size of the interview panel etc.) then the
+more worth the position actually has. In other words, the harder the journey the
+better the destination must be. Clearly, the logic is flawed – it is
+quite possible for a long and demanding journey to conclude in a cesspit.
+
+In an organizational context, a protracted interview process may simply indicate
+that the company is disorganized, indecisive and have failed to gather the
+information they needed in an efficient manner. But the myth persists, so you
+can exploit it to maximum effect, creating ever greater hoops for the candidate
+to jump through, on the pretext that you are being thorough or somehow testing
+their commitment. Be careful not to let on that you are really only
+demonstrating your own ineptitude and disrespect for the candidate's time.
 
 *** Don't Hire Too Smart
-One of the biggest hiring mistakes you can make is to hire someone who is better than you, and whose subsequent performance makes you look bad by comparison. As soon as you've formed an impression of the candidate's ability, adjust your interview technique accordingly. If the candidate is too good, step up the difficulty and obscurity of the questions you ask until you reach the point where they are struggling, and thereby creating a bad impression with any other interviewers present. If you sense the candidate is just good enough to do the job but not so good that they could do your job, then ease up on the questions and let them shine.
-Remember that there may also be some career advantage in simply not filling the position at all; concluding that you simply couldn't find a suitable candidate. You may be able to emphasize how lucky your company was to have hired the last decent software developer out there – you.
+One of the biggest hiring mistakes you can make is to hire someone who is better
+than you, and whose subsequent performance makes you look bad by comparison. As
+soon as you've formed an impression of the candidate's ability, adjust your
+interview technique accordingly. If the candidate is too good, step up the
+difficulty and obscurity of the questions you ask until you reach the point
+where they are struggling, and thereby creating a bad impression with any other
+interviewers present. If you sense the candidate is just good enough to do the
+job but not so good that they could do your job, then ease up on the questions
+and let them shine.
+
+Remember that there may also be some career advantage in simply not filling the
+position at all; concluding that you simply couldn't find a suitable candidate.
+You may be able to emphasize how lucky your company was to have hired the last
+decent software developer out there – you.
 
 *** Conclusion
-The senior ranks of the software development community seem to attract more than it's fair share of sociopaths. Such people undertake the interview process with the same intent as they approach all activities – to create advantage for themselves. Whether you are amongst the self-adoring community of psychopaths, or just anti-social with psychopathic ambitions, the technical interview is a professional construct designed with your particular needs in mind. Using the techniques described above, interviews can be both a means of self-gratification and a fulcrum for leveraging your own career advantage.
+The senior ranks of the software development community seem to attract more than
+it's fair share of sociopaths. Such people undertake the interview process with
+the same intent as they approach all activities – to create advantage
+for themselves. Whether you are amongst the self-adoring community of
+psychopaths, or just anti-social with psychopathic ambitions, the technical
+interview is a professional construct designed with your particular needs in
+mind. Using the techniques described above, interviews can be both a means of
+self-gratification and a fulcrum for leveraging your own career advantage.
 
 
 ** The Art of Flame War
@@ -570,12 +1477,29 @@ The senior ranks of the software development community seem to attract more than
 :EXPORT_FILE_NAME: hacknot-peopleware-art-of-the-flamewar
 :END:
 
-The word "argument" has negative connotations for many people. It is associated with heated exchanges and passionate disagreement. But your experience of argument need not be so negative. Consider that the word 'argument' also means 'a line of reasoning'. By approaching a verbal or electronic discussion, even a hostile one, with this definition in mind, you can learn to separate the logical content of the exchange from its emotional content and thereby deal with each more effectively. You may even find the process of so doing an agreeable one.
+The word "argument" has negative connotations for many people. It is associated
+with heated exchanges and passionate disagreement. But your experience of
+argument need not be so negative. Consider that the word 'argument' also means
+'a line of reasoning'. By approaching a verbal or electronic discussion, even a
+hostile one, with this definition in mind, you can learn to separate the logical
+content of the exchange from its emotional content and thereby deal with each
+more effectively. You may even find the process of so doing an agreeable one.
 
-The following are a few tips and techniques that I've learnt in the course of a great many arguments, flame wars and other "vigorous discussions" that may help you argue more purposefully, and thereby come to view argument as a stimulating activity to be relished, rather than an ordeal to be avoided.
+The following are a few tips and techniques that I've learnt in the course of a
+great many arguments, flame wars and other "vigorous discussions" that may help
+you argue more purposefully, and thereby come to view argument as a stimulating
+activity to be relished, rather than an ordeal to be avoided.
 
 *** You Can Be Right, But You Can't Win
-At the end of a formal debate, one or more adjudicators decides which team are the victors. If only it were that clean cut in real life. A good portion of the time, arguments arise spontaneously, continue in a haphazard manner and then fizzle out without any clear resolution or outcome. When you cannot force your opponent to concede their losses or acknowledge your victories, it becomes impossible to keep score. Therefore you should not enter any dispute, particularly an online one, with visions of your ultimate rhetorical triumph, in which you lord your argumentative superiority over your opponent, who shirks away, cap in hand and ego in tatters. It's not going to happen.
+At the end of a formal debate, one or more adjudicators decides which team are
+the victors. If only it were that clean cut in real life. A good portion of the
+time, arguments arise spontaneously, continue in a haphazard manner and then
+fizzle out without any clear resolution or outcome. When you cannot force your
+opponent to concede their losses or acknowledge your victories, it becomes
+impossible to keep score. Therefore you should not enter any dispute,
+particularly an online one, with visions of your ultimate rhetorical triumph, in
+which you lord your argumentative superiority over your opponent, who shirks
+away, cap in hand and ego in tatters. It's not going to happen.
 
 So why engage in argument at all, if you can never win? Here are a few possible motivations:
 - Tohoneyourrhetoricalandlogicalskillsi.e.yourattitudewillbe more playful than combative
@@ -588,20 +1512,49 @@ So why engage in argument at all, if you can never win? Here are a few possible 
 - Toexplorethesubjectmatter
 - Toprotectyourreputationagainstarealorperceivedslight Remain As Dispassionate As Possible
 
-This is at once the most difficult and the most valuable aspect of arguing effectively. Strong emotion can cloud your thinking and inhibit your ability to reason objectively and thoroughly. Anger is what turns a discussion into an argument and then into a flame war. Responses you give while angry are likely to be poorly considered, so it is invaluable to have techniques at your disposal to moderate that anger so that you can argue at your best and even begin to enjoy the dispute. Here are a few techniques that might be useful:
-- When you're not arguing in real-time (e.g. via email or discussion forums), print out the email or message that you've found inflammatory. Read it somewhere away from the computer and plan how you will respond. Delay making your actual response as long as possible.
-- When arguing in person, make a deliberate effort to slow down the pace of the discussion and lower its volume. If you're uncomfortable with the silence created, adopt a thoughtful expression and pretend to be considering your reply carefully. Use the time created to take a few deep breaths and calm down.
-- Adopt a different mental posture towards the email or message. Pretend that the message is for someone else. This helps to de- personalize the argument and put it at a distance.
+This is at once the most difficult and the most valuable aspect of arguing
+effectively. Strong emotion can cloud your thinking and inhibit your ability to
+reason objectively and thoroughly. Anger is what turns a discussion into an
+argument and then into a flame war. Responses you give while angry are likely to
+be poorly considered, so it is invaluable to have techniques at your disposal to
+moderate that anger so that you can argue at your best and even begin to enjoy
+the dispute. Here are a few techniques that might be useful:
+- When you're not arguing in real-time (e.g. via email or discussion forums),
+  print out the email or message that you've found inflammatory. Read it
+  somewhere away from the computer and plan how you will respond. Delay making
+  your actual response as long as possible.
+- When arguing in person, make a deliberate effort to slow down the pace of the
+  discussion and lower its volume. If you're uncomfortable with the silence
+  created, adopt a thoughtful expression and pretend to be considering your
+  reply carefully. Use the time created to take a few deep breaths and calm
+  down.
+- Adopt a different mental posture towards the email or message. Pretend that
+  the message is for someone else. This helps to de- personalize the argument
+  and put it at a distance.
 
-Realizing that your opponent is as susceptible to emotion as you are, you may choose to use this to your advantage. Here we venture out of the realm of the logical and into the rhetorical. If you can identify your opponent's "hot buttons," then you may be able to goad them into making an unconsidered response. Once made, the response cannot be retracted and you may be able to play that advantage for the remainder of the argument. When being inflammatory or provocative, be careful not to overdo it. Lest you appear vitriolic or juvenile, make your barbs short and well targeted. Ensure that they are offered as parenthetical asides rather than as a basis for argument.
+Realizing that your opponent is as susceptible to emotion as you are, you may
+choose to use this to your advantage. Here we venture out of the realm of the
+logical and into the rhetorical. If you can identify your opponent's "hot
+buttons," then you may be able to goad them into making an unconsidered
+response. Once made, the response cannot be retracted and you may be able to
+play that advantage for the remainder of the argument. When being inflammatory
+or provocative, be careful not to overdo it. Lest you appear vitriolic or
+juvenile, make your barbs short and well targeted. Ensure that they are offered
+as parenthetical asides rather than as a basis for argument.
 
-Perhaps the most effective means of disarming your opponent's insults is with wit, as demonstrated by the following exchange between Winston Churchill and Lady Asbury:
+Perhaps the most effective means of disarming your opponent's insults is with
+wit, as demonstrated by the following exchange between Winston Churchill and
+Lady Asbury:
 
 Lady Asbury: Mr. Churchill, if you were my husband, I would put poison in your wine.
 Churchill: Madam, if you were my wife, I would drink it.
 Be Familiar With The Basic Logical Fallacies
 
-Those not skilled in argument are often prone to employing logical fallacies and being unaware that they are doing so. It is vital that you be able to recognize at least the basic logical fallacies so that you don't end up trying to attack an insensible argument, or formulating one yourself. Common logical fallacies include:
+Those not skilled in argument are often prone to employing logical fallacies and
+being unaware that they are doing so. It is vital that you be able to recognize
+at least the basic logical fallacies so that you don't end up trying to attack
+an insensible argument, or formulating one yourself. Common logical fallacies
+include:
 - Straw Man Argument – Your opponent restates your argument inaccurately and in a weaker form, then refutes the weaker argument as if it were your own.
 - Argumentum Ad Hominem – Ad hominem means 'to the man'. Your opponent attacks you rather than your argument. If you choose to insult your opponent in order to provoke an emotional reaction, be sure that your insults are not used as part of your argument, otherwise you will be guilty of argumentum ad hominem yourself.
 - Appeal to Popularity – The suggestion that because something is popular it must be good, or because something is widely believed it must be true.
@@ -610,16 +1563,31 @@ Those not skilled in argument are often prone to employing logical fallacies and
 - Appeal to Authority – Claiming that something is true because someone important says that it is.
 
 *** Seek Precision
-It's easy to end up arguing at cross-purposes with someone simply because you each have different definitions in mind for component terms of the subject being debated. So a good starting point when engaging in debate is to first ensure that you and your opponent have precisely the same understanding of the topic being argued. Remarkably often, the act of precisely defining the topic will serve to circumvent any subsequent argument, as it becomes clear that the warring parties do not have conflicting positions on a given subject, but instead are talking about different subjects entirely.
+It's easy to end up arguing at cross-purposes with someone simply because you
+each have different definitions in mind for component terms of the subject being
+debated. So a good starting point when engaging in debate is to first ensure
+that you and your opponent have precisely the same understanding of the topic
+being argued. Remarkably often, the act of precisely defining the topic will
+serve to circumvent any subsequent argument, as it becomes clear that the
+warring parties do not have conflicting positions on a given subject, but
+instead are talking about different subjects entirely.
 
 *** Ask Pointed Questions
 There are several reasons why you might choose to ask your opponent questions:
 - Toseekclarificationonapointthattheyhavemade
-- In the hope that some of the information volunteered will be faulty, thereby providing you with fuel for rebuttal.
-- To save effort on your part. It often takes less effort to ask a question than answer it. In a protracted exchange, this economy of effort can be important. It also gives you time to think about your next move.
-- Because you know the answer. A powerful rhetorical technique is to ask a series of questions that leads your opponent, by degrees, to the realization that their answer is in contradiction with statements they have previously made.
+- In the hope that some of the information volunteered will be faulty, thereby
+  providing you with fuel for rebuttal.
+- To save effort on your part. It often takes less effort to ask a question than
+  answer it. In a protracted exchange, this economy of effort can be important.
+  It also gives you time to think about your next move.
+- Because you know the answer. A powerful rhetorical technique is to ask a
+  series of questions that leads your opponent, by degrees, to the realization
+  that their answer is in contradiction with statements they have previously
+  made.
 
-For example, suppose you are arguing the merits of free software with one of Richard Stallman's disciples. You might question the Free Software Advocate (FSA) to tease out the inconsistencies in their philosophy:
+For example, suppose you are arguing the merits of free software with one of
+Richard Stallman's disciples. You might question the Free Software Advocate
+(FSA) to tease out the inconsistencies in their philosophy:
 
 FSA: All software should be "free", as in "freedom"
 You: How do define "free", exactly?
@@ -637,30 +1605,103 @@ You: And what basis do you have for claiming that free use of software is a fund
 ... and so the FSA is led to an awareness of the circular reasoning they are employing.
 
 *** Don't Claim More Than You Have To
-A common error is to extend the claims you're making to a broader scope than is really necessary to make your point. In doing so, you extend the logical territory that you have to defend and permit counter-argument on a broader front. This is one of the primary benefits of maintaining a skeptical attitude. Skeptics assume as little as possible, and therefore have less to defend than True Believers who are prone to making broad assumptions and sweeping generalizations.
+A common error is to extend the claims you're making to a broader scope than is
+really necessary to make your point. In doing so, you extend the logical
+territory that you have to defend and permit counter-argument on a broader
+front. This is one of the primary benefits of maintaining a skeptical attitude.
+Skeptics assume as little as possible, and therefore have less to defend than
+True Believers who are prone to making broad assumptions and sweeping
+generalizations.
 
-Suppose you're arguing about the quality of open source software versus proprietary software. An open source zealot may make a broad claim such as "Open source software is always of higher quality than proprietary software". A universal qualifier such as "always" makes their claim easy to disprove – all that is required is a single counter-example. A more cautious open source enthusiast might claim "Open source software is usually of higher quality than proprietary software", which is a narrower claim than the one made by the zealot, but one still requiring evidential support. A skeptic might ask "How do you define quality?"
+Suppose you're arguing about the quality of open source software versus
+proprietary software. An open source zealot may make a broad claim such as "Open
+source software is always of higher quality than proprietary software". A
+universal qualifier such as "always" makes their claim easy to disprove
+– all that is required is a single counter-example. A more cautious
+open source enthusiast might claim "Open source software is usually of higher
+quality than proprietary software", which is a narrower claim than the one made
+by the zealot, but one still requiring evidential support. A skeptic might ask
+"How do you define quality?"
 
-Claims can be accidentally over-extended by provision of a flawed example of the general point you're making. Your opponent counters the particular example you've provided and then assumes victory over the general claim it was supposed to be illustrating. Before choosing to illustrate your general claim with a specific example, be very sure the example is a true instance of your general case. It may be more prudent to leave out your example all together.
+Claims can be accidentally over-extended by provision of a flawed example of the
+general point you're making. Your opponent counters the particular example
+you've provided and then assumes victory over the general claim it was supposed
+to be illustrating. Before choosing to illustrate your general claim with a
+specific example, be very sure the example is a true instance of your general
+case. It may be more prudent to leave out your example all together.
 
 *** Seek Evidence
-It's easy to make bold claims and impressive assertions; it's not so easy to back them up with proof. A common problem in argument is the failure to identify which party carries the burden of proof, and to what extent that burden exists. The general rule is this: He who makes the claim carries the burden of proving it. If you claim "Linux is more reliable than Windows", then it is your responsibility to not only specify your definition of "more reliable" but to provide evidence that supports your claim. Your claim is not "provisionally true" until someone can prove you wrong; and neither is it false. It's truth or otherwise is simply unknown.
+It's easy to make bold claims and impressive assertions; it's not so easy to
+back them up with proof. A common problem in argument is the failure to identify
+which party carries the burden of proof, and to what extent that burden exists.
+The general rule is this: He who makes the claim carries the burden of proving
+it. If you claim "Linux is more reliable than Windows", then it is your
+responsibility to not only specify your definition of "more reliable" but to
+provide evidence that supports your claim. Your claim is not "provisionally
+true" until someone can prove you wrong; and neither is it false. It's truth or
+otherwise is simply unknown.
 
-This is an area of common misunderstanding amongst those with pseudo-scientific beliefs. For instance, UFO believers will look at a history of UFO sightings for some region and note that although 99% have been attributed to aircraft, weather balloons and such, 1% of them are still unexplained. They delight in this 1% figure as if it were vindication of their beliefs. But 1% being "unknown" does not equate to "1% being alien beings in spaceships". It might also mean that the 1% of reports were simply too vague or incomplete to permit any kind of conclusion being reached. Those claiming by implication that the 1% represent alien beings carry the burden of proving that with evidence.
+This is an area of common misunderstanding amongst those with pseudo-scientific
+beliefs. For instance, UFO believers will look at a history of UFO sightings for
+some region and note that although 99% have been attributed to aircraft, weather
+balloons and such, 1% of them are still unexplained. They delight in this 1%
+figure as if it were vindication of their beliefs. But 1% being "unknown" does
+not equate to "1% being alien beings in spaceships". It might also mean that the
+1% of reports were simply too vague or incomplete to permit any kind of
+conclusion being reached. Those claiming by implication that the 1% represent
+alien beings carry the burden of proving that with evidence.
 
-But always remain aware of the context in which claims are made. Different contexts bring with them different levels of formality, and consequently different evidentiary standards. If your friend remarks "Boy it's hot outside", it's obviously not appropriate to insist upon meteorological data to back up their claim. But if an environmental activist claims "average daytime temperature world-wide has risen an average of 0.5 degrees in the last century" then the first thing you'll be wanting to know is where the data came from that supports that claim.
+But always remain aware of the context in which claims are made. Different
+contexts bring with them different levels of formality, and consequently
+different evidentiary standards. If your friend remarks "Boy it's hot outside",
+it's obviously not appropriate to insist upon meteorological data to back up
+their claim. But if an environmental activist claims "average daytime
+temperature world-wide has risen an average of 0.5 degrees in the last century"
+then the first thing you'll be wanting to know is where the data came from that
+supports that claim.
 
 *** When Your Opponent Is Irrational
-Finally, there is a delicate ethical issue to consider when arguing. Every so often you find yourself locking horns with someone who appears to have a fairly shaky grip on reality. I'm not referring to simple eccentricity or religious fervor, but psychiatric illness. For examples, you can refer to some of the emails received by the James Randi Educational Foundation1 (JREF) in response to their million dollar challenge. James Randi is a well known skeptic and magician. Since 1994, the JREF has offered a prize of one million dollars to anyone able to demonstrate paranormal or supernatural abilities or phenomena under controlled observational conditions. To date, no one has successfully claimed that prize. But some of the applications2 they receive suggest that the respondent is unwell, perhaps delusional. If you should find yourself in online discussion with someone whom you suspect is unencumbered by the restrictions of rational thought, then perhaps the best you can do is exit the discussion immediately. To continue is to risk antagonizing someone who may be genuinely dangerous. This is one of the prime reasons for conducting online arguments anonymously, where possible.
-Knowing When To Quit
-There comes a point when you want to exit an argument. Perhaps you've grown bored with it; perhaps it has become clear that your opponent's views are so heavily entrenched that progress is impossible; perhaps your opponent is offering only insults without any logical content. Here are a few ways of bringing the argument to a definite conclusion, rather than just letting it peter out:
-• Simplywalkaway.Foronlinearguments,refusetorespond.
-• Insistthatanytopicscoveredthusfarberesolvedbeforetheargument continues. This prevents your opponent switching subjects and responding to your rebuttals by simply making a new batch of assertions.
-• Ask your opponent what they hope to gain by continuing the argument. To what end are they arguing.
+Finally, there is a delicate ethical issue to consider when arguing. Every so
+often you find yourself locking horns with someone who appears to have a fairly
+shaky grip on reality. I'm not referring to simple eccentricity or religious
+fervor, but psychiatric illness. For examples, you can refer to some of the
+emails received by the James Randi Educational Foundation1 (JREF) in response to
+their million dollar challenge. James Randi is a well known skeptic and
+magician. Since 1994, the JREF has offered a prize of one million dollars to
+anyone able to demonstrate paranormal or supernatural abilities or phenomena
+under controlled observational conditions. To date, no one has successfully
+claimed that prize. But some of the applications2 they receive suggest that the
+respondent is unwell, perhaps delusional. If you should find yourself in online
+discussion with someone whom you suspect is unencumbered by the restrictions of
+rational thought, then perhaps the best you can do is exit the discussion
+immediately. To continue is to risk antagonizing someone who may be genuinely
+dangerous. This is one of the prime reasons for conducting online arguments
+anonymously, where possible.
 
-THE ART OF FLAME WAR 49
-Reconstruct Your Opponent’s Argument
-Argument reconstruction is the process of analysis the verbal or written form of an argument and identifying the premises (both explicit and implied) and the conclusion/s it contains. To effectively rebut your opponent's arguments you need to know exactly what they are claiming, and upon what basis they are claiming it. For each premise you identify, consider whether the premise is true or false. If you think one or more of them is false, call attention to each of them and ask your opponent to justify them with evidence. If the conclusions don't follow logically from the premises, call attention to the logical error. If the conclusion cannot be true without one or more unstated premises also being true, then call your opponent's attention to their reliance upon implicit premises and, where those premises are in doubt, insist that evidence be provided in support of them.
+*** Knowing When To Quit
+There comes a point when you want to exit an argument. Perhaps you've grown bored with it; perhaps it has become clear that your opponent's views are so heavily entrenched that progress is impossible; perhaps your opponent is offering only insults without any logical content. Here are a few ways of bringing the argument to a definite conclusion, rather than just letting it peter out:
+- Simplywalkaway.Foronlinearguments,refusetorespond.
+- Insistthatanytopicscoveredthusfarberesolvedbeforetheargument continues. This
+  prevents your opponent switching subjects and responding to your rebuttals by
+  simply making a new batch of assertions.
+- Ask your opponent what they hope to gain by continuing the argument. To what
+  end are they arguing.
+
+*** Reconstruct Your Opponent's Argument
+Argument reconstruction is the process of analysis the verbal or written form of
+an argument and identifying the premises (both explicit and implied) and the
+conclusions it contains. To effectively rebut your opponent's arguments you need
+to know exactly what they are claiming, and upon what basis they are claiming
+it.
+
+For each premise you identify, consider whether the premise is true or false. If
+you think one or more of them is false, call attention to each of them and ask
+your opponent to justify them with evidence. If the conclusions don't follow
+logically from the premises, call attention to the logical error. If the
+conclusion cannot be true without one or more unstated premises also being true,
+then call your opponent's attention to their reliance upon implicit premises
+and, where those premises are in doubt, insist that evidence be provided in
+support of them.
 
 
 ** Testers: Are They Vegetable or Mineral?
@@ -668,32 +1709,56 @@ Argument reconstruction is the process of analysis the verbal or written form of
 :EXPORT_FILE_NAME: hacknot-peopleware-testers-vegetable-or-mineral
 :END:
 
-There are real advantages to having a group of people, separate from developers, whose job is solely to find fault with your work. They have an emotional and cognitive distance from the product that a developer can never fully imitate. Testing is a task requiring patience, attention to detail and a fairly devious mindset. Sometimes managers make the mistake of regarding testing as a second class activity, suitable to be performed by less skilled or more junior staff members. Such misimpressions are a disservice to the project and the testing community.
+There are real advantages to having a group of people, separate from developers,
+whose job is solely to find fault with your work. They have an emotional and
+cognitive distance from the product that a developer can never fully imitate.
+Testing is a task requiring patience, attention to detail and a fairly devious
+mindset. Sometimes managers make the mistake of regarding testing as a second
+class activity, suitable to be performed by less skilled or more junior staff
+members. Such misimpressions are a disservice to the project and the testing
+community.
 
-        But a common byproduct of having a distinct testing team is the development of an adversarial dynamic between testers and developers. I can understand completely how easily this situation occurs. I recently had the misfortune to work with a testing team whose methods left myself and other developers ready to kill them.
+But a common byproduct of having a distinct testing team is the development of
+an adversarial dynamic between testers and developers. I can understand
+completely how easily this situation occurs. I recently had the misfortune to
+work with a testing team whose methods left myself and other developers ready to
+kill them.
 
-Below, I have listed the main work habits this team engaged in, that made them so difficult to work with. I hope that these items may serve as a brief catalog of bug reporting "anti-patterns" that testers can use as a checklist to make sure they are not accidentally annoying the developers they work with, and that developers can use to identify sources of friction between themselves and their testing team.
+Below, I have listed the main work habits this team engaged in, that made them
+so difficult to work with. I hope that these items may serve as a brief catalog
+of bug reporting "anti-patterns" that testers can use as a checklist to make
+sure they are not accidentally annoying the developers they work with, and that
+developers can use to identify sources of friction between themselves and their
+testing team.
 
-Abbreviating Instructions For Reproducing The Bug
+*** Abbreviating Instructions For Reproducing The Bug
+
 Problem: Some testers believe that they can save themselves some time by describing the circumstances under which the bug appears in the briefest terms possible. Often the bug report degrades into a contracted narrative that only specifies the milestones in the series of actions necessary to reproduce the bug. Being unfamiliar with the application’s internal structure, a tester can not know which of the series of actions they have followed is most significant when diagnosing the underlying fault. By neglecting actions they consider unimportant, there is a significant risk they are omitting important information.
-Solution: The best way to avoid this is to simply enumerate all the actions that are necessary to reproduce the buggy behavior, starting with the launch of the application. Put the first step in a bug reporting template
-
-TESTERS: ARE THEY VEGETABLE OR MINERAL? 51 to remind testers to do this e.g. "1) Launch the application. 2) your text
+Solution: The best way to avoid this is to simply enumerate all the actions that are necessary to reproduce the buggy behavior, starting with the launch of the application. Put the first step in a bug reporting template to remind testers to do this e.g. "1) Launch the application. 2) your text
 here"
-Not Identifying The Erroneous Behavior
+
+*** Not Identifying The Erroneous Behavior
+
 Problem: The description in the bug report ends in a simple statement of application state without identifying what aspect of that state is actually in error. For example, the bug report concludes "The Properties dialog appears", but the tester fails to add "... and the property controls are enabled, even though the selection is read-only".
-Solution: Put the heading "Erroneous behavior:" or "Actual behavior:" in your bug report template, to remind the tester to include that information.
-Not Identifying The Expected Behavior
+Solution: Put the heading "Erroneous behavior:" or "Actual behavior:" in your bug report template, to remind the tester to include that information
+
+*** Not Identifying The Expected Behavior
+
 Problem: Even when the bug report contains a description of the erroneous behavior, testers sometimes forget to explain what the expected (correct) behavior is. For example, the bug report concludes "The file saves silently", but the tester fails to add "... but there is no visual indication that the application is busy performing the save. The cursor should change to an hour glass and a modal progress dialog should appear.
 Solution: Put the heading "Expected behavior: " in your bug report template, to remind the tester to include that information.
 Not Justifying The Expected Behavior
+
 Problem: It is not always clear why a tester has decided that a particular behavior is buggy. The bug report may simply claim "X should happen" without making it clear why X is the correct behavior. A reference to a requirement specification is an appropriate justification. If that requirement is for adherence to an externally specified standard, then a reference to the relevant portion of that standard is appropriate.
 Solution: Put the heading "Requirement reference:" in your bug report template, to remind the tester to include that information.
 Re-Opening Old Bug Reports For New Bugs With Similar Symptoms
+
 Problem: A bug report is marked as FIXED and everyone thinks it is done with. But in the course of subsequent testing, a tester sees faulty behavior occurring that is very similar to that produced by the bug that was thought FIXED. Reasoning that the behavior is so similar that it must have the same underlying cause, the tester concludes that the bug previously marked FIXED has resurfaced. They REOPEN the FIXED bug report. This is problematic for the developer, because the re-opening of the bug implies that the original symptoms are re-occurring, not the similar symptoms that the tester is now observing. The tester has communicated to the developer their incorrect diagnosis of the fault, rather than simply reporting the faulty behavior they have observed.
 Solution: Insist that testers refrain from reusing old bug reports unless the erroneous behavior they see is exactly the same as that described in the old bug report. Even then, there is some chance of confusing two separate bugs that just happen to produce identical observed behavior. If there is any doubt, create an entirely new bug report. The develop can always mark it as a duplicate of the old bug report and re-open the old bug report themselves, if investigation demonstrates that the new and old bugs have the same underlying cause.
+
 See also "Diagnosing Instead of Reporting"
-Testing An Old Version Of The Software
+
+*** Testing An Old Version Of The Software
+
 Problem:
 Developer: Tester: Developer: Tester:
 It's fixed!
@@ -703,21 +1768,28 @@ I don't care about your screen shot. It's NOT fixed for me!
 This developer / tester exchange quickly escalates into justifiable homicide and arises far more often than it should. In a testing process which permits the version of the software being tested to change underfoot, the conflict often arises from a developer fixing a bug in a version yet to be released to the tester. Both developer and tester are correct in their assessment of the bug’s status, with respect to the version of the software that is front of them.
 Solution: Institute a process to enable version coordination between developers and testers. Label each new version with a unique number and make the version numbers currently being tested and developed readily available to all. Ensure someone has the responsibility to update this version number whenever a new version is released to the testers. When a bug report is declared FIXED, ensure developers include the version number in which the fix will appear.
 Inventing Requirements Based Upon Personal Preference
+
 Problem: Generally a set of requirements is not so complete as to explicitly specify program behavior in every possible circumstance. Quite aside from inevitable oversights by those assembling the requirements, some requirements are left to "common sense". A requirement such as "shall conform to Microsoft Windows User Interface Guidelines" is broad and may be difficult to interpret in any particular instance. Rather than interrogate the standard thoroughly, some testers will try and substitute their own version of "common sense" for the requirement, bringing with it their mistakes and misinterpretations. For instance, I received a UI bug report indicating that "a sub-menu should not appear if all menu items within it are disabled." The tester regarded this as "common sense". However, the UI standards explicitly dictated that such sub-menus should always appear, even when all of their menu items are disabled, so that the user could at least see the contents of the sub-menu and would know where to find a particular option when it did become available. Yet the bug report stated quite emphatically that the behavior "should" be different. The tester had fabricated the requirement, and decided to lend it authority by using the word "should", so as to imply the presence of such a requirement.
 Solution: See "Not Justifying the Expected Behavior" Omitting Screen Shots
+
 Problem: Many bug tracking systems provide the facility to attach a file to a bug report, the way one might attach a file to an email. But testers frequently forget (or can’t be bothered) making use of this facility. Particularly for GUI-related bugs, a screen shot showing the bug occurring, or illustrating a step in its reproduction, is an efficient way of capturing information.
 Solution: Make sure testers are aware of the "attach" functionality in your bug tracking system and are encouraged to use it. Image attachments can also be a convenient way of proving to a disbelieving developer that a bug occurs, or to a tester that a bug has been fixed.
 
-Using Vague Or Ambiguous Wording
+*** Using Vague Or Ambiguous Wording
+
 Problem: In the text of the bug report, the tester employs terminology that is imprecise or ambiguous. For example: the tester refers to "this dialog" in the bug report, intending the word "dialog" to mean "an exchange between parties"; but the developer interprets "dialog" as referring to a secondary window in the interface. Another example: The tester describes a text field as being "enabled when it should be disabled", but really intended that the text field is "editable when it should be uneditable".
 Solution: None – however a large, blunt object applied with extreme prejudice can at least have a cautionary effect.
-Diagnosing Instead Of Reporting
+
+*** Diagnosing Instead Of Reporting
+
 Problem: Either through arrogance or a misguided attempt to be helpful, the tester describes what they believe is the underlying fault exposed by the bug, rather than simply reporting the observed behavior. For example, the tester examines a log file and deduces from the name of an exception appearing in a stack trace that the application is running out of memory. Having provided this insight, they omit the rest of the bug report, thinking that they have already provided the crucial information.
 Solution: See "Solution" above. Exaggerating The Priority Of A Bug
+
 Problem: Some testers exhibit a tendency to elevate the priority of the bug reports they lodge later in the testing process. As testing proceeds and the identification of new bugs becomes harder and harder, it seems that the extra effort involved in their location is justified by raising their priority - by way of psychological compensation, I suppose. Developers find that bugs which would have been regarded minor in early testing are suddenly becoming major issues. This effect may also be attributable to increasing stress or approaching deadlines.
 Solution: For each priority level your bug reporting system allows, provide a clear definition that can be referred to in order to resolve disputes over bug priority.
 
-Justifying Partial Coverage With Appeals To Bad Assumptions
+*** Justifying Partial Coverage With Appeals To Bad Assumptions
+
 Problem: Rather than exhaustively test all possible combinations of inputs or circumstances, testers choose a limited subset of these for testing, reasoning that the chosen subset will be sufficient to exercise the underlying code. In effect, they are making assumptions about the code coverage that results from manipulating the application’s interface in various ways.
 Solution: Sometimes assumptions of this nature can legitimately be made. If there is insufficient time to perform exhaustive testing, then it is the developers who should be choosing the representative subset of operations to test, not the testers.
 See "Diagnosing Instead of Reporting"
@@ -1246,6 +2318,7 @@ Consider the enormous variation in scope that can exist between one requirement 
 
 *** Noise Generated
 Some programmers just get the job done. Others seem to find it necessary to let others know that they are getting the job done. You've probably met the type before. Every little obstacle and difficulty they encounter seems to be a major drama to them – almost a theatric opportunity. These are the same programmers who will work overtime to fix problems of their own creation, then seek credit for the extra hours they've put in. Although there is no number associated with their vociferations, they effectively multiply the amount of perceived work they are doing, and inflate the perceived effort they are making by drawing attention to their actions.
+
 I once worked with such a programmer. He was a hacker of the first order; and I use the word "hacker" in the pejorative sense. Each day over the lunch room table he would regale us with stories of his mighty development efforts, the technical heights to which he had scaled, and the complex obstacles he had overcome – all of these adventures apparently having happened since the previous day's story-telling episode. But when you actually looked in the source code for evidence of these mighty exploits, you would find only an amateurish and confused mess, and be left wondering how so much difficulty could have been encountered in the achievement of such modest results.
 
 *** Pages Of Documentation
