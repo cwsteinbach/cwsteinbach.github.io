@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-git push origin HEAD:site && git subtree push --prefix public origin main
+git push origin `git subtree split --prefix public main`:site --force
