@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Web Accessibility for the Apathetic | cwsteinbach.github.io</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="If you&rsquo;re like me, you approach the subject of accessibility with a certain self-conscious guilt. On the one hand, you recognize that there are excellent ethical and legal reasons for making your applications – be they web-based or rich client – accessible to those with sensory or cognitive impairments; but on the other hand you can&rsquo;t ignore the fact that the extra work required to add that accessibility is only going to make a difference to a very small percentage of your users.">
+    <meta name="generator" content="Hugo 0.88.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Web Accessibility for the Apathetic" />
+<meta property="og:description" content="If you&rsquo;re like me, you approach the subject of accessibility with a certain self-conscious guilt. On the one hand, you recognize that there are excellent ethical and legal reasons for making your applications – be they web-based or rich client – accessible to those with sensory or cognitive impairments; but on the other hand you can&rsquo;t ignore the fact that the extra work required to add that accessibility is only going to make a difference to a very small percentage of your users." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://cwsteinbach.github.io/posts/hacknot/hacknot-web-accessibility/" /><meta property="article:section" content="posts" />
+
+<meta property="article:modified_time" content="2021-12-14T11:42:17-08:00" />
+
+<meta itemprop="name" content="Web Accessibility for the Apathetic">
+<meta itemprop="description" content="If you&rsquo;re like me, you approach the subject of accessibility with a certain self-conscious guilt. On the one hand, you recognize that there are excellent ethical and legal reasons for making your applications – be they web-based or rich client – accessible to those with sensory or cognitive impairments; but on the other hand you can&rsquo;t ignore the fact that the extra work required to add that accessibility is only going to make a difference to a very small percentage of your users.">
+<meta itemprop="dateModified" content="2021-12-14T11:42:17-08:00" />
+<meta itemprop="wordCount" content="1539">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Web Accessibility for the Apathetic"/>
+<meta name="twitter:description" content="If you&rsquo;re like me, you approach the subject of accessibility with a certain self-conscious guilt. On the one hand, you recognize that there are excellent ethical and legal reasons for making your applications – be they web-based or rich client – accessible to those with sensory or cognitive impairments; but on the other hand you can&rsquo;t ignore the fact that the extra work required to add that accessibility is only going to make a difference to a very small percentage of your users."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        cwsteinbach.github.io
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=http://cwsteinbach.github.io/posts/hacknot/hacknot-web-accessibility/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=http://cwsteinbach.github.io/posts/hacknot/hacknot-web-accessibility/&amp;text=Web%20Accessibility%20for%20the%20Apathetic" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://cwsteinbach.github.io/posts/hacknot/hacknot-web-accessibility/&amp;title=Web%20Accessibility%20for%20the%20Apathetic" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Web Accessibility for the Apathetic</h1>
+      
+      <p class="tracked">
+          By <strong>
+          
+              Ed Johnson
+          
+          </strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-12-14T11:42:17-08:00">December 14, 2021</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>If you&rsquo;re like me, you approach the subject of accessibility with a certain
+self-conscious guilt. On the one hand, you recognize that there are excellent
+ethical and legal reasons for making your applications – be they
+web-based or rich client – accessible to those with sensory or
+cognitive impairments; but on the other hand you can&rsquo;t ignore the fact that the
+extra work required to add that accessibility is only going to make a difference
+to a very small percentage of your users.</p>
+<p>In recent years, the legal impetus has begun to gain strength, forcing those of
+us to action who might otherwise have been willing to put our internal ethics
+department on hold in the name of conserving time and energy. Having spent some
+time recently working inside a department of the Australian government, I have
+learnt that the issue of accessibility, in particular web accessibility, has a
+reasonably high profile. Because government web sites are required to adhere to
+accessibility guidelines1, there has developed a group, comprised of either
+moralists or opportunists, who spend their time scouring the web pages of
+government web sites looking for non-conformances to use as the basis for legal
+prosecution. American courts have recently ruled that the accessibility
+requirements pertinent to US governmental web sites are also applicable to
+privately held web sites. Even your blog counts as material that is made
+&ldquo;publicly available,&rdquo; and must therefore be equally available to all.</p>
+<p>With these ideas in mind, and also to assuage my growing feelings of guilt
+regarding the accessibility (or lack thereof) of this site, I decided to
+undertake a bit of a site revamp, the cosmetic results of which you will already
+have noticed. This article provides a brief overview of the process I followed,
+and thereby gives a general introduction to the tools and techniques necessary
+to retro-fit accessibility to a site that was designed without specific
+consideration of that issue.</p>
+<h2 id="general-approach">General Approach</h2>
+<p>In general, web accessibility can be achieved by adhering to the following two principles:</p>
+<p>• SeparatepresentationfromcontentbyrestrictingyouruseofHTMLto the standard structural elements, and using CSS (Cascading Style Sheets) to control the way that structure is presented.
+• Emphasize textual content. Where non-textual content is used, always provide a textual equivalent.
+A good portion of the details appearing below are in support of these two principles. The steps below show you how to transform a non- accessible web page into an accessible one.
+Step 1: Ensure All HTML Elements Are Structural
+Structural elements those which describe the semantic units of an HTML document. Examples of structural HTML elements are:
+• <!-- raw HTML omitted --> &hellip; <!-- raw HTML omitted --> • <!-- raw HTML omitted -->
+• <!-- raw HTML omitted -->
+• <!-- raw HTML omitted -->
+• <!-- raw HTML omitted --> • <!-- raw HTML omitted -->
+• <!-- raw HTML omitted --> • <!-- raw HTML omitted -->
+Over the years, browser vendors have added proprietary non-structural elements and attributes to the HTML grammar their browser understands, in an effort to differentiate their product from their competitor&rsquo;s. The result is a tag set which invites misuse, is interpreted differently (or not at all) in different browsers, and awkwardly combines content and presentation. By removing elements that specify some aspect of the document&rsquo;s presentation, accessibility can be improved.
+Examples of non-structural HTML elements you should remove are:
+• <!-- raw HTML omitted -->
+• <!-- raw HTML omitted -->
+• <!-- raw HTML omitted -->
+• <!-- raw HTML omitted -->
+• <!-- raw HTML omitted -->
+• <!-- raw HTML omitted -->
+• <!-- raw HTML omitted -->
+• <!-- raw HTML omitted --> • <!-- raw HTML omitted -->
+• <!-- raw HTML omitted --></p>
+<p>• <!-- raw HTML omitted -->
+The layout effects produced by these non-structural tags can, and should be, achieved with style sheets. Using these tags only pollutes your HTML document with presentation information that may well be useless or misleading to those with low vision. For instance, <!-- raw HTML omitted --> elements should be removed because bold text has no meaning to a blind user. This doesn&rsquo;t mean that text can&rsquo;t be made bold, but rather that CSS rather than HTML should be the means by which the bolding is achieved.
+Note that in some cases there is a structural tag that you should put in place of the deleted non-structural tag. For example:
+• If you have removed <!-- raw HTML omitted --> tags that were used to emphasize words, insert <!-- raw HTML omitted --> tags where the <!-- raw HTML omitted --> tags used to be.
+• Ifyouhaveremoved<!-- raw HTML omitted -->tagsthatwereusedtocreateaheading,insert a heading tag like <!-- raw HTML omitted --> where the <!-- raw HTML omitted --> tags used to be.
+• If you have removed <!-- raw HTML omitted --> tags that were used to add emphasis, insert <!-- raw HTML omitted --> tags where the <!-- raw HTML omitted --> tags used to be.
+In other cases, there is no structural element already defined in HTML that adequately captures a structural aspect of your web page, so you must invent your own using the <!-- raw HTML omitted --> or <!-- raw HTML omitted --> elements. For instance, you might create a of class &ldquo;footnote&rdquo; to denote footnote references:
+<!-- raw HTML omitted -->This is a footnote.<!-- raw HTML omitted -->
+The way that span elements of class footnote are displayed is later specified in a CSS.
+Step 2: Ensure All HTML Attributes Are Structural
+Non-structural attributes should be removed for the same reasons that structural elements should be removed. Examples of non-structural attributes you can delete are:
+• align
+• link
+• alink
+• halign
+• valign
+• background • color</p>
+<p>• text
+• bgcolor • vspace • height • width
+• hspace • border
+Again, all the layout effects that were produced by these attributes can be achieved with CSS, leaving the basic HTML document more accessible.
+Step 3: Remove Misused Structural HTML Elements
+Structural elements should not be used as ersatz layout mechanisms as this will confuse those accessing your web page with a text browser.
+Examples of the misuse of structural elements for layout purposes include:
+• Using empty paragraphs (<!-- raw HTML omitted -->) to put a vertical space between consecutive blocks of text.
+• Usingthe<!-- raw HTML omitted -->elementtoachievecolumnaralignmentofmaterial that is not inherently tabular.
+• Drawinglinesbystretchinga1-pixel<!-- raw HTML omitted -->.
+• Using<!-- raw HTML omitted -->purelytoachieveindentation.
+Step 4:
+Ensure All Non-Textual Content Has A Textual Equivalent
+Users with visual impairment may use a text browser, Braille bar or screen reader to access your web page. These mechanisms can only deal with text as input. So you need to supply a textual equivalent to any non- textual content on your web page. A common examples is using the alt attribute of <!-- raw HTML omitted --> tags to describe the significance of the image.
+There are certain mechanisms which should be used sparingly, if at all, because they are inherently inaccessible. These include:
+• Imagemaps
+• Javascript
+• Side-by-sideframes
+• Secondarywindows
+• Shockwaveanimations
+Not only are these mechanisms difficult for some users to access, but
+they may be deliberately disabled by any user in their browser.
+Step 5:
+Add In Attributes Or Elements That Aid Accessibility
+There are a few HTML structural elements and attributes that are particularly helpful from an accessibility perspective:
+• The <!-- raw HTML omitted --> and <!-- raw HTML omitted --> elements can be used to specify the expansion of abbreviations and acronyms when they first occur in a document.
+• The <!-- raw HTML omitted --> element should be used to identify column headers. Tables are linearized in text browsers, and knowing which table cells are headers helps the user interpret them.
+• In HTML forms, use the <!-- raw HTML omitted --> element around the form labels. Additionally, field labels should be immediately to the left of, or immediately above, the field.
+• Provide a logical tab order for elements by specifying the tabindex attribute for <!-- raw HTML omitted --> elements.
+• Use the title attribute of <!-- raw HTML omitted --> elements to provide more information about the target of the hyperlink.
+Checkpoint
+At this point, you should have an HTML document that is marked up solely with structural elements and attributes. This is a good time to preview your page in a text browser like Lynx2, or with a screen reader like IBM Home Page Reader3.
+It is also a good time to run your HTML through one of the automated accessibility-checker sites on the web. Such sites enable you to provide your HTML – either directly with cut/paste, or by nominating a URL – and then scan the document looking for accessibility problems. I found <a href="http://www.bobby.com">www.bobby.com</a> to be quite useful.</p>
+<p>Step 6:
+Recreate The Layout Using Cantankerous Style Sheets
+And now for the tricky bit. Converting your web page to use only structural HTML elements and attributes is easy compared to using CSS to achieve your desired layout. Mostly the difficulty stems from the variations in the way different browsers render CSS directives. Behavior of &ldquo;floating&rdquo; elements seems to be particularly problematic. Therefore it is essential to test the layout in as many different browsers as you can. This lack of standardization in behavior is the most frustrating aspect of using CSS. I found the following books useful in getting up to speed on CSS:
+• CSS-TheDefinitiveGuide2ndEdition,EricA.Meyer,O&rsquo;Reilly Media Inc, 2004
+• CSS-DesigningfortheWeb2ndEdition,H.LieandBertBos, Addison Wesley, 1999
+• MoreEricMeyeronCSS,EricMeyer,NewRiders,2004
+Once you&rsquo;ve got a style sheet that presents the HTML document the way you want, you&rsquo;re done. Just be sure that your choice of layout effects doesn&rsquo;t aggravate those suffering from particular medical conditions:
+• Those with light-triggered epilepsy can seizure when subject to blinking text or images. Sensitivity varies between the 4Hz and 59Hz frequencies, with peak sensitivity around 20Hz.
+• Colorperceptionproblemsarequitecommon–moresoinmalesthan females. Make sure your layout doesn&rsquo;t rely on color as the sole discriminator between different objects. The filter available at <a href="http://www.visicheck.com">www.visicheck.com</a> can show you what your page looks like to users with different color perception difficulties.
+• Do not use text sizes that are too small. The minimum size should appear to be equivalent to a 10pt font, but 12pt is preferable. Note that you should not actually use pt or px units to specify font sizes, as these don&rsquo;t scale up when the user changes the text size in their browser. The em unit should be used instead.</p>
+<p>1 <a href="http://www.w3.org/TR/WAI-WEBCONTENT/">http://www.w3.org/TR/WAI-WEBCONTENT/</a>
+2 <a href="http://lynx.browser.org/">http://lynx.browser.org/</a>
+3 <a href="http://www-3.ibm.com/able/solution%5Fofferings/hpr.html">http://www-3.ibm.com/able/solution%5Fofferings/hpr.html</a></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://cwsteinbach.github.io/" >
+    &copy;  cwsteinbach.github.io 2021 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

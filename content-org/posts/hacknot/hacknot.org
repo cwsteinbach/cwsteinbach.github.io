@@ -5,6 +5,7 @@
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_AUTHOR: edjohnson
 #+HUGO_DRAFT: false
+#+AUTHOR: Ed Johnson
 
 
 * Foreword
@@ -106,7 +107,7 @@ the while unable to do anything more to prevent it. The IT contractor's career
 can be like some cruel matinee of "Groundhog Day" – without the moral resolution
 at the end.
 
-        But this technological déjà vu is not limited to technical scenarios -
+But this technological déjà vu is not limited to technical scenarios -
 it extends to people. I find myself working with the same programmers over and
 over again. Their names and faces change, but their personalities and
 predilections are immediately recognizable. I find myself playing mental games
@@ -3499,16 +3500,31 @@ An interesting blog entry, author unknown, came to my attention recently. Entitl
 
 * Requirements
 
-** Dude, Where’s My Spacecraft?
+** Dude, Where's My Spacecraft?
 :PROPERTIES:
 :EXPORT_FILE_NAME: hacknot-wheres-my-spacecraft
 :END:
 
-The Mars Polar Lander (MPL) that NASA launched in 1999 is now a rather attractive and very expensive field of tinsel-like shrapnel scattered over several square kilometers of the Martian surface. It is not functional in any capacity. It is no more. It has ceased to be.
+The Mars Polar Lander (MPL) that NASA launched in 1999 is now a rather
+attractive and very expensive field of tinsel-like shrapnel scattered over
+several square kilometers of the Martian surface. It is not functional in any
+capacity. It is no more. It has ceased to be.
 
-Its demise was the result of the flight control software incorrectly answering the question that car-bound children have been plaguing their parents with for years – "are we there yet?" About 40 meters above the ground, the software succumbed to the constant nagging of its digital offspring and answered too hastily "Yes! We’re there!" – triggering the shutdown of the MPL’s descent engines. The craft’s final moments were spent free falling towards the Martian soil at 50 mph (80km/h) – ten times the impact speed it was designed to withstand.
+Its demise was the result of the flight control software incorrectly answering
+the question that car-bound children have been plaguing their parents with for
+years – "are we there yet?" About 40 meters above the ground, the
+software succumbed to the constant nagging of its digital offspring and answered
+too hastily "Yes! We’re there!" – triggering the shutdown
+of the MPL’s descent engines. The craft’s final moments
+were spent free falling towards the Martian soil at 50 mph (80km/h) –
+ten times the impact speed it was designed to withstand.
 
-Monitoring the MPL’s progress from Earth, NASA had expected a 12 minute period of broadcast silence during the descent to the landing area, due to the cant of the craft during re-entry. Shortly after touchdown, the MPL was scheduled to begin a 45 minute data transmission to Earth, but this transmission never occurred. NASA kept attempting contact with the MPL for the next six weeks, until finally giving up hope of ever hearing from it again.
+Monitoring the MPL’s progress from Earth, NASA had expected a 12
+minute period of broadcast silence during the descent to the landing area, due
+to the cant of the craft during re-entry. Shortly after touchdown, the MPL was
+scheduled to begin a 45 minute data transmission to Earth, but this transmission
+never occurred. NASA kept attempting contact with the MPL for the next six
+weeks, until finally giving up hope of ever hearing from it again.
 
 Of course, it was not long before the faecal matter hit the rotary air distribution device.
 
@@ -3817,7 +3833,7 @@ It is easy to overlook the non-functional requirements (e.g. performance and dep
 
 * Documentation
 
-** Oral Documentation: Not Worth the Paper it’s Written On
+** Oral Documentation: Not Worth the Paper it's Written On
 :PROPERTIES:
 :EXPORT_FILE_NAME: hacknot-oral-documentation
 :END:
@@ -3889,7 +3905,7 @@ Are my experiences unique here, or do others find this whole "fireside chat" mod
 :EXPORT_FILE_NAME: hacknot-fudd-documentation
 :END:
 
-"Think twice, cut once" – Carpenter's adage
+"Think twice, cut once" - Carpenter's adage
 
 In the years that I've been doing software development, the one source of recurring dispute between myself and colleagues is the issue of design documentation. I am of the opinion that the production and review of design documentation significantly increases the chances of producing quality software, and that such documentation should be an integral part of the development of any piece of commercial software.
 
@@ -3967,7 +3983,9 @@ To get value from design documentation:
 :EXPORT_FILE_NAME: hacknot-filthy-javadoc
 :END:
 
-Recently I've been instituting a code review process on a number of projects in my workplace. To kick start use of the process, I took a sample of the Java code written by each of my colleagues and reviewed it.
+Recently I've been instituting a code review process on a number of projects in
+my workplace. To kick start use of the process, I took a sample of the Java code
+written by each of my colleagues and reviewed it.
 
 While doing so I was struck by the degree of individual variation in the use of Javadoc comments, and reminded of how easy it is to fulfill one's obligation to provide Javadoc without really thinking about how effectively one is actually communicating.
 
@@ -4015,7 +4033,13 @@ valid values.
 :PROPERTIES:
 :EXPORT_FILE_NAME: hacknot-naming-classes
 :END:
-The selection of good class names is critical to the maintainability of your application. They form the basic vocabulary in which developers speak and the language in which they describe the code’s every activity. No wonder then that vague or misleading class names will quickly derail your best efforts to understand the code base.
+
+The selection of good class names is critical to the maintainability of your
+application. They form the basic vocabulary in which developers speak and the
+language in which they describe the code's every activity. No wonder then that
+vague or misleading class names will quickly derail your best efforts to
+understand the code base.
+
 Because we are called on to invent class names so frequently, there is a tendency to become somewhat lackadaisical in our approach. I hope the following guidelines will assist you in devising meaningful class names, and encourage you to invest the effort necessary to do so. As always, these are just guidelines and ultimately you should use your own discretion.
 
 1. A Class Name Is Usually A Noun, Possibly Qualified.
@@ -4049,9 +4073,11 @@ Suffix Example Class Names
 -ion Creation, Deletion, Expression, Enumeration -ity Plasticity, Mutability, Opacity
 -ing Tiling, Spacing, Formatting
 -al Dismissal, Removal, Committal
+
 2. Avoid Class Names That Have Non-Noun Interpretations
 Suppose that while maintaining an application you come across a class called Empty. As a noun, instances of Empty might represent a state in which some vessel is devoid of contents. However the word "empty" can also function as a verb, being the act of removing all the contents of a vessel. So there is potential confusion as to whether the class models a state or an activity. This ambiguity would not arise if the class had been called EmptyState or EmptyActivity.
-3. A Class Name Is Sometimes An Adjective.
+
+2. A Class Name Is Sometimes An Adjective.
 There is a special type of class called a structural property class2, which is often named with an adjective. Such classes exist to confer specific structural properties upon their subclasses (or implementers, in the case of interfaces). They are often suffixed with -able. Examples include:
 • Comparable
 • Undoable
@@ -4168,14 +4194,33 @@ When introducing code reviews, you will likely encounter some initial resistance
 
 If you're like me, you approach the subject of accessibility with a certain
 self-conscious guilt. On the one hand, you recognize that there are excellent
-ethical and legal reasons for making your applications – be they web-based or
-rich client – accessible to those with sensory or cognitive impairments; but on
-the other hand you can't ignore the fact that the extra work required to add
-that accessibility is only going to make a difference to a very small percentage
-of your users.
+ethical and legal reasons for making your applications – be they
+web-based or rich client – accessible to those with sensory or
+cognitive impairments; but on the other hand you can't ignore the fact that the
+extra work required to add that accessibility is only going to make a difference
+to a very small percentage of your users.
 
-In recent years, the legal impetus has begun to gain strength, forcing those of us to action who might otherwise have been willing to put our internal ethics department on hold in the name of conserving time and energy. Having spent some time recently working inside a department of the Australian government, I have learnt that the issue of accessibility, in particular web accessibility, has a reasonably high profile. Because government web sites are required to adhere to accessibility guidelines1, there has developed a group, comprised of either moralists or opportunists, who spend their time scouring the web pages of government web sites looking for non-conformances to use as the basis for legal prosecution. American courts have recently ruled that the accessibility requirements pertinent to US governmental web sites are also applicable to privately held web sites. Even your blog counts as material that is made "publicly available," and must therefore be equally available to all.
-With these ideas in mind, and also to assuage my growing feelings of guilt regarding the accessibility (or lack thereof) of this site, I decided to undertake a bit of a site revamp, the cosmetic results of which you will already have noticed. This article provides a brief overview of the process I followed, and thereby gives a general introduction to the tools and techniques necessary to retro-fit accessibility to a site that was designed without specific consideration of that issue.
+In recent years, the legal impetus has begun to gain strength, forcing those of
+us to action who might otherwise have been willing to put our internal ethics
+department on hold in the name of conserving time and energy. Having spent some
+time recently working inside a department of the Australian government, I have
+learnt that the issue of accessibility, in particular web accessibility, has a
+reasonably high profile. Because government web sites are required to adhere to
+accessibility guidelines1, there has developed a group, comprised of either
+moralists or opportunists, who spend their time scouring the web pages of
+government web sites looking for non-conformances to use as the basis for legal
+prosecution. American courts have recently ruled that the accessibility
+requirements pertinent to US governmental web sites are also applicable to
+privately held web sites. Even your blog counts as material that is made
+"publicly available," and must therefore be equally available to all.
+
+With these ideas in mind, and also to assuage my growing feelings of guilt
+regarding the accessibility (or lack thereof) of this site, I decided to
+undertake a bit of a site revamp, the cosmetic results of which you will already
+have noticed. This article provides a brief overview of the process I followed,
+and thereby gives a general introduction to the tools and techniques necessary
+to retro-fit accessibility to a site that was designed without specific
+consideration of that issue.
 
 *** General Approach
 In general, web accessibility can be achieved by adhering to the following two principles:
@@ -4275,7 +4320,18 @@ Once you've got a style sheet that presents the HTML document the way you want, 
 :EXPORT_FILE_NAME: hacknot-SWT-so-what
 :END:
 
-If you are about to undertake a major project using SWT, I suggest you think very carefully before doing so. Compared to its obvious competitor, Swing, SWT is very lacking in functionality, support and community development experience. Little wonder that there is not a lot of detailed information to be found from people who are using SWT in anger to create serious applications. There is a certain amount of fan-boy stuff1, written by people in the first blush of initial enthusiasm, convinced that everything is "cool" and "awesome", but very little from people who have been through a significant implementation effort extending over months or years. The closest one can get to finding "veteran" users is on the eclipse.org.swt newsgroup. In surveying opinions on SWT from the development community, I have found that people's enthusiasm for SWT is inversely proportional to the amount of experience they have had with it.
+If you are about to undertake a major project using SWT, I suggest you think
+very carefully before doing so. Compared to its obvious competitor, Swing, SWT
+is very lacking in functionality, support and community development experience.
+Little wonder that there is not a lot of detailed information to be found from
+people who are using SWT in anger to create serious applications. There is a
+certain amount of fan-boy stuff1, written by people in the first blush of
+initial enthusiasm, convinced that everything is "cool" and "awesome", but very
+little from people who have been through a significant implementation effort
+extending over months or years. The closest one can get to finding "veteran"
+users is on the eclipse.org.swt newsgroup. In surveying opinions on SWT from the
+development community, I have found that people's enthusiasm for SWT is
+inversely proportional to the amount of experience they have had with it.
 
 Let me briefly outline the principle differences between SWT and Swing, at a high level:
 • Sun first released Swing in 1997. It is bundled with Java and is considered the "standard" for GUI development in Java. Swing creates a GUI using only emulation - that is, Java draws the buttons, menus and other widgets on a blank window using primitive graphic operations. It entirely ignores whatever widgets are made available by the native platform, but through its pluggable "Look and Feel" facility it imitates the appearance and behavior of those widgets.
@@ -4576,6 +4632,7 @@ many do you recognize?
 
 *** Nadadoc
 The Javadoc has been written in a perfunctory, content-free manner, giving rise to what I call Nadadoc. Here’s an example of Nadadoc:
+
 #+begin_src java
 /**
   * Process an order
@@ -4620,12 +4677,23 @@ Many developers are not very enthusiastic about forethought. It just delays the 
 :EXPORT_FILE_NAME: hacknot-skeptical-software-development-manifesto
 :END:
 
-“Argumentation cannot suffice for the discovery of new work, since the subtlety of Nature is greater many times than the subtlety of argument.”
-– Francis Bacon
+#+begin_quote
+Argumentation cannot suffice for the discovery of new work, since the subtlety
+of Nature is greater many times than the subtlety of argument. -- Fracis Bacon
+#+end_quote
 
-The over-enthusiastic and often uncritical adoption of XP and Agile tenets by many in the software development community is worrying.
 
-It is worrying because it attests to the willingness of many developers to accept claims made on the basis of argument and rhetoric alone. It is worrying because an over-eagerness to accept technical and methodological claims opens the door to hype, advertising and wishful thinking becoming the guiding forces in our occupation. It is worrying because it highlights the professional gulf existing between software engineering and other branches of engineering and science, where claims to discovery or invention must be accompanied by empirical and independently verifiable experiment in order to gain acceptance.
+The over-enthusiastic and often uncritical adoption of XP and Agile tenets by
+many in the software development community is worrying.
+
+It is worrying because it attests to the willingness of many developers to
+accept claims made on the basis of argument and rhetoric alone. It is worrying
+because an over-eagerness to accept technical and methodological claims opens
+the door to hype, advertising and wishful thinking becoming the guiding forces
+in our occupation. It is worrying because it highlights the professional gulf
+existing between software engineering and other branches of engineering and
+science, where claims to discovery or invention must be accompanied by empirical
+and independently verifiable experiment in order to gain acceptance.
 
 Without skepticism and genuine challenge, we may forfeit the ability to increase our domain’s body of knowledge in a rational and verifiable way; instead becoming a group of fashion followers, darting from one popular trend to another.
 
@@ -4688,7 +4756,13 @@ We follow these principles:
 :END:
 
 *** Vague Propositions
-A term is called “vague” if it has a clear meaning but not a clearly demarcated scope. Many arguments on Usenet groups and forums stem from the combatants having different interpretations of a vaguely stated proposition. To avoid this sort of misunderstanding, before exploring the truth of a given proposition either rhetorically or empirically, you should first state that proposition as precisely as possible.
+
+A term is called “vague” if it has a clear meaning but not
+a clearly demarcated scope. Many arguments on Usenet groups and forums stem from
+the combatants having different interpretations of a vaguely stated proposition.
+To avoid this sort of misunderstanding, before exploring the truth of a given
+proposition either rhetorically or empirically, you should first state that
+proposition as precisely as possible.
 
 Consider this proposition:
 P(1): Pair Programming works
@@ -4872,6 +4946,7 @@ In particular, next time one of the XP/AM crowd voice the familiar retort of
 "How could you know? You haven’t even tried it" - bear in mind that
 in the absence of quantification and controlled experimental technique, they
 don’t know either.
+
 
 ** Function Points: Numerology for Software Developers
 :PROPERTIES:
@@ -5063,7 +5138,7 @@ little more than numerological voodoo.
 :END:
 
 In 1985 Peter Naur wrote a rather cryptic piece entitled Programming as Theory
-Building1 in which he drew an analogy between software development and the
+Building [1] in which he drew an analogy between software development and the
 scientific method. Since then, other authors have attempted to co-opt this
 analogy as a means of enhancing the perceived credibility of particular
 programming practices. This post aims to explain the analogy between the
@@ -5245,7 +5320,9 @@ arrive on a project and old ones leave.
 :EXPORT_FILE_NAME: hacknot-tulip-mania-to-dot-com-mania
 :END:
 
-“Those who cannot remember the past are condemned to repeat it.” – George Santayana
+#+begin_quote
+Those who cannot remember the past are condemned to repeat it. -- George Santayana
+#+end_quote
 
 Those of us working in IT tend to think of ourselves as being modern, savvy and
 much more advanced than our forebears. This conviction is often accompanied by a

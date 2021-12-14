@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Debugging 101 | cwsteinbach.github.io</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="“An interactive debugger is an outstanding example of what is not needed – it encourages trial-and-error hacking rather than systematic design, and also hides marginal people barely qualified for precision programming.”– Harlan Mills
+Recently, a colleague and I were working together to resolve a bug in a piece of code she had just written. The bug resulted in an exception being thrown and looking at the stack trace, we were both puzzled about what the root cause might be.">
+    <meta name="generator" content="Hugo 0.88.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Debugging 101" />
+<meta property="og:description" content="“An interactive debugger is an outstanding example of what is not needed – it encourages trial-and-error hacking rather than systematic design, and also hides marginal people barely qualified for precision programming.”– Harlan Mills
+Recently, a colleague and I were working together to resolve a bug in a piece of code she had just written. The bug resulted in an exception being thrown and looking at the stack trace, we were both puzzled about what the root cause might be." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://cwsteinbach.github.io/posts/hacknot/hacknot-debugging-101/" /><meta property="article:section" content="posts" />
+
+<meta property="article:modified_time" content="2021-12-14T11:43:21-08:00" />
+
+<meta itemprop="name" content="Debugging 101">
+<meta itemprop="description" content="“An interactive debugger is an outstanding example of what is not needed – it encourages trial-and-error hacking rather than systematic design, and also hides marginal people barely qualified for precision programming.”– Harlan Mills
+Recently, a colleague and I were working together to resolve a bug in a piece of code she had just written. The bug resulted in an exception being thrown and looking at the stack trace, we were both puzzled about what the root cause might be.">
+<meta itemprop="dateModified" content="2021-12-14T11:43:21-08:00" />
+<meta itemprop="wordCount" content="4898">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Debugging 101"/>
+<meta name="twitter:description" content="“An interactive debugger is an outstanding example of what is not needed – it encourages trial-and-error hacking rather than systematic design, and also hides marginal people barely qualified for precision programming.”– Harlan Mills
+Recently, a colleague and I were working together to resolve a bug in a piece of code she had just written. The bug resulted in an exception being thrown and looking at the stack trace, we were both puzzled about what the root cause might be."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        cwsteinbach.github.io
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=http://cwsteinbach.github.io/posts/hacknot/hacknot-debugging-101/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=http://cwsteinbach.github.io/posts/hacknot/hacknot-debugging-101/&amp;text=Debugging%20101" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://cwsteinbach.github.io/posts/hacknot/hacknot-debugging-101/&amp;title=Debugging%20101" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Debugging 101</h1>
+      
+      <p class="tracked">
+          By <strong>
+          
+              Ed Johnson
+          
+          </strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-12-14T11:43:21-08:00">December 14, 2021</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>“An interactive debugger is an outstanding example of what is not needed – it encourages trial-and-error hacking rather than systematic design, and also hides marginal people barely qualified for precision programming.”– Harlan Mills</p>
+<p>Recently, a colleague and I were working together to resolve a bug in a piece of code she had just written. The bug resulted in an exception being thrown and looking at the stack trace, we were both puzzled about what the root cause might be. Worse yet, the exception originated from within an open source library we were using. As is typical of open source products, the documentation was sparse, and wasn&rsquo;t providing us with very much help in diagnosing the problem before us. It was beginning to look like we might have to download the source code for this library and start going through it – a prospect that appealed to neither of us.</p>
+<p>As a last resort before downloading this source code, I suggested that we try doing a web search on the text of the exception itself, by copying the last few lines of the stack trace into the search field for a web search engine. I hoped the search results might include pages from online forums where someone else had posted a message like &ldquo;I&rsquo;m seeing the following exception, can anyone tell me what it means?&rdquo;, followed by all or part of the stack trace itself. If the original poster had received a helpful response to their query, then perhaps that response would be helpful to us too.</p>
+<p>My colleague, who is reasonably new to software development, was surprised by the idea and commented that it was something she would never have thought to try. Her response got me to thinking about debugging techniques in general, and the way we acquire our knowledge of them.</p>
+<p>Reflecting on my formal education in computer science, I cannot recall a single tutorial or lecture that discussed how I should go about debugging the code that I wrote. Mind you, I cannot remember much of anything about those lectures, so perhaps it really was addressed and I&rsquo;ve simply forgotten. Even so, it seems that the topic of debugging is much neglected in both academic and trade discussions. Why is this?</p>
+<p>It seems particularly strange when you consider what portion of their time the average programmer spends debugging their own code. I&rsquo;ve not measured it for myself, but I wouldn&rsquo;t be surprised if one third or more of my day was spent trying to figure out why my code doesn&rsquo;t behave the way I expected. It seems strange that I never learnt in any structured way how to debug a program. Everything I know about debugging has been acquired through experience, trial and error, and from watching others. Unless my experience is unique, it seems that debugging techniques should be a topic of vital interest to every developer. Yet some developers seem almost embarrassed to discuss it.</p>
+<p>I suspect the main reason for this is hubris. The ostensible ability to write bug-free code is a point of pride for many programmers. Displaying a knowledge of debugging techniques is tantamount to admitting imperfection, acknowledging weakness, and that really sticks in the craw of those developers who like to think of themselves as &ldquo;l337 h4x0r5&rdquo;. But by avoiding the topic, we lose a major opportunity to learn methods for combating our inevitable human weaknesses, and thereby improving the quality of the work we do.</p>
+<p>So I&rsquo;ve taken it upon myself to list the main debugging techniques that I am aware of. For many programmers, these techniques will be old hat and quite basic. But even for veteran debuggers there may be value in bringing back to mind some of these tried and true techniques. For others, there might be one or two methods that you hadn&rsquo;t thought of before. I hope they save you a few hours of frustrating fault-finding.</p>
+<h2 id="general-principles">General Principles</h2>
+<p>Regardless of the specific debugging techniques you use, there are a few general principles and guidelines to keep in mind as your debugging effort proceeds.</p>
+<h3 id="reproduce">Reproduce</h3>
+<p>The first task in any debugging effort is to learn how to consistently reproduce the bug. If it takes more than a few steps to manually trigger the buggy behavior, consider writing a small driver program to trigger it programmatically. Your debugging effort will proceed much more quickly as a result.</p>
+<h3 id="progressively-narrow-scope">Progressively Narrow Scope</h3>
+<p>There are two basic ways to find the origin of a bug – brute force and analysis. Analysis is the thoughtful consideration of a bug&rsquo;s likely point of origin, based on detailed knowledge of the code base. A brute force approach is a largely mechanical search along the execution path until the fault is eventually found.
+In practice, you will probably use a combination of both methods. A preliminary analysis will tell you the area of the code most likely to contain the bug, then a brute force search within that area will locate it precisely.</p>
+<p>Purists may consider any application of the brute force approach to be tantamount to hacking. It may be so, but it is also the most expedient method in many circumstances. The quickest way to search the path of execution by brute force is to use a binary search, which progressively divides the search space in half at each iteration.</p>
+<h3 id="avoid-debuggers">Avoid Debuggers</h3>
+<p>In general, I recommend you avoid symbolic debuggers of the type that have become standard in many IDEs. Debuggers tend to produce a very fragile debugging process. How often does it happen that you spend an extended period of time carefully stepping through a piece of code, statement by statement, only to find at the critical moment that you accidentally &ldquo;step over&rdquo; rather than &ldquo;step into&rdquo; some method call, and miss the point where a significant change in program state occurs? In contrast, when you progressively add trace statements to the code, you are building up a picture of the code in execution that cannot be suddenly lost or corrupted. This repeatability is highly valuable – you&rsquo;re monotonically progressing towards your goal.</p>
+<p>I&rsquo;ve noticed that habitual use of symbolic debuggers also tends to discourage serious reflection on the problem. It becomes a knee-jerk response to fire up the debugger the instant a bug is encountered and start stepping through code, waiting for the debugger to reveal where the fault is.
+That said, there are a small number of situations where a debugger may be the best, or perhaps only, method available to you. If the fault is occurring inside compiled code that you don&rsquo;t have the source code for, then stepping through the just-in-time decompiled version of the executable may be the only way of subjecting the faulty code to scrutiny. Another instance where a debugger can be useful is in the case of memory overwrites and corruption, as can occur when using languages that permit direct memory manipulation, such as C and C++. The ability most debuggers provide to &ldquo;watch&rdquo; particular memory segments for changes can be helpful in highlighting unintentional memory modifications.</p>
+<h3 id="change-only-one-thing-at-a-time">Change Only One Thing At A Time</h3>
+<p>Debugging is an iterative process whereby you make a change to the code, test to see if you&rsquo;ve fixed the bug, make another change, test again, and so on until the bug is fixed. Each time you change the code, it&rsquo;s important to change only one aspect of it at a time That way, when the bug is eventually fixed, you will know exactly what caused it – namely, the very last thing you touched. If you try changing several things at once, you risk including unnecessary changes in your bug fix (which may themselves cause bugs in future), and diluting your understanding of the bug&rsquo;s origin.</p>
+<h2 id="technical-methods">Technical Methods</h2>
+<p>Debugging is a manually intensive activity more like solving logic problems or brain teasers than programming. You will find little use for elaborate tools, instead relying on a handful of simple techniques intelligently applied.</p>
+<h3 id="insert-trace-statements">Insert Trace Statements</h3>
+<p>This is the principle debugging method I use. A trace statement is a human readable console or log message that is inserted into a piece of code suspected of containing a bug, then generally removed once the bug has been found. Trace statements not only trace the path of execution through code, but the changing state of program variables as execution progresses. If you have used Design By Contract (see “Introduce Design By Contract” below) diligently, you will already know what portion of the code to instrument with trace statements. Often it takes only half a dozen or so well chosen trace statements to pinpoint the cause of your bug. Once you have found the bug, you may find it helpful to leave a few of the trace statements in the code, perhaps converting console messages into file- based logging messages, to assist in future debugging efforts in that part of the code.</p>
+<h3 id="consult-the-log-files-of-third-party-products">Consult The Log Files Of Third Party Products</h3>
+<p>If you&rsquo;re using a third party application server, servlet engine, database engine or other active component then you&rsquo;ll find a whole heap of useful information about recently experienced errors in that component&rsquo;s own log files. You may have to configure the component to log the sort of information you&rsquo;re interested in. In general, if your bug seems to involve the internals of some third party product that you don&rsquo;t have the source code for (and so can&rsquo;t instrument with trace statements), see if the vendor has supplied some way to provide you with a window into the product&rsquo;s internal operation. For example, an ORM library might produce no console output at all by default, but provide a command line switch or configuration file property that makes it output all SQL statements that it issues to the database.</p>
+<h3 id="search-the-web-for-the-stack-trace">Search The Web For The Stack Trace</h3>
+<p>Cut the text from the end of a stack trace and use it as a search string in the web search engine of your choice. Hopefully this will pick up questions posted to discussion forums, where the poster has included the stack trace that they are seeing. If someone posted a useful response, then it might relate to your bug. You might also search on the text of an error message, or on an error number. Given that search engines might not discover dynamically generated web pages in discussion forums, you might also find it profitable to identify web sites likely to host discussions pertaining to your bug, and use the site&rsquo;s own search facilities in the manner just described.</p>
+<h3 id="introduce-design-by-contract">Introduce Design By Contract</h3>
+<p>In my opinion, DBC is one of the best tools available to assist you in writing quality code. I have found rigorous use of it to be invaluable in tracking down bugs. If you&rsquo;re not familiar with DBC, think of it as littering your code with assertions about what the state of the program should be at that point, if everything is going as you expect it to. These assertions are checked programmatically, and an exception thrown when they fail. DBC tends to make the point of program failure very close to the point of logical error in your code. This avoids those frustrating searches where a program fails in function C, but the actual error was further up the call chain in function A, which passed on faulty values to function B, which in turn passed the values to function C, which ultimately failed. It&rsquo;s best to use DBC as a means of bug prevention, but you can also use it as a means of preventing bug recurrence. Whenever you find a bug, litter the surrounding code with assertions, so that if that code should ever go wrong again, a nearby assertion will fail.</p>
+<h3 id="wipe-the-slate-clean">Wipe The Slate Clean</h3>
+<p>Sometimes, after you&rsquo;ve been hunting a bug for long enough, you begin to despair of ever finding it. There may be an overwhelming number of possible sources yet to explore, or the behavior you&rsquo;re observing is just plain bizarre. On such occasions it can be useful to wipe the slate clean and start again. Create an entirely new mini-application whose sole function is to demonstrate the presence of your bug. If you can write such a demo program, then you&rsquo;re well on your way to tracking down the cause of the bug. Now that you have the bug isolated in your demo program, start removing potentially faulty components one by one. For example, if your demo program uses some database connection pooling library, cut it out and run the program again. If the bug persists, then you&rsquo;ve just identified one component that doesn&rsquo;t contribute to the buggy behavior. Proceed in that manner, stripping out as many possible fault sources as you can, one at a time. When you remove a component that makes the bug disappear, then you know that the problem is related to the last component you removed.</p>
+<h2 id="intermittent-bugs">Intermittent Bugs</h2>
+<p>A bug that occurs intermittently and can&rsquo;t be consistently reproduced is the programmer&rsquo;s bane. They are often the result of asynchronous competition for shared resources, as might occur when multiple threads vie for shared memory or race for access to a local variable. They can also result from other applications competing for memory and I/O resources on the one machine.</p>
+<p>First, try modifying your code so as to serialize any operations occurring in parallel. For example, don&rsquo;t spawn N threads to handle N calculations, but perform all N calculations in sequence. If your bug disappears, then you&rsquo;ve got a synchronization problem between the blocks of code performing the calculations. For help in correctly synchronizing your threads, look first to any support for threading that is included in your programming language. Failing that, look for a third party library that supports development of multi-threaded code.</p>
+<p>If your programming language doesn&rsquo;t provide guaranteed initialization of variables, then uninitialized variables can also be a source of intermittent bugs. 99% of the time, the variable gets initialized to zero or null and behaves as you expected, but the other 1% of the time it is initialized to some random value and fails. A class of tools called &ldquo;System Perturbers&quot;1 can assist you in tracking down such problems. Such tools typically include facility for zero-filling memory locations, or filling memory with random data as a way of teasing out initialization bugs.</p>
+<h3 id="exploit-locality">Exploit Locality</h3>
+<p>Research shows that bugs tend to cluster together. So when you encounter a new bug, think of those parts of the code in which you have previously found bugs, and whether nearby code could be involved with the present bug.</p>
+<h3 id="read-the-documentation">Read The Documentation</h3>
+<p>If all else fails, read the instructions. It&rsquo;s remarkable how often this simple step is foregone. In their rush to start programming with some class library or utility some developers will adopt a trial-and-error approach to using a new API. If there is little or no API documentation then this may be an appropriate approach. But if the API has some decent programmer- level documentation with it, then take the time to read it. It&rsquo;s possible that your bug results from misuse of the API and the underlying code is failing to check that you have obeyed all the necessary preconditions for its use.</p>
+<h3 id="introduce-dummy-implementations-and-subclasses">Introduce Dummy Implementations And Subclasses</h3>
+<p>Software designers are sometimes advised to &ldquo;write to interfaces&rdquo;. In other words, rather than calling a method on a class directly, call a method on an interface that the class implements. This means that you are free to substitute in a different class that implements the same interface, without needing to change the calling code. While dogmatic application of this guideline can result in a proliferation of interfaces that are only implemented once, it does point to a useful debugging technique. If the outcome of the collaboration between several objects is buggy, look to the interfaces that the participating objects implement. Where an object is invoked only via interfaces, consider replacing the object with a simple, custom object of your own that is hard-wired to perform correctly under very specific circumstances. As long as you limit your testing to the circumstances that you know your custom object handles correctly, you know that any buggy behavior you subsequently observe must be the fault of one of the other objects involved. That is, you&rsquo;ve eliminated one potential source of the bug. You can achieve a similar effect by substituting a custom subclass of a participant class, rather than a custom implementation of an interface.</p>
+<h3 id="recompile-and-relink">Recompile And Relink</h3>
+<p>A particularly nasty type of bug arises from having an executable image that is a composite of several different compile and/or relink operations. The failure behavior can be quite bizarre and it can appear that internal program state is being corrupted &ldquo;between statements&rdquo;. It&rsquo;s like gremlins have crept into your code and started screwing around with memory.</p>
+<p>Most recently, I have encountered this bug in Java code when I change the value of string constants. It seems the compiler optimizes references to string constants by inserting them literally at the point of reference. So the constant value is copied to multiple class files. If you don&rsquo;t regenerate all those class files after changing the string constant, those class files not regenerated will still contain the old value of that constant. Performing a complete recompilation prevents this from occurring. Finally, set the compiler to include debugging information in the generated code, and set the compiler warning level to the maximum.</p>
+<h3 id="probe-boundary-conditions-and-special-cases">Probe Boundary Conditions And Special Cases</h3>
+<p>Experienced programmers know that it&rsquo;s the limits of an algorithmic space that tend to get forgotten or mishandled, thereby leading to bugs. For example, the procedure for deleting records 1 to N might be slightly different from the procedure for deleting record 0. The algorithm for determining if a given year is a leap year is slightly different if the year is divisible by 400. Breaking a string into a list of space-separated words requires consideration of the cases where the string contains only one word, or is empty. The tendency to code only the general case and forget the special cases is a very common source of error.</p>
+<h3 id="check-version-dependencies">Check Version Dependencies</h3>
+<p>One of the most obscure sources of a bugs is the use of incompatible versions of third party libraries. It is also one of the last things to check when you&rsquo;ve exhausted other debugging strategies. If version 1.0.2 of some library has a dependency on version 2.4 of another library, but you supply version 2.5 instead, the results may be subtle failures that are difficult or impossible to diagnose. Look particularly to any libraries that you have upgraded just prior to the appearance of the bug.</p>
+<h3 id="check-code-that-has-changed-recently">Check Code That Has Changed Recently</h3>
+<p>When a bug suddenly appears in functionality that has been working for some time, you should immediately wonder what has recently changed in the code base that might have caused this regression. This is where your version control system comes into its own, providing you with a way of looking at the change history of the code, or recreating successively older versions of the code base until you get one in which the regression disappears.</p>
+<h3 id="don-t-trust-the-error-message">Don&rsquo;t Trust The Error Message</h3>
+<p>Normally you scrutinize the error messages you get very carefully, hoping for a clue as to where to start your debugging efforts. But if you&rsquo;re not having any luck with that approach, remember that error messages can sometimes be misleading. Sometimes programmers don&rsquo;t put as much thought into the handling and reporting of error conditions as one would like, so it may be wise to avoid interpreting the error message too literally, and to consider possibilities other than the ones it specifically identifies.</p>
+<h2 id="graphics-bugs">Graphics Bugs</h2>
+<p>There are a few techniques that are particularly relevant when working on GUIs or other graphics-related bugs. Check if the graphics pipeline you are using includes a debugging mode – a mode which slows down graphics operations to a speed where you can observe individual drawing operations occurring. This mode can be very useful for determining why a sequence of graphic operations don&rsquo;t combine to give the effect you expected.
+When debugging problems with layout managers, I like to set the background colors of panels and components to solid, contrasting colors. This enables you to see exactly where the edges of the components are, which highlights the layout decisions made by the layout managers involved.</p>
+<h2 id="psychological-methods">Psychological Methods</h2>
+<p>I think it&rsquo;s fair to say that the vast majority of bugs we encounter are a result of our own cognitive limitations. We might fail to fully comprehend the effects of a particular API call, forget to free memory we&rsquo;ve reserved, or simply fail to translate our intent correctly into code. Indeed, one might consider debugging to be the process of finding the difference between what you instructed the machine to do, and what you thought you instructed the machine to do. So given their basis in faulty thinking, it makes sense to consider what mental techniques we can employ to think more effectively when hunting bugs.</p>
+<h2 id="wooden-indian">Wooden Indian</h2>
+<p>When you&rsquo;re really stuck on a bug, it can be helpful to grab a colleague and explain the bug to them, together with the efforts you&rsquo;ve made so far to hunt down its source2. It may be that your colleague can offer some helpful advice, but this is not what the technique is really about. The role of your colleague is mainly just to listen to your description in a passive way. It sometimes happens that in the course of explaining the problem to another, you gain an insight into the bug that you didn&rsquo;t have before. This may be because explaining the bug&rsquo;s origin from scratch forces you to go back over mental territory that you haven&rsquo;t critically examined, and challenge fundamental assumptions that you have made. Also, by verbalizing you are engaging different sensory modalities which seems to make the problem &ldquo;fresh&rdquo; and revitalizes your examination of it.</p>
+<h2 id="don-t-speculate">Don&rsquo;t Speculate</h2>
+<p>Arthur C. Clarke once wrote &ldquo;Any sufficiently advanced technology is indistinguishable from magic.&rdquo; And so it is for any sufficiently mysterious bug. One of the greatest traps you can fall into when debugging is to resort to superstitious speculation about its cause, rather than engaging in reasoned enquiry3. Such speculation yields a trial-and-error debugging effort that might eventually be successful, but is likely to be highly inefficient and time consuming. If you find yourself making random tweaks without having some overall strategy or approach in mind, stop straight away and search for a more rational method.</p>
+<h2 id="don-t-be-too-quick-to-blame-the-tools">Don&rsquo;t Be Too Quick To Blame The Tools</h2>
+<p>Perhaps you&rsquo;ve had the embarrassing experience of announcing &ldquo;it must be a compiler bug&rdquo; before finding the bug in your own code. Once you&rsquo;ve done it, you don&rsquo;t rush to judgment so quickly in the future. Part of rational debugging is realistically assessing the probability that there is a bug in one of the development tools you are using. If you are using a flaky development tool that is only up to its beta release, you would be quite justified in suspecting it of error. But if you&rsquo;re using a compiler that has been out for several years and has proven itself reliable in the field over all that time, then you should be very careful you&rsquo;ve excluded every other possibility before concluding that the compiler is producing a faulty executable.</p>
+<h2 id="understand-both-the-problem-and-the-solution">Understand Both The Problem And The Solution</h2>
+<p>It&rsquo;s not uncommon to hear programmers declare &ldquo;That bug disappeared&rdquo; or &ldquo;It must&rsquo;ve been fixed as a side-effect of some other work&rdquo;. Such statements indicate that the programmer isn&rsquo;t seeking a thorough understanding of the cause of a bug, or its solution, before dismissing it as no longer in need of consideration. Bugs don&rsquo;t just magically disappear. If a bug seems to be suddenly fixed without someone having deliberately attended to it, then there&rsquo;s a good chance that the fault is still somewhere in the code, but subsequent changes have changed the way it manifests. Never accept that a bug has disappeared or fixed itself. Similarly, if you find that some changes you&rsquo;ve made appear to have fixed a bug, but you&rsquo;re not quite sure how, don&rsquo;t kid yourself that the fix is a genuine one. Again, you may simply have changed the character of the bug, rather than truly fixing its cause.</p>
+<h2 id="take-a-break">Take A Break</h2>
+<p>In both bug hunting and general problem solving I&rsquo;ve experienced the following series of events more times than I can remember. After struggling with a problem for several hours and growing increasingly frustrated with it, I reach a point where I&rsquo;m too tired to continue wrestling with it, so I go home. Several choice expletives are muttered. Doors are slammed. The next morning, I sit down to continue tackling the problem and the solution just falls out in the first half hour.
+Many have noted that solutions come much easier after a period of intense concentration on the problem, followed by a period of rest.</p>
+<p>Whatever the underlying mechanism might be, if you have similar experiences its worth remembering them when you&rsquo;re faced with a decision between bashing your head against a problem for another hour, or having a rest from it.</p>
+<p>Another way to get a fresh look at a piece of code you&rsquo;ve been staring at for too long is to print it out and review it off the paper. We read faster off paper than off the screen, so this may be why it&rsquo;s slightly easier to spot an error in printed code than displayed code.</p>
+<h2 id="consider-multiple-causes">Consider Multiple Causes</h2>
+<p>There is a strong human tendency to oversimplify the diagnoses of problems, attributing what may be multi-causal problems to a single cause. The simplicity of such a diagnosis is appealing, and certainly easier to address. The habit is encouraged by the fact that many bugs really are the result of a single error, but that is by no means universally the case.</p>
+<h2 id="bug-prevention-methods">Bug Prevention Methods</h2>
+<p>&ldquo;Prevention is better than cure,&rdquo; goes the maxim; as true of sicknesses in code as of sicknesses in the body. Given the inevitability and cost of debugging during your development effort, it&rsquo;s wise to prepare for it in advance and minimize it&rsquo;s eventual impact.</p>
+<h2 id="monitor-your-own-fault-injection-habits">Monitor Your Own Fault Injection Habits</h2>
+<p>After time you may notice that you are prone to writing particular kinds of bugs. If you can identify a consistent weakness like this, then you can take preventative steps. If you have a code review checklist, augment the checklist to include a check specifically for the type of bug you favor. Simply maintaining an awareness of your &ldquo;favorite&rdquo; defects can help reduce your tendency to inject them.</p>
+<h2 id="introduce-debugging-aids-early">Introduce Debugging Aids Early</h2>
+<p>Unless you&rsquo;ve somehow attained perfection prior to starting work on your current project, you can be confident that you have numerous debugging efforts in store before you finish. You may as well make some preparation for them now. This means inserting logging statements as you proceed, so that you can selectively enable them later, before augmenting them with bug-specific trace statements. Also think about the prime places in your design to put interfaces. Often these will be at the perimeters of significant subsystems. For example, when implementing client-server applications, I like to hide all client contact with the server behind interfaces, so that a dummy implementation of the server can be used in place of the server, throughout client development. It&rsquo;s not only a convenient point of interception for debugging efforts, but a development expedient, as the test-debug cycle can be significantly faster without the time cost of real server deployment and communication.</p>
+<h2 id="loose-coupling-and-information-hiding">Loose Coupling And Information Hiding</h2>
+<p>Application of these two principles is well known to increase the extensibility and maintainability of code, as well as easing its comprehension. Bear in mind that they also help to prevent bugs. An error in well modularized code is less likely to produce unintended side-effects in other modules, which obfuscates the origin of the bug and impedes the debugging effort.</p>
+<h2 id="write-a-regression-test-to-prevent-reoccurrence">Write A Regression Test To Prevent Reoccurrence</h2>
+<p>Once you&rsquo;ve fixed the bug it&rsquo;s a good idea to write a regression test that exercises the previously buggy code and checks for correct operation4. If you wish, you can write that regression test before having fixed the bug, so that a successful bug fix is indicated by the successful run of the test.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>If you spend enough time debugging, you start to become a bit blasé about it. It&rsquo;s easy to slip into a rut and just keep following the same patterns of behavior you always have, which means that you never get any better or smarter at debugging. That&rsquo;s a definite disadvantage, given how much of the average programmer&rsquo;s working life is consumed by it. There&rsquo;s also a tendency not to examine debugging techniques closely or seriously, as debugging is something of a taboo topic in the programming community.</p>
+<p>It&rsquo;s wise to acknowledge your own limitations up front, the resultant inevitability of debugging, and to make allowances for it right from the beginning of application development. It&rsquo;s also worth beginning each debugging effort with a few moments of deliberate reflection, to try and deduce the smartest and quickest way to find the bug.</p>
+<p>1 Rapid Development, Steve McConnell, Microsoft Press, 1996
+2 The Pragmatic Programmer, A. Hunt and D. Thomas, Addison-Wesley, 2000
+3 Code Complete, Steve McConnell, Microsoft Press, 1993
+4 Writing Solid Code, Steve Maguire, Microsoft Press, 1993</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://cwsteinbach.github.io/" >
+    &copy;  cwsteinbach.github.io 2021 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,7 +1,7 @@
 +++
-title = "The Hazards of Being Quality Guy*"
-author = ["Carl Steinbach"]
-lastmod = 2021-11-29T10:55:22-08:00
+title = "The Hazards of Being Quality Guy"
+author = ["Ed Johnson"]
+lastmod = 2021-12-14T11:33:44-08:00
 draft = false
 +++
 

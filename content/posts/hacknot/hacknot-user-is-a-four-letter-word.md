@@ -1,7 +1,7 @@
 +++
 title = "User is a Four Letter Word"
-author = ["Carl Steinbach"]
-lastmod = 2021-11-29T12:47:15-08:00
+author = ["Ed Johnson"]
+lastmod = 2021-12-14T11:37:21-08:00
 draft = false
 +++
 

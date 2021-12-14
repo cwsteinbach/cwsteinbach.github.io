@@ -2,47 +2,149 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-all-aboard-the-gravy-train/</loc>
+    <lastmod>2021-12-14T11:54:38-08:00</lastmod>
+  </url><url>
     <loc>http://cwsteinbach.github.io/</loc>
-    <lastmod>2021-11-29T12:52:28-08:00</lastmod>
+    <lastmod>2021-12-14T11:54:38-08:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.github.io/posts/</loc>
-    <lastmod>2021-11-29T12:52:28-08:00</lastmod>
+    <lastmod>2021-12-14T11:54:38-08:00</lastmod>
   </url><url>
-    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-a-to-z-programmer-predilections/</loc>
-    <lastmod>2021-11-29T12:52:28-08:00</lastmod>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-reuse-is-dead/</loc>
+    <lastmod>2021-12-14T11:53:51-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-early-adopters-or-trend-surfers/</loc>
+    <lastmod>2021-12-14T11:53:06-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-ieee-software-endorses-plagiarism/</loc>
+    <lastmod>2021-12-14T11:52:12-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-crooked-timber-of-software-development/</loc>
+    <lastmod>2021-12-14T11:51:27-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-tulip-mania-to-dot-com-mania/</loc>
+    <lastmod>2021-12-14T11:50:36-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-programming-and-the-scientific-method/</loc>
+    <lastmod>2021-12-14T11:49:19-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-function-points-numerology-for-software-devs/</loc>
+    <lastmod>2021-12-14T11:48:05-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-anecdotal-evidence-and-other-fairy-tales/</loc>
+    <lastmod>2021-12-14T11:47:15-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-critical-thinking-for-software-developers/</loc>
+    <lastmod>2021-12-14T11:47:03-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-skeptical-software-development-manifesto/</loc>
+    <lastmod>2021-12-14T11:45:58-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-six-legacy-code-antipatterns/</loc>
+    <lastmod>2021-12-14T11:44:22-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-spare-thought-for-next-guy/</loc>
+    <lastmod>2021-12-14T11:44:00-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-debugging-101/</loc>
+    <lastmod>2021-12-14T11:43:21-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-swt-so-what/</loc>
+    <lastmod>2021-12-14T11:42:37-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-web-accessibility/</loc>
+    <lastmod>2021-12-14T11:42:17-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-in-praise-of-code-reviews/</loc>
+    <lastmod>2021-12-14T11:41:28-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-naming-classes/</loc>
+    <lastmod>2021-12-14T11:39:25-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-filthy-javadoc/</loc>
+    <lastmod>2021-12-14T11:38:56-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-fudd-documentation/</loc>
+    <lastmod>2021-12-14T11:38:43-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-oral-documentation/</loc>
+    <lastmod>2021-12-14T11:38:12-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-ten-elements-of-good-software-design/</loc>
+    <lastmod>2021-12-14T11:37:34-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-folly-of-emergent-design/</loc>
+    <lastmod>2021-12-14T11:37:28-08:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-user-is-a-four-letter-word/</loc>
-    <lastmod>2021-11-29T12:47:15-08:00</lastmod>
+    <lastmod>2021-12-14T11:37:21-08:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-wheres-my-spacecraft/</loc>
-    <lastmod>2021-11-29T12:45:06-08:00</lastmod>
+    <lastmod>2021-12-14T11:37:11-08:00</lastmod>
   </url><url>
-    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot/</loc>
-    <lastmod>2021-11-29T12:45:01-08:00</lastmod>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-thought-leaders-and-followers/</loc>
+    <lastmod>2021-12-14T11:36:37-08:00</lastmod>
   </url><url>
-    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-hazards-of-being-quality-guy/</loc>
-    <lastmod>2021-11-29T10:55:22-08:00</lastmod>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-xp-and-esp/</loc>
+    <lastmod>2021-12-14T11:36:28-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-pair-programming-virgin/</loc>
+    <lastmod>2021-12-14T11:36:21-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-rhetorical-antipatterns-in-xp/</loc>
+    <lastmod>2021-12-14T11:36:13-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-new-age-methodologies/</loc>
+    <lastmod>2021-12-14T11:36:01-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-extreme-deprogramming/</loc>
+    <lastmod>2021-12-14T11:35:54-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-meeting-driven-development/</loc>
+    <lastmod>2021-12-14T11:35:45-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-mismeasure-of-man/</loc>
+    <lastmod>2021-12-14T11:35:39-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-architecture-group/</loc>
+    <lastmod>2021-12-14T11:35:32-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-great-mistakes-in-technical-leadership/</loc>
+    <lastmod>2021-12-14T11:34:58-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-to-the-management/</loc>
+    <lastmod>2021-12-14T11:34:51-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-developers-are-from-mars/</loc>
+    <lastmod>2021-12-14T11:34:42-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-dealing-with-recruiters/</loc>
+    <lastmod>2021-12-14T11:34:32-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-testers-vegetable-or-mineral/</loc>
+    <lastmod>2021-12-14T11:34:26-08:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-art-of-the-flamewar/</loc>
-    <lastmod>2021-11-29T09:44:17-08:00</lastmod>
+    <lastmod>2021-12-14T11:34:20-08:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-interview-with-a-sociopath/</loc>
-    <lastmod>2021-11-29T09:44:12-08:00</lastmod>
+    <lastmod>2021-12-14T11:34:11-08:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-my-kingdom-for-a-door/</loc>
-    <lastmod>2021-11-29T09:44:08-08:00</lastmod>
+    <lastmod>2021-12-14T11:34:00-08:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-dozen-ways-to-sustain-irrational-technology-decisions/</loc>
-    <lastmod>2021-11-29T09:44:01-08:00</lastmod>
+    <lastmod>2021-12-14T11:33:54-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-hazards-of-being-quality-guy/</loc>
+    <lastmod>2021-12-14T11:33:44-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-a-to-z-programmer-predilections/</loc>
+    <lastmod>2021-12-14T11:33:36-08:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.github.io/posts/hacknot/hacknot-foreword/</loc>
-    <lastmod>2021-11-29T09:43:31-08:00</lastmod>
-  </url><url>
-    <loc>http://cwsteinbach.github.io/posts/hacknot/chapter1/</loc>
-    <lastmod>2021-11-28T18:41:07-08:00</lastmod>
-  </url><url>
-    <loc>http://cwsteinbach.github.io/posts/hacknot/</loc>
-    <lastmod>2021-11-28T18:30:45-08:00</lastmod>
+    <lastmod>2021-12-14T11:32:45-08:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.github.io/categories/</loc>
   </url><url>
