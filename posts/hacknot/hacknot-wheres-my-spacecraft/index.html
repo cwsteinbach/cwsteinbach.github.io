@@ -33,12 +33,12 @@ Its demise was the result of the flight control software incorrectly answering t
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://cwsteinbach.github.io/posts/hacknot/hacknot-wheres-my-spacecraft/" /><meta property="article:section" content="posts" />
 
-<meta property="article:modified_time" content="2021-11-29T12:45:06-08:00" />
+<meta property="article:modified_time" content="2021-12-14T11:37:11-08:00" />
 
 <meta itemprop="name" content="Dude, Where’s My Spacecraft?">
 <meta itemprop="description" content="The Mars Polar Lander (MPL) that NASA launched in 1999 is now a rather attractive and very expensive field of tinsel-like shrapnel scattered over several square kilometers of the Martian surface. It is not functional in any capacity. It is no more. It has ceased to be.
 Its demise was the result of the flight control software incorrectly answering the question that car-bound children have been plaguing their parents with for years – &ldquo;are we there yet?">
-<meta itemprop="dateModified" content="2021-11-29T12:45:06-08:00" />
+<meta itemprop="dateModified" content="2021-12-14T11:37:11-08:00" />
 <meta itemprop="wordCount" content="890">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Dude, Where’s My Spacecraft?"/>
@@ -137,22 +137,37 @@ Its demise was the result of the flight control software incorrectly answering t
       <p class="tracked">
           By <strong>
           
-              Carl Steinbach
+              Ed Johnson
           
           </strong>
       </p>
       
       
       
-      <time class="f6 mv4 dib tracked" datetime="2021-11-29T12:45:06-08:00">November 29, 2021</time>
+      <time class="f6 mv4 dib tracked" datetime="2021-12-14T11:37:11-08:00">December 14, 2021</time>
       
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The Mars Polar Lander (MPL) that NASA launched in 1999 is now a rather attractive and very expensive field of tinsel-like shrapnel scattered over several square kilometers of the Martian surface. It is not functional in any capacity. It is no more. It has ceased to be.</p>
-<p>Its demise was the result of the flight control software incorrectly answering the question that car-bound children have been plaguing their parents with for years – &ldquo;are we there yet?&rdquo; About 40 meters above the ground, the software succumbed to the constant nagging of its digital offspring and answered too hastily &ldquo;Yes! We’re there!&rdquo; – triggering the shutdown of the MPL’s descent engines. The craft’s final moments were spent free falling towards the Martian soil at 50 mph (80km/h) – ten times the impact speed it was designed to withstand.</p>
-<p>Monitoring the MPL’s progress from Earth, NASA had expected a 12 minute period of broadcast silence during the descent to the landing area, due to the cant of the craft during re-entry. Shortly after touchdown, the MPL was scheduled to begin a 45 minute data transmission to Earth, but this transmission never occurred. NASA kept attempting contact with the MPL for the next six weeks, until finally giving up hope of ever hearing from it again.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The Mars Polar Lander (MPL) that NASA launched in 1999 is now a rather
+attractive and very expensive field of tinsel-like shrapnel scattered over
+several square kilometers of the Martian surface. It is not functional in any
+capacity. It is no more. It has ceased to be.</p>
+<p>Its demise was the result of the flight control software incorrectly answering
+the question that car-bound children have been plaguing their parents with for
+years – &ldquo;are we there yet?&rdquo; About 40 meters above the ground, the
+software succumbed to the constant nagging of its digital offspring and answered
+too hastily &ldquo;Yes! We’re there!&rdquo; – triggering the shutdown
+of the MPL’s descent engines. The craft’s final moments
+were spent free falling towards the Martian soil at 50 mph (80km/h) –
+ten times the impact speed it was designed to withstand.</p>
+<p>Monitoring the MPL’s progress from Earth, NASA had expected a 12
+minute period of broadcast silence during the descent to the landing area, due
+to the cant of the craft during re-entry. Shortly after touchdown, the MPL was
+scheduled to begin a 45 minute data transmission to Earth, but this transmission
+never occurred. NASA kept attempting contact with the MPL for the next six
+weeks, until finally giving up hope of ever hearing from it again.</p>
 <p>Of course, it was not long before the faecal matter hit the rotary air distribution device.</p>
 <p>In-depth mission reviews were conducted at NASA Headquarters, JPL and Lockheed Martin Astronautics. An independent assessment team was also established. Initially there were considered to be a number of possible causes for the mission’s failure, but extensive investigations singled out one of them as being the most likely failure mode, with a high degree of confidence.</p>
 <p>The assessment team concluded that a spurious signal from one or more of the touchdown sensors at the ends of the MPL’s legs caused the software to conclude incorrectly that the craft had already made contact with the Martian soil and to therefore shutdown the descent engines prematurely.</p>
@@ -166,11 +181,20 @@ Its demise was the result of the flight control software incorrectly answering t
 </ol>
 <h2 id="reasons-for-failure">Reasons For Failure</h2>
 <p>One of the main reasons the flight software did not behave correctly is because the definition of &ldquo;correct&rdquo; was changed in response to field testing. With respect to detecting touchdown, the system requirements initially stated:</p>
-<p>&ldquo;The touchdown sensors shall be sampled at 100 Hz rate. The sampling process shall be initiated prior to Lander entry to keep processor demand constant&rdquo;</p>
-<p>When the false signal characteristic of the touchdown sensors was later discovered, the following clause was added:</p>
-<p>&ldquo;However, the use of the touchdown sensor data shall not begin until 40 meters above the surface.”</p>
-<p>The intended effect of this addendum was to disregard the false touchdown signal previously generated during leg deployment at 1500m. This change was never propagated to the lower level software requirements.</p>
-<p>Also note there is no explicit mention of the spurious signal generation. Even if this addendum had been propagated into the lower level requirements correctly, the software engineers would not have been aware that a false touchdown event might already have been registered at the time the use of the sensor data began.</p>
+<p>&ldquo;The touchdown sensors shall be sampled at 100 Hz rate. The sampling process
+shall be initiated prior to Lander entry to keep processor demand constant&rdquo;</p>
+<p>When the false signal characteristic of the touchdown sensors was later
+discovered, the following clause was added:</p>
+<p>&ldquo;However, the use of the touchdown sensor data shall not begin until 40 meters
+above the surface.”</p>
+<p>The intended effect of this addendum was to disregard the false touchdown signal
+previously generated during leg deployment at 1500m. This change was never
+propagated to the lower level software requirements.</p>
+<p>Also note there is no explicit mention of the spurious signal generation. Even
+if this addendum had been propagated into the lower level requirements
+correctly, the software engineers would not have been aware that a false
+touchdown event might already have been registered at the time the use of the
+sensor data began.</p>
 <h2 id="moral-1">Moral #1</h2>
 <p>The story contains two obvious lessons about requirements:
 • Requirements tracking is useful in maintaining integrity between

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Programming and the Scientific Method | cwsteinbach.github.io</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="In 1985 Peter Naur wrote a rather cryptic piece entitled Programming as Theory Building [1] in which he drew an analogy between software development and the scientific method. Since then, other authors have attempted to co-opt this analogy as a means of enhancing the perceived credibility of particular programming practices. This post aims to explain the analogy between the scientific method and programming, and to explore the limitations of that analogy.">
+    <meta name="generator" content="Hugo 0.88.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Programming and the Scientific Method" />
+<meta property="og:description" content="In 1985 Peter Naur wrote a rather cryptic piece entitled Programming as Theory Building [1] in which he drew an analogy between software development and the scientific method. Since then, other authors have attempted to co-opt this analogy as a means of enhancing the perceived credibility of particular programming practices. This post aims to explain the analogy between the scientific method and programming, and to explore the limitations of that analogy." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://cwsteinbach.github.io/posts/hacknot/hacknot-programming-and-the-scientific-method/" /><meta property="article:section" content="posts" />
+
+<meta property="article:modified_time" content="2021-12-14T11:49:19-08:00" />
+
+<meta itemprop="name" content="Programming and the Scientific Method">
+<meta itemprop="description" content="In 1985 Peter Naur wrote a rather cryptic piece entitled Programming as Theory Building [1] in which he drew an analogy between software development and the scientific method. Since then, other authors have attempted to co-opt this analogy as a means of enhancing the perceived credibility of particular programming practices. This post aims to explain the analogy between the scientific method and programming, and to explore the limitations of that analogy.">
+<meta itemprop="dateModified" content="2021-12-14T11:49:19-08:00" />
+<meta itemprop="wordCount" content="2664">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Programming and the Scientific Method"/>
+<meta name="twitter:description" content="In 1985 Peter Naur wrote a rather cryptic piece entitled Programming as Theory Building [1] in which he drew an analogy between software development and the scientific method. Since then, other authors have attempted to co-opt this analogy as a means of enhancing the perceived credibility of particular programming practices. This post aims to explain the analogy between the scientific method and programming, and to explore the limitations of that analogy."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        cwsteinbach.github.io
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=http://cwsteinbach.github.io/posts/hacknot/hacknot-programming-and-the-scientific-method/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=http://cwsteinbach.github.io/posts/hacknot/hacknot-programming-and-the-scientific-method/&amp;text=Programming%20and%20the%20Scientific%20Method" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://cwsteinbach.github.io/posts/hacknot/hacknot-programming-and-the-scientific-method/&amp;title=Programming%20and%20the%20Scientific%20Method" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Programming and the Scientific Method</h1>
+      
+      <p class="tracked">
+          By <strong>
+          
+              Ed Johnson
+          
+          </strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-12-14T11:49:19-08:00">December 14, 2021</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In 1985 Peter Naur wrote a rather cryptic piece entitled Programming as Theory
+Building [1] in which he drew an analogy between software development and the
+scientific method. Since then, other authors have attempted to co-opt this
+analogy as a means of enhancing the perceived credibility of particular
+programming practices. This post aims to explain the analogy between the
+scientific method and programming, and to explore the limitations of that
+analogy.</p>
+<h2 id="the-scientific-method">The Scientific Method</h2>
+<p>There is no canonical representation of the scientific method. Different sources will explain it in different ways, but they are all referring to the same logical process. For the purposes of this discussion, I will adopt a simplified definition of the scientific method, considering it to be comprised of the following activities repeated in a cyclic manner:</p>
+<ol>
+<li>Model – Form a simplified model of a system by drawing general conclusions from existing data.</li>
+<li>Predict – Use the simplified model to make a specific prediction about how the system will behave when subject to particular conditions.</li>
+<li>Test – Test the prediction by conducting an experiment.</li>
+</ol>
+<p>If the test confirms our prediction, we return to step 2 and make a new prediction based upon the same model. Otherwise, we return to step 1 and revise our model so that it accounts for the results of our most recent test (and all preceding tests).
+More formal descriptions of the scientific method often include the following terms:
+Hypothesis – A testable statement accounting for a set of observations. It is equivalent to the model in the above description.
+Theory – A well supported and well tested hypothesis or set of hypotheses.
+Fact – A conclusion confirmed to such an extent that it would be reasonable to offer provisional agreement.2</p>
+<h2 id="an-example-of-the-scientific-method">An Example Of The Scientific Method</h2>
+<p>Suppose you are given a sealed black box that has only three external features – two toggle switches marked A and B, and a small lamp. By playing around with the switches you notice that certain combinations of switch positions result in the lamp lighting up. Your task is to use the scientific method to develop a theory of how the box operates. In other words, to create a model which can account for the observed behavior of the box.
+Round 1
+Model: Casual observation suggests that the switches and lamp are connected in circuit with an internal power source. Let’s suppose that this is the case, and that the two toggle switches are wired in series.
+Predict: If our model is accurate, then we should find that turning both switches on causes the lamp to light up.
+Test: We get the box, turn both switches on and find that the lamp does indeed light up. Our model has been partially verified. But there are other predictions we can make based upon it.
+Round 2
+Model: As in experiment 1.
+Predict: If our model is accurate, then we should find that turning switch A
+off and switch B on causes the lamp to go out.
+Test: We get the box, turn switch A off and switch B on and find that the lamp actually lights up. Our prediction was incorrect, therefore our model is wrong
+Round 3
+Model: Now we need to rework our model so that it correctly accounts for all our observations thus far. Then we can use it as a basis for further prediction. Suppose the box were wired with the two toggle switches in parallel. That would account for our observations from rounds 1 and 2. Let’s make that our new model.</p>
+<p>Predict: If this new model is accurate, then we should find that turning switch A on and switch B off causes the lamp to light up.
+Test: We get the box, turn switch A on and switch B off and find that the lamp actually goes off. Our prediction was incorrect; therefore our new model is wrong.
+Round 4</p>
+<p>Model: Once again, we need to reformulate our model so that correctly accounts for all of our existing observations. After some thought, we realize that if the box were wired so that only switch B effected the lamp, with switch A out of the circuit entirely, then this would account for all of our existing observations, as well as giving us a new prediction to test.</p>
+<p>Predict: If this latest hypothesis is true, then we should find that turning switch A off and switch B off causes the lamp to go out.
+Test: We get the box, turn switch A off and switch B off and observe that the lamp does indeed go out. Our prediction was correct, and our model is consistent with our observations from all four experiments.</p>
+<p>You can see why the scientific method is sometimes described as being very inefficient – there is a lot of trial and error involved. But it’s important to note that it’s not random trial and error. If we just made random predictions and then tested them through experiment, all we would end up with is a disjoint set of cause/effect observations. We would have no way of using them to predict how the system would behave under situations that we hadn’t already deserved. Instead, we choose our predictions deliberately, guided by the intent of testing a particular aspect of the model currently being considered. In this way, each experiment either goes some way toward confirming the model, or confuting it.</p>
+<p>Note that all we can ever have is a model of the system. We make no pretense to know the truth about the system in any absolute sense. Our model is simply useful, at least until new observations are made that our model can’t account for. Then we must change it to accommodate the new observations. This is why all knowledge in science (even that referred to as fact) is actually provisional and continually open to challenge.</p>
+<h2 id="a-programming-example">A Programming Example</h2>
+<p>The following example demonstrates how software development is similar to the scientific method.</p>
+<p>The task is to develop an application which models the behavior of the black box in the above example. The software will present a simple GUI with two toggle buttons marked A and B, and an icon which can adopt the appearance of a lamp turned on or off. The lamp icon should appear to be turned on as if the lamp were a real lamp connected to an internal power source, and the toggle buttons were toggle switches, with switch B in circuit with the lamp, and switch A out of circuit.
+The table below compares the activities in the scientific method with their programming counterparts. Keep these analogs in mind as you read through the following example.</p>
+<p>Model Predict
+Test
+Round 1
+Scientific Method
+Form a simplified model of a system by drawing general conclusions from existing data
+Use the simplified model to make a specific prediction about how the system will behave when subject to particular conditions.
+Test the prediction by conducting an experiment.
+Programming
+Developing a mental model of how the software works
+Taking a particular case of interaction with that model, and predicting how the software will respond
+Subjecting software to a test and getting a result.
+Model: Unlike experimentation, we begin by assuming our model is correct. It is created from our requirements definition and states &ldquo;The lamp icon should appear to be turned on as if the lamp were a real lamp connected to an internal power source, and the toggle buttons were toggle switches, with switch B in circuit with the lamp, and switch A out of circuit.&rdquo;
+Predict: If the software is behaving correctly, toggling both buttons on should result in the lamp icon going on.
+Test: We run the software, toggling the buttons A and B on, and observe that the lamp icon does indeed come on. So far our hypothesis has been confirmed; which is to say, the software behaves as the requirements say it should. But there are other behaviors specified by the requirements
+Round 2
+Model: As per round 1
+Predict: If the software is behaving correctly, then toggling button A off
+and button B on will cause the lamp icon to go on.
+Test: We run the software, toggle button A off and button B on, and find that the lamp icon actually turns off. Our prediction was incorrect; therefore our software is not behaving as per its requirements. Instead of adjusting our model to suit the software, we adjust the software to suit the model i.e. we debug the software. In the software world, we can change the &ldquo;reality&rdquo; we are observing to behave however we want - unlike the real world where we have to adjust our model to fit an invariant reality. Once the software behaves in a manner consistent with the above prediction, we have to repeat our test from round 1 (i.e. regression test), to confirm that the prediction made there still holds i.e. that we haven’t &ldquo;broken&rdquo; the software reality.
+Round 3
+Model: As per round 1.
+Predict: If the software is behaving correctly, then toggling button A on
+and button B off should cause the lamp icon to turn off.
+Test: We run the software, toggle button A on and button B off and find that the lamp icon actually turns on. Our prediction was incorrect; therefore our software is in error. Once again we debug the software until it behaves in a manner consistent with the above prediction. Then we regression test by repeating the tests in rounds 2 and 3.
+Round 4
+Model: As per round 1.
+Predict: If the software is behaving correctly, then toggling buttons A and
+B off should cause the lamp icon to turn off.
+Test: We run the software, toggle buttons A and B off and find that the lamp icon does indeed turn off. Our prediction was correct; therefore the software is behaving as per its requirements.
+Notice the critical difference between programming and experimentation. In experimentation, reality is held invariant and we adjust our model until the two are consistent. In programming, the model is held invariant and we adjust our reality (the software) until the two are consistent.</p>
+<h2 id="limits-of-the-analogy">Limits Of The Analogy</h2>
+<p>Rote performance of the model/predict/test cycle does not mean that one is doing
+science, or even that one&rsquo;s activities are science-like. There are critical
+attributes of the way these activities are carried out that must be met before
+the results have scientific validity. Two of these are objectivity and
+reproducibility. Some authors have taken the analogy between scientific method
+and programming too far by neglecting these attributes.</p>
+<p>McCay3 contends that pair programming is analogous to the peer review process
+that scientific results undergo before being published. The reviewers of a
+scientific paper are chosen so that they are entirely independent of the
+material being reviewed, and can perform an objective review. They must have no
+vested interest in the material itself, and no relationship to the researcher or
+anyone else involved in the conduct of the experiment. To this end, scientific
+peer reviews are often conducted anonymously. Clearly this independence is
+missing in pair programming. Both parties have been intimately involved in the
+production of the material being reviewed, and as a coauthor each has a clear
+personal investment in it. They have participated in the thought processes that
+lead to the code being developed, and so can no longer analyze the material in
+an intellectually independent manner.</p>
+<p>Mugridge 3 contends that the continuous running of a suite of regression tests
+is equivalent to the concept of scientific reproducibility. But here again, the
+independence is missing. A single researcher arriving at a particular result is
+not enough for those results to be considered credible by the scientific
+community. Independent researchers must successfully replicate these results, as
+a way of confirming that they weren’t just a chance occurrence, or an
+unintentional byproduct of situational factors. But running regression tests
+does not provide such confirmation, because each run of the regression tests is
+conducted under exactly the same circumstances as the preceding ones. The same
+tests are executed in the same environment over and over again, so there is no
+independence between one execution and the next. Thus the confirming effect of
+scientific reproducibility is lost.</p>
+<p>Both Mugridge and McCay try and equate the XP maxim &ldquo;do the simplest thing that
+could possibly work&rdquo; (DTSTTCPW) with Occam’s Razor.
+Occam’s razor is a principle applied to hypothesis selection that
+says &ldquo;Other things being equal, the best hypothesis is the simplest one, that
+is, the one that makes the fewest assumptions.&rdquo; Because the scientific
+hypothesis is analogous to the system metaphor in XP, the XP equivalent of
+Occam’s Razor would be &ldquo;Other things being equal, the best system
+metaphor is the simplest one, that is, the one that makes the fewest
+assumptions.&rdquo; However XPers often invoke DTSTTCPW with regard to implementation
+decisions, not choice of metaphor. Indeed, the metaphor is one of the least used
+of XP practices.4</p>
+<p>Additionally, the &ldquo;all other things being equal&rdquo; part of Occam’s
+razor is vital, and neglected in XP’s DTSTTCPW slogan. We evaluate
+competing hypotheses with respect to the criteria of adequacy 5 –
+which provide a basis for assessing how well each hypothesis increases our
+understanding. The criteria include testability, fruitfulness, simplicity and
+scope. Note that simplicity is only one of the factors to consider. The scope of
+a hypothesis refers to its explanatory power; how much of reality it can explain
+and predict. We have a preference for a hypothesis of broader scope, because it
+accounts for more natural phenomena. In a programming context, suppose we have
+two competing models of a piece of software’s operation. One is more
+complex than the other, but the more complex one also has greater scope. Which
+one is better? It’s a subjective decision; but it should be clear
+that considering simplicity alone is a naive basis for hypothesis selection.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>OK, so there are parallels between the scientific method and programming. Aside
+from the intellectual interest, what value is there in recognizing these
+parallels?</p>
+<p>Naur claims that the theory of a piece of software corresponds to the model that
+the programmer builds up in their head of how it works. Such a theory might say
+&ldquo;The software is like a box with two toggle buttons and a lamp&rdquo;, or &ldquo;The
+software is like an assembly line with pieces being added on as the item
+proceeds&rdquo;. Perhaps multiple metaphors are used. Once a programmer has a theory
+(model) of the software in their head, they can talk about and explain its
+behavior to others. When they make changes to the code, they do so in a way that
+is consistent with the theory and therefore &ldquo;fits in&rdquo; with the existing code
+base well. A programmer not guided by such a theory is liable to make
+modifications and extensions to the code that appear to be &ldquo;tacked on&rdquo; as an
+afterthought, and not consistent with the design philosophy of the existing code
+base. I believe there is some validity in this notion.</p>
+<p>Cockburn then extends this by claiming that this theory is what is essential to
+communicate (in documentation or otherwise) from one generation of programmers
+to the next: &ldquo;What should you put into the documentation? That which helps the
+next programmer build an adequate theory of the program&rdquo;. He also sees this as
+validation of the &ldquo;System Metaphor&rdquo; practice from XP. Perhaps so, but I think
+there is only limited utility in identifying what has to be communicated. The
+real problem is identifying how to communicate; how to persist that knowledge in
+a robust form, and transfer it from one programmer to another as new programmers
+arrive on a project and old ones leave.</p>
+<p>1 Programming as Theory Building, Peter Naur
+2 Why People Believe Weird Things, Michael Shermer
+3 if (extremeProgramming.equals(scientificMethod)), Larry McCay
+4 Agile and Iterative Development, C. Larman
+5 How to Think About Weird Things, 3rd edition, T. Schik and L. Vaughn, McGraw Hill, 2002</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://cwsteinbach.github.io/" >
+    &copy;  cwsteinbach.github.io 2021 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

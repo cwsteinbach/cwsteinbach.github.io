@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>In Praise of Code Reviews | cwsteinbach.github.io</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="I have a woeful sense of direction — the navigational abilities of a lemming combined with the homing instinct of a drunk. But like much of my gender, I continue to entertain the fantasy that I possess an instinctive ability to find my way, an evolutionary artifact of the male&rsquo;s traditional role as the hunter; an unerring inner compass that will guide me safely through the hunt of everyday life, despite voluminous evidence to the contrary.">
+    <meta name="generator" content="Hugo 0.88.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="In Praise of Code Reviews" />
+<meta property="og:description" content="I have a woeful sense of direction — the navigational abilities of a lemming combined with the homing instinct of a drunk. But like much of my gender, I continue to entertain the fantasy that I possess an instinctive ability to find my way, an evolutionary artifact of the male&rsquo;s traditional role as the hunter; an unerring inner compass that will guide me safely through the hunt of everyday life, despite voluminous evidence to the contrary." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://cwsteinbach.github.io/posts/hacknot/hacknot-in-praise-of-code-reviews/" /><meta property="article:section" content="posts" />
+
+<meta property="article:modified_time" content="2021-12-14T11:41:28-08:00" />
+
+<meta itemprop="name" content="In Praise of Code Reviews">
+<meta itemprop="description" content="I have a woeful sense of direction — the navigational abilities of a lemming combined with the homing instinct of a drunk. But like much of my gender, I continue to entertain the fantasy that I possess an instinctive ability to find my way, an evolutionary artifact of the male&rsquo;s traditional role as the hunter; an unerring inner compass that will guide me safely through the hunt of everyday life, despite voluminous evidence to the contrary.">
+<meta itemprop="dateModified" content="2021-12-14T11:41:28-08:00" />
+<meta itemprop="wordCount" content="2269">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="In Praise of Code Reviews"/>
+<meta name="twitter:description" content="I have a woeful sense of direction — the navigational abilities of a lemming combined with the homing instinct of a drunk. But like much of my gender, I continue to entertain the fantasy that I possess an instinctive ability to find my way, an evolutionary artifact of the male&rsquo;s traditional role as the hunter; an unerring inner compass that will guide me safely through the hunt of everyday life, despite voluminous evidence to the contrary."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        cwsteinbach.github.io
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=http://cwsteinbach.github.io/posts/hacknot/hacknot-in-praise-of-code-reviews/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=http://cwsteinbach.github.io/posts/hacknot/hacknot-in-praise-of-code-reviews/&amp;text=In%20Praise%20of%20Code%20Reviews" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://cwsteinbach.github.io/posts/hacknot/hacknot-in-praise-of-code-reviews/&amp;title=In%20Praise%20of%20Code%20Reviews" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">In Praise of Code Reviews</h1>
+      
+      <p class="tracked">
+          By <strong>
+          
+              Ed Johnson
+          
+          </strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-12-14T11:41:28-08:00">December 14, 2021</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>I have a woeful sense of direction — the navigational abilities of a lemming combined with the homing instinct of a drunk. But like much of my gender, I continue to entertain the fantasy that I possess an instinctive ability to find my way, an evolutionary artifact of the male&rsquo;s traditional role as the hunter; an unerring inner compass that will guide me safely through the hunt of everyday life, despite voluminous evidence to the contrary. It is a fantasy that gets me in trouble on a regular basis.
+Whenever I am driving to somewhere new, the scenario generally plays out like this: I begin the journey looking through my street directory, tracing out the path I need to follow. After memorizing the first few turns I set the directory down and depart, resolving to stop and consult the directory again once I&rsquo;ve completed those turns. Within a few minutes I have traveled over the first part of the journey that I&rsquo;ve already memorized, and have reached a decision point. Will I pull over to the side of the road and reacquire my bearings as planned, or will I just follow my nose? Invariably, I choose the latter.</p>
+<p>&ldquo;I&rsquo;m bound to see a relevant sign before too much longer,&rdquo; I think. And so I drive on, keeping an eye out for the anticipated sign. If it doesn&rsquo;t shortly appear, I begin to make speculative turns based on my own &ldquo;gut feeling&rdquo; about which way to head. If I&rsquo;m heading to a popular destination, I might simply follow the path I perceive most of the traffic is taking, figuring that they&rsquo;re all probably headed to the same place as I am. Through a combination of guess-work, dubious reasoning and random turns I eventually reach the point where I have to admit to myself that I&rsquo;m lost. Only then will I pull over to the side of the road, get the street directory out of the glove compartment to find out where I am and how to get to my original destination from here.</p>
+<p>This insane behavior has been a characteristic of my driving for many years. It usually manifests when I am driving home alone from some event which has left me feeling tired and distracted. I slip into a worn out fugue, adopt a &ldquo;she&rsquo;ll be right&rdquo; attitude and head off to goodness-knows-where. About a year ago, driving home from a job interview in a distant city, I strayed off course by over 100 kilometers – all the while resolutely refusing to pull over and consult my directory, which I could have done at any time.</p>
+<p>Thanks to these unexpected excursions, I have seen parts of the country side that I might otherwise have missed, but I have no idea where they were or how to get back there.</p>
+<p>So why do I do it? Why not spend five minutes by the side of the road working out where I&rsquo;ve been and where I&rsquo;m going, rather than just keep driving aimlessly in hope of finding some visible prompt to get me on course? As strange as the habit is, I think it&rsquo;s exactly the same behavior that many people exhibit when they make self-defeating decisions. It stems in part from short-term thinking.</p>
+<p>Driving along in my pleasant reverie, I am faced with a choice. Stopping to consult my street directory will require some mental energy. I&rsquo;ll have to break the flow of my journey, find a significant landmark or intersection, locate it in the directory, and re-plot a path to my destination. The alternative is just to keep drifting along and hope for the best. If your scope of consideration is only the next few minutes, then it&rsquo;s very easy to decide to avoid the short-term inconvenience of pulling over in favor of continuing to do what you&rsquo;re already doing – even though it isn&rsquo;t working out and has already got you into difficulty.</p>
+<p>A smoker indulges in similar thinking every time they light up. They know full well that they&rsquo;re killing themselves by having that next cigarette, but considering only the next five minutes, what is easier: Resisting the craving for a cigarette, or giving in?</p>
+<p>This desire to minimize small, short-term pain even at the expense of significantly more pain in the long term is at the core of much self- defeating behavior.
+We&rsquo;ll return to this theme in a moment. But first, a short divergence on code reviews.</p>
+<h2 id="code-reviews">Code Reviews</h2>
+<p>For many types of work it is standard practice to have one&rsquo;s work checked by another before the work product is put into service. Authors have editors; engineers have inspectors and so on. But in software development it is common for code to flow directly from the programmer&rsquo;s fingertips into the hands of the end users without ever having been seen by another pair of eyes.</p>
+<p>This is despite there being a large body of empirical evidence establishing the effectiveness of code review techniques as a device for defect prevention. Since the early history of programming, a number of different techniques for reviewing code have been identified and assessed. A code walkthrough is any meeting in which two or more developers review a body of code for errors. A code walkthrough can find anywhere between 30 and 70 percent of the errors in a program1. Code reading is a more formal process in which printed copies of a body of code are distributed to two or more reviewers for independent review. Code reading has been found to detect about twice as many defects as testing2. Most formal of all is the code inspection, which is like a code walkthrough where participants play pre-defined roles such as moderator, scribe or reviewer. Participants receive training prior to the inspection. Code inspections are extremely effective, having been found to detect between 60 and 90 percent of defects3. Defect prevention leads to measurably shorter project schedules. For instance, code inspections have been found to give schedule savings of between 10 and 30 percent.</p>
+<p>I estimate that about 25 percent of the projects I have worked on conducted code reviews, even though 100 percent of them were working against tight schedules. If we can save time and improve quality with code reviews, why weren&rsquo;t the other 75 percent of projects doing them?</p>
+<p>I believe the answer is mostly psychological, and the basic mechanism is the same one that I engage in every time I go on one of my unplanned excursions in my car. The essential problems are short-term thinking, force of habit and hubris.</p>
+<p>Suppose you have just finished coding a unit of work and are about to check it into your project&rsquo;s version control system. You&rsquo;re faced with a decision – should you have your code subjected to some review procedure, or should you just carry on to the next task? Thinking about just the next five minutes, which option is easier? On the one hand you&rsquo;ll have to organize the review, put up with criticism from the reviewers, and probably make modifications to your code based upon their responses. On the other hand, you can declare the task &ldquo;finished', get the feeling of accomplishment that comes along with that, and be an apparent step closer to achieving your deadlines. So you make the decision which minimizes discomfort in the short term, the same way I decide to just keep on driving in search of a road sign rather than pull over and consult my street directory.</p>
+<p>But then, you&rsquo;ve got to rationalize this laziness to yourself in some way. So you reflect on previous experience and think &ldquo;I&rsquo;ve gotten away with not having my code reviewed in the past, so I&rsquo;ll almost certainly get away with it again&rdquo;. Similarly, I&rsquo;m driving along thinking &ldquo;I&rsquo;ve never failed to eventually get where I&rsquo;m going in the past, so I&rsquo;ll almost certainly get there this time as well.&rdquo; Complacency breeds complacency.</p>
+<p>Finally, although it is difficult to admit, there is some comfort in not having your code reviewed by others. We would like to think that we can write good code all by ourselves, without the help of others, so avoiding code reviews enables us to avoid confronting our own weaknesses. In the same way, by following my nose rather than following my street directory, I can avoid having to confront the geographically exact evidence of my hopeless sense of direction that it will provide. Ignorance is bliss.</p>
+<p>Even when you quote the empirical evidence to programmers, many will still find a way to excuse themselves from performing code reviews, by assuming that the touted reductions in schedule and improvements in quality were derived through experimentation upon lesser developers than themselves. The thinking goes something like &ldquo;Sure, code reviews might catch a large percentage of the defects in the average programmer&rsquo;s work, but I&rsquo;m way above average, don&rsquo;t write as many defects, and so won&rsquo;t get the same return on investment that others might.&rdquo; Unfortunately it is very difficult to tell simply by introspection whether you really are an above average programmer, or whether you just think you are. Most people consider that they are &ldquo;above average&rdquo; in ability with respect to a given skill, even though they have little or no evidence to support that view. For example, most of us consider ourselves &ldquo;better than average drivers&rdquo;. The effect is sometimes referred to as self-serving bias or simply the above average effect.</p>
+<p>Those that have bought into the Agile propaganda (can we call it &ldquo;agile- prop&rdquo;?) may have been deceived into thinking that pair programming is a substitute for code reviews. To the best of my knowledge, there is no credible empirical evidence that this is the case. In fact, there are good reasons to be highly skeptical of any such assertions – in particular, that a pair programmer does not have the independent view of the code that a reviewer uninvolved with its production can have. Much of the benefit of reviews comes from the reviewers different psychological perspective on the product under review, the fact that they have no ego investment in it, and that they have not gone through the same (potentially erroneous) thought processes that the original author/s have done in writing it. A pair programmer is not so divorced from the work product or the process by which it was generated, and so one would expect a corresponding decrease in ability to detect faults.</p>
+<p>So we sustain self-defeating work practices the same way we sustain many other sorts of self-defeating behavior – by lying to ourselves and putting long term considerations aside.</p>
+<h2 id="do-code-reviews-have-a-bad-reputation">Do Code Reviews Have A Bad Reputation?</h2>
+<p>There is perhaps another factor contributing to a hesitance to perform code reviews, which is the reputation they have as being confrontational and ego-bruising experiences. This reputation probably springs from consideration of the more formal review processes such as code inspections, in which the reviewing parties can be perceived as &ldquo;ganging up&rdquo; on the solitary author of the code, subjecting them to a famously unexpected Spanish Inquisition.
+This is a legitimate concern, and it is certainly easy for a review of code to turn into a review of the coder, if a distinct separation is not encouraged and enforced. I therefore recommend that code reviews be conducted by individual reviewers in the absence of the code&rsquo;s author. This tends to depersonalize the process somewhat, and remove some of the intimidatory effect that a group process can have. There is in fact some evidence to suggest that an individual reviewer is no less effective than a group of reviewers in detecting faults in code.</p>
+<p>The code can be printed out and written comments attached to it, or comments can be made in the source file itself, perhaps as &ldquo;TODO&rdquo; items that can be automatically flagged by an IDE. Personally, I prefer paper- based reviews because a paper-based review system is quick and easy to institute, and equally applicable to reviews of written artifacts such as design and requirements documents.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>There is much to recommend the practice of conducting code reviews on a regular basis, and few negatives associated with them, provided they are conducted sensitively and with regard for the feelings of the code&rsquo;s author. All it takes is for one other programmer on your team to be willing to undertake the task, and you can establish a simple code review process that will likely produce noticeable benefits in improved code quality and reduced defect counts. Not everyone is good at reviewing code, so if you have the option, have your code reviewed by someone who demonstrates an eye for detail and is known for their thoroughness. If you have the authority to do so, it is well worth incorporating code reviews into your team&rsquo;s development practice, perhaps as a mandatory activity to be undertaken before new code is committed to the code base, or perhaps on a random basis. It may also be worthwhile to have junior staff review the code written by their more experienced counterparts, as a way of spreading knowledge of good coding techniques and habits.</p>
+<p>When introducing code reviews, you will likely encounter some initial resistance, simply because the short-term thinking which has so far justified their absence is a habit that is superficially attractive and requiring of a certain determination to break. However, once they have had the opportunity to participate in code reviews, many programmers will concede that it is a habit worth forming.</p>
+<p>1 Rapid Development, Steve McConnell, pg 70, citing Myers 1979, Boehm 1987b, Yourdon 1989b
+2 Ibid, pg 71, citing Card 1987
+3 Ibid, pg 71</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://cwsteinbach.github.io/" >
+    &copy;  cwsteinbach.github.io 2021 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
