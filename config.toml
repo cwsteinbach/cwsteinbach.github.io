@@ -1,5 +1,5 @@
-baseURL = 'http://cwsteinbach.github.io/'
+baseURL = 'http://cwsteinbach.io/'
 languageCode = 'en-us'
-title = 'cwsteinbach.github.io'
+title = 'cwsteinbach.io'
 theme = 'ananke'
 pygmentsCodeFences = 'true'

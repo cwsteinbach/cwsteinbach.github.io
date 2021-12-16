@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on cwsteinbach.github.io</title>
-    <link>http://cwsteinbach.github.io/posts/</link>
-    <description>Recent content in Posts on cwsteinbach.github.io</description>
+    <title>Posts on cwsteinbach.io</title>
+    <link>http://cwsteinbach.io/posts/</link>
+    <description>Recent content in Posts on cwsteinbach.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Dec 2021 11:54:38 -0800</lastBuildDate><atom:link href="http://cwsteinbach.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Dec 2021 11:54:38 -0800</lastBuildDate><atom:link href="http://cwsteinbach.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>All Aboard the Gravy Train</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-all-aboard-the-gravy-train/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-all-aboard-the-gravy-train/</link>
       <pubDate>Tue, 14 Dec 2021 11:54:38 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-all-aboard-the-gravy-train/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-all-aboard-the-gravy-train/</guid>
       <description>“Hype is the plague upon the house of software.” – Richard Glass
 It is interesting to watch the software development landscape change underfoot. As with many geographies, the tremors and shifts which at first appear random, when more closely examined reveal an underlying order and structure that is more familiar and less mysterious.
 Recently, some of the loudest rumblings have been coming from that quarter whose current fascination is the scripting language Ruby, and its database framework Rails.</description>
@@ -20,19 +20,19 @@ Recently, some of the loudest rumblings have been coming from that quarter whose
     
     <item>
       <title>Reuse is Dead. Long Live Reuse.</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-reuse-is-dead/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-reuse-is-dead/</link>
       <pubDate>Tue, 14 Dec 2021 11:53:51 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-reuse-is-dead/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-reuse-is-dead/</guid>
       <description>Reuse is one of the great broken promises of OO. The literature is full of empirical and anecdotal evidence to this effect. The failure to realize any significant benefit from reuse is variously ascribed to technical, organizational and people factors. Observation of the habits and beliefs of my fellow software engineers over many years leads me to believe that it is the latter which poses the principle obstacle to meaningful reuse, and which ultimately renders it unachievable in all but the most trivial of cases.</description>
     </item>
     
     <item>
       <title>Early Adopters or Trend Surfers?</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-early-adopters-or-trend-surfers/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-early-adopters-or-trend-surfers/</link>
       <pubDate>Tue, 14 Dec 2021 11:53:06 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-early-adopters-or-trend-surfers/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-early-adopters-or-trend-surfers/</guid>
       <description>Q: What are the most exciting/promising software engineering ideas or techniques on the horizon?
 A: I don&amp;rsquo;t think that the most promising ideas are on the horizon. They are already here and have been here for years but are not being used properly. – Interview with David L Parnas
 Many software developers pride themselves on being up to date with the latest software technologies. They live by the credo &amp;ldquo;beta is better&amp;rdquo; and willingly identify themselves as early adopters.</description>
@@ -40,49 +40,49 @@ Many software developers pride themselves on being up to date with the latest so
     
     <item>
       <title>IEEE Software Endorses Plagiarism</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-ieee-software-endorses-plagiarism/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-ieee-software-endorses-plagiarism/</link>
       <pubDate>Tue, 14 Dec 2021 11:52:12 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-ieee-software-endorses-plagiarism/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-ieee-software-endorses-plagiarism/</guid>
       <description>plagiarize – take (the work or an idea of someone else) and pass it off as one’s own. – New Oxford Dictionary of English
 Ours is an occupation obsessed with invention and novelty. Every week it seems that some new technology or development technique arrives, heralded by a fanfare of hype and a litany of neologisms. So keen are we to exploit the community&amp;rsquo;s enthusiasm for newness that we will even take old ideas and rebadge them, offering them up to our colleagues as if they were original.</description>
     </item>
     
     <item>
       <title>The Crooked Timber of Software Development</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-crooked-timber-of-software-development/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-crooked-timber-of-software-development/</link>
       <pubDate>Tue, 14 Dec 2021 11:51:27 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-crooked-timber-of-software-development/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-crooked-timber-of-software-development/</guid>
       <description>“Out of the crooked timber of humanity no straight thing was ever made.” – Immanuel Kant
 Imagine you are a surgeon. You are stitching a wound closed at the end of a major procedure, when you are approached by the chief surgeon, clad in theatre garb. He explains that, inkeeping with recently introduced hospital policy, you are required to use a cheaper, generic brand of suture material, rather than the more common (and more expensive) brand you are accustomed to using.</description>
     </item>
     
     <item>
       <title>From Tulip Mania to Dot Com Mania</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-tulip-mania-to-dot-com-mania/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-tulip-mania-to-dot-com-mania/</link>
       <pubDate>Tue, 14 Dec 2021 11:50:36 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-tulip-mania-to-dot-com-mania/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-tulip-mania-to-dot-com-mania/</guid>
       <description>Those who cannot remember the past are condemned to repeat it. &amp;ndash; George Santayana
  Those of us working in IT tend to think of ourselves as being modern, savvy and much more advanced than our forebears. This conviction is often accompanied by a certain degree of hubris, and a somewhat derisive attitude towards older technologies and practitioners. You’ve probably encountered this ageist bias in your own work place, or even displayed it yourself.</description>
     </item>
     
     <item>
       <title>Programming and the Scientific Method</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-programming-and-the-scientific-method/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-programming-and-the-scientific-method/</link>
       <pubDate>Tue, 14 Dec 2021 11:49:19 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-programming-and-the-scientific-method/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-programming-and-the-scientific-method/</guid>
       <description>In 1985 Peter Naur wrote a rather cryptic piece entitled Programming as Theory Building [1] in which he drew an analogy between software development and the scientific method. Since then, other authors have attempted to co-opt this analogy as a means of enhancing the perceived credibility of particular programming practices. This post aims to explain the analogy between the scientific method and programming, and to explore the limitations of that analogy.</description>
     </item>
     
     <item>
       <title>Function Points: Numerology for Software Developers</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-function-points-numerology-for-software-devs/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-function-points-numerology-for-software-devs/</link>
       <pubDate>Tue, 14 Dec 2021 11:48:05 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-function-points-numerology-for-software-devs/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-function-points-numerology-for-software-devs/</guid>
       <description>&amp;ldquo;Where else can one get such a marvelous return in conjecture from such a modest investment of fact?&amp;rdquo; – Mark Twain
 Numerology is the study of the occult meanings of numbers and their influence on human life1. Numerologists specialize in finding numeric relationships between otherwise disparate figures, and attributing to them some greater significance.
 For instance, some claim that by adding up the component numbers in your birth date, together with the numeric equivalent of your name (where A=1, B=2 etc) then a figure is derived that, if properly interpreted, can yield insight into your personality.</description>
@@ -90,29 +90,29 @@ For instance, some claim that by adding up the component numbers in your birth d
     
     <item>
       <title>Anecdotal Evidence and Other Fairy Tales</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-anecdotal-evidence-and-other-fairy-tales/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-anecdotal-evidence-and-other-fairy-tales/</link>
       <pubDate>Tue, 14 Dec 2021 11:47:15 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-anecdotal-evidence-and-other-fairy-tales/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-anecdotal-evidence-and-other-fairy-tales/</guid>
       <description>As software developers we place a lot of emphasis upon our own experiences. This is natural enough, given that we have no agreed upon body of knowledge to which we might turn to resolve disputes or inform our opinions. Nor do we have the benefit of empirical investigation and experiment to serve as the ultimate arbiter of truth, as is the case for the sciences and other branches of engineering - in part because of the infancy of Empirical Software Engineering as a field of study; in part because of the difficulty of conducting controlled experiments in our domain.</description>
     </item>
     
     <item>
       <title>Basic Critical Thinking for Software Developers</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-critical-thinking-for-software-developers/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-critical-thinking-for-software-developers/</link>
       <pubDate>Tue, 14 Dec 2021 11:47:03 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-critical-thinking-for-software-developers/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-critical-thinking-for-software-developers/</guid>
       <description>Vague Propositions A term is called “vague” if it has a clear meaning but not a clearly demarcated scope. Many arguments on Usenet groups and forums stem from the combatants having different interpretations of a vaguely stated proposition. To avoid this sort of misunderstanding, before exploring the truth of a given proposition either rhetorically or empirically, you should first state that proposition as precisely as possible.
 Consider this proposition: P(1): Pair Programming works If I were to voice that proposition on the Yahoo XP group1, I would expect it to receive enthusiastic endorsement.</description>
     </item>
     
     <item>
       <title>The Skeptical Software Development Manifesto</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-skeptical-software-development-manifesto/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-skeptical-software-development-manifesto/</link>
       <pubDate>Tue, 14 Dec 2021 11:45:58 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-skeptical-software-development-manifesto/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-skeptical-software-development-manifesto/</guid>
       <description>Argumentation cannot suffice for the discovery of new work, since the subtlety of Nature is greater many times than the subtlety of argument. &amp;ndash; Fracis Bacon
  The over-enthusiastic and often uncritical adoption of XP and Agile tenets by many in the software development community is worrying.
 It is worrying because it attests to the willingness of many developers to accept claims made on the basis of argument and rhetoric alone.</description>
@@ -120,334 +120,334 @@ It is worrying because it attests to the willingness of many developers to accep
     
     <item>
       <title>Six Legacy Code AntiPatterns</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-six-legacy-code-antipatterns/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-six-legacy-code-antipatterns/</link>
       <pubDate>Tue, 14 Dec 2021 11:44:22 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-six-legacy-code-antipatterns/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-six-legacy-code-antipatterns/</guid>
       <description>I recently began work on a J2EE project – a workflow assistance tool that has been under development for a few years. The application is totally new to me and yet is immediately familiar, for it bears the scars and wounds so common to a legacy system. Browsing through the code base and playing with the GUI, the half dozen legacy code anti-patterns that leave me with déjà vu are listed below.</description>
     </item>
     
     <item>
       <title>Spare a Thought for the Next Guy</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-spare-thought-for-next-guy/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-spare-thought-for-next-guy/</link>
       <pubDate>Tue, 14 Dec 2021 11:44:00 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-spare-thought-for-next-guy/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-spare-thought-for-next-guy/</guid>
       <description>I just had a new ISDN phone line installed at my house. It was an unexpectedly entertaining event, and provided the opportunity for some reflection on the similarity between the problems faced by software developers and those in other occupations.
 The installation was performed by a technician who introduced himself in a Yugoslavian brogue as &amp;ldquo;Ranko.&amp;rdquo; Ranko looked at the existing phone outlets, declared that it would be a straight forward job and should take 30 - 45 minutes.</description>
     </item>
     
     <item>
       <title>Debugging 101</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-debugging-101/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-debugging-101/</link>
       <pubDate>Tue, 14 Dec 2021 11:43:21 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-debugging-101/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-debugging-101/</guid>
       <description>“An interactive debugger is an outstanding example of what is not needed – it encourages trial-and-error hacking rather than systematic design, and also hides marginal people barely qualified for precision programming.”– Harlan Mills
 Recently, a colleague and I were working together to resolve a bug in a piece of code she had just written. The bug resulted in an exception being thrown and looking at the stack trace, we were both puzzled about what the root cause might be.</description>
     </item>
     
     <item>
       <title>SWT: So What?</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-swt-so-what/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-swt-so-what/</link>
       <pubDate>Tue, 14 Dec 2021 11:42:37 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-swt-so-what/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-swt-so-what/</guid>
       <description>If you are about to undertake a major project using SWT, I suggest you think very carefully before doing so. Compared to its obvious competitor, Swing, SWT is very lacking in functionality, support and community development experience. Little wonder that there is not a lot of detailed information to be found from people who are using SWT in anger to create serious applications. There is a certain amount of fan-boy stuff1, written by people in the first blush of initial enthusiasm, convinced that everything is &amp;ldquo;cool&amp;rdquo; and &amp;ldquo;awesome&amp;rdquo;, but very little from people who have been through a significant implementation effort extending over months or years.</description>
     </item>
     
     <item>
       <title>Web Accessibility for the Apathetic</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-web-accessibility/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-web-accessibility/</link>
       <pubDate>Tue, 14 Dec 2021 11:42:17 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-web-accessibility/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-web-accessibility/</guid>
       <description>If you&amp;rsquo;re like me, you approach the subject of accessibility with a certain self-conscious guilt. On the one hand, you recognize that there are excellent ethical and legal reasons for making your applications – be they web-based or rich client – accessible to those with sensory or cognitive impairments; but on the other hand you can&amp;rsquo;t ignore the fact that the extra work required to add that accessibility is only going to make a difference to a very small percentage of your users.</description>
     </item>
     
     <item>
       <title>In Praise of Code Reviews</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-in-praise-of-code-reviews/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-in-praise-of-code-reviews/</link>
       <pubDate>Tue, 14 Dec 2021 11:41:28 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-in-praise-of-code-reviews/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-in-praise-of-code-reviews/</guid>
       <description>I have a woeful sense of direction — the navigational abilities of a lemming combined with the homing instinct of a drunk. But like much of my gender, I continue to entertain the fantasy that I possess an instinctive ability to find my way, an evolutionary artifact of the male&amp;rsquo;s traditional role as the hunter; an unerring inner compass that will guide me safely through the hunt of everyday life, despite voluminous evidence to the contrary.</description>
     </item>
     
     <item>
       <title>Naming Classes: Do it Once and Do it Right</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-naming-classes/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-naming-classes/</link>
       <pubDate>Tue, 14 Dec 2021 11:39:25 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-naming-classes/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-naming-classes/</guid>
       <description>The selection of good class names is critical to the maintainability of your application. They form the basic vocabulary in which developers speak and the language in which they describe the code&amp;rsquo;s every activity. No wonder then that vague or misleading class names will quickly derail your best efforts to understand the code base.
 Because we are called on to invent class names so frequently, there is a tendency to become somewhat lackadaisical in our approach.</description>
     </item>
     
     <item>
       <title>Get Your Filthy Tags Out of My Javadoc, Eugene</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-filthy-javadoc/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-filthy-javadoc/</link>
       <pubDate>Tue, 14 Dec 2021 11:38:56 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-filthy-javadoc/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-filthy-javadoc/</guid>
       <description>Recently I&amp;rsquo;ve been instituting a code review process on a number of projects in my workplace. To kick start use of the process, I took a sample of the Java code written by each of my colleagues and reviewed it.
 While doing so I was struck by the degree of individual variation in the use of Javadoc comments, and reminded of how easy it is to fulfill one&amp;rsquo;s obligation to provide Javadoc without really thinking about how effectively one is actually communicating.</description>
     </item>
     
     <item>
       <title>FUDD: Fear, Uncertainty, Doubt and Design Documentation</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-fudd-documentation/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-fudd-documentation/</link>
       <pubDate>Tue, 14 Dec 2021 11:38:43 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-fudd-documentation/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-fudd-documentation/</guid>
       <description>&amp;ldquo;Think twice, cut once&amp;rdquo; - Carpenter&amp;rsquo;s adage
 In the years that I&amp;rsquo;ve been doing software development, the one source of recurring dispute between myself and colleagues is the issue of design documentation. I am of the opinion that the production and review of design documentation significantly increases the chances of producing quality software, and that such documentation should be an integral part of the development of any piece of commercial software.</description>
     </item>
     
     <item>
       <title>Oral Documentation: Not Worth the Paper it&#39;s Written On</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-oral-documentation/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-oral-documentation/</link>
       <pubDate>Tue, 14 Dec 2021 11:38:12 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-oral-documentation/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-oral-documentation/</guid>
       <description>The Agile Manifesto1 states: &amp;ldquo;The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.&amp;rdquo;
 Forgive me for questioning a holy proclamation, but isn&amp;rsquo;t it rather well established that verbal communication is often incomplete and ambiguous, and that human memory is inaccurate and prone to confabulation? The plethora of psychological research in such areas as false memories, the veracity of eyewitness testimony, and the effect of predisposition on the interpretation of sensory data has surely given us a big hint that our perceptual and communicative capabilities are erratic and dubitable?</description>
     </item>
     
     <item>
       <title>The Top Ten Elements of Good Software Design</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-ten-elements-of-good-software-design/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-ten-elements-of-good-software-design/</link>
       <pubDate>Tue, 14 Dec 2021 11:37:34 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-ten-elements-of-good-software-design/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-ten-elements-of-good-software-design/</guid>
       <description>“You know you&amp;rsquo;ve achieved perfection in design, not when you have nothing more to add, but when you have nothing more to take away.” – Antoine de Saint-Exupery
 Much is spoken of &amp;ldquo;good design&amp;rdquo; in the software world. It is what we all aim for when we start a project, and what we hope we still have when we walk away from the project. But how do we assess the &amp;ldquo;goodness&amp;rdquo; of a given design?</description>
     </item>
     
     <item>
       <title>The Folly of Emergent Design</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-folly-of-emergent-design/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-folly-of-emergent-design/</link>
       <pubDate>Tue, 14 Dec 2021 11:37:28 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-folly-of-emergent-design/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-folly-of-emergent-design/</guid>
       <description>One of the most pernicious ideas to proceed from the current focus on lightweight methodologies is that of Emergent Design. It&amp;rsquo;s difficult to find a precise description of emergent design – most discussion on the subject carefully avoids committing to any particular definition. One of the most succinct descriptions I&amp;rsquo;ve encountered is this, from the adaptionsoft web site:
 &amp;ldquo;Many systems eventually require drastic changes. You cannot anticipate them all, so stop trying to anticipate any of them.</description>
     </item>
     
     <item>
       <title>User is a Four Letter Word</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-user-is-a-four-letter-word/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-user-is-a-four-letter-word/</link>
       <pubDate>Tue, 14 Dec 2021 11:37:21 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-user-is-a-four-letter-word/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-user-is-a-four-letter-word/</guid>
       <description>The term &amp;ldquo;user&amp;rdquo; is not just a pronoun, it is a powerful buzzword that pervades the software development literature, to both good and bad effect. On the up side, the development community has been made aware of the dominating role that end user experience plays in determining the success or failure of many projects. On the down side, the message of the importance of user feedback to the development process has been adopted by some with uncritical fervor.</description>
     </item>
     
     <item>
       <title>Dude, Where’s My Spacecraft?</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-wheres-my-spacecraft/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-wheres-my-spacecraft/</link>
       <pubDate>Tue, 14 Dec 2021 11:37:11 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-wheres-my-spacecraft/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-wheres-my-spacecraft/</guid>
       <description>The Mars Polar Lander (MPL) that NASA launched in 1999 is now a rather attractive and very expensive field of tinsel-like shrapnel scattered over several square kilometers of the Martian surface. It is not functional in any capacity. It is no more. It has ceased to be.
 Its demise was the result of the flight control software incorrectly answering the question that car-bound children have been plaguing their parents with for years – &amp;ldquo;are we there yet?</description>
     </item>
     
     <item>
       <title>Thought Leaders and Thought Followers – Fowler On &#34;Appeals To Authority&#34;</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-thought-leaders-and-followers/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-thought-leaders-and-followers/</link>
       <pubDate>Tue, 14 Dec 2021 11:36:37 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-thought-leaders-and-followers/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-thought-leaders-and-followers/</guid>
       <description>For a brief, shining moment there was hope. Through the exaggeration and braggadocio that so permeates the conversation of the Agile community, there came a fleeting glimpse of self-awareness – a flash of social perspective that could have precipitated a greater moderation and rationality in the methodological discourse. And then it was gone – swept aside by the force of yet another ill-considered generalization.
 I’m referring to a recent blog entry by Martin Fowler entitled AppealToAuthority.</description>
     </item>
     
     <item>
       <title>XP and ESP: The Truth is Out There!</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-xp-and-esp/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-xp-and-esp/</link>
       <pubDate>Tue, 14 Dec 2021 11:36:28 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-xp-and-esp/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-xp-and-esp/</guid>
       <description>“Eclipses occur, and savages are frightened. The medicine men wave wands – the sun is cured – they did it.”– Charles Fort 1
 People have a vast capacity for self-deception. Even members of the scientific community, from whom we expect objectivity, can unwittingly allow their personal beliefs and preconceptions to color their interpretation of data. Professional ambition and wishful thinking can turn their stance from one of neutral observance into passionate adherence to a position, sustained by willful ignorance of contrary evidence.</description>
     </item>
     
     <item>
       <title>The Deflowering of a Pair Programming Virgin</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-pair-programming-virgin/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-pair-programming-virgin/</link>
       <pubDate>Tue, 14 Dec 2021 11:36:21 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-pair-programming-virgin/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-pair-programming-virgin/</guid>
       <description>In your readings of the voluminous XP canon, you will no doubt have encountered mention of the practice of Pair Programming1. If, like me, you are of a solitary disposition, you will have found yourself thinking – nice idea, but not for me.
 Many of us are attracted to software development as a career because we enjoy the experience of solitary problem solving. We relish those times when we are &amp;ldquo;in the zone&amp;rdquo; – where our locus of concern narrows to exclude everything but ourselves, the keyboard and the problem at hand.</description>
     </item>
     
     <item>
       <title>Rhetorical AntiPatterns in XP</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-rhetorical-antipatterns-in-xp/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-rhetorical-antipatterns-in-xp/</link>
       <pubDate>Tue, 14 Dec 2021 11:36:13 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-rhetorical-antipatterns-in-xp/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-rhetorical-antipatterns-in-xp/</guid>
       <description>Over the past few years, I’ve spent more time in consideration of XP and its followers than is in the best interests of one’s mental health. My pre-occupation with it springs from my broader interest in skepticism. It’s fascinating to watch the same forces that drive cults, pseudo-science and other popular delusions at work in one’s own profession. It’s like driving past a road accident. It’s tragic and disturbing, but so entrancing that you just can’t look away.</description>
     </item>
     
     <item>
       <title>New Methodologies or New Age Methodologies?</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-new-age-methodologies/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-new-age-methodologies/</link>
       <pubDate>Tue, 14 Dec 2021 11:36:01 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-new-age-methodologies/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-new-age-methodologies/</guid>
       <description>I first encountered the coincidence of the aesthetic and the technical in a secondary school mathematics class. After leading the class through an algebraic proof, my teacher said &amp;ldquo;You have to admit there&amp;rsquo;s a certain beauty to that.&amp;rdquo; As I recall, he was met by a room of blank stares, one of which was my own. I remember thinking &amp;ldquo;You sad, sad man.&amp;rdquo; I really couldn’t see how a mathematical proof could be called &amp;ldquo;beautiful&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Extreme Deprogramming</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-extreme-deprogramming/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-extreme-deprogramming/</link>
       <pubDate>Tue, 14 Dec 2021 11:35:54 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-extreme-deprogramming/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-extreme-deprogramming/</guid>
       <description>In recent weeks I’ve read two books by cult survivors. The first, &amp;ldquo;Inside Out” by Alexandra Stein1, describes her ten year embroilment in a Minneapolis political cult called “The O.” The second, &amp;ldquo;Seductive Poison&amp;rdquo; by Deborah Layton2, details the author’s involvement with the “Peoples Temple,” the religious cult lead by Jim Jones, who engineered the mass suicide of 900 of his followers in 1978.
 Reading each I became aware of the similarities in the methods for control, manipulation and persuasion that both cults employed.</description>
     </item>
     
     <item>
       <title>Meeting Driven Development</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-meeting-driven-development/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-meeting-driven-development/</link>
       <pubDate>Tue, 14 Dec 2021 11:35:45 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-meeting-driven-development/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-meeting-driven-development/</guid>
       <description>The software development arena is the land of the perpetual &amp;ldquo;me too.&amp;rdquo; Populated by an eager community of &amp;ldquo;joiners,&amp;rdquo; every band wagon that comes along is soon laden down by a collection of hype merchants who, recognizing the next big thing when they see it, are keen to milk it for all it is worth. Extreme Programming – that marketing campaign in search of a product – was a particularly fruitful source of commercial spin-offs.</description>
     </item>
     
     <item>
       <title>The Mismeasure of Man</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-mismeasure-of-man/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-mismeasure-of-man/</link>
       <pubDate>Tue, 14 Dec 2021 11:35:39 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-mismeasure-of-man/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-mismeasure-of-man/</guid>
       <description>Software developers are drawn to metrics for a variety of reasons. Generally, their motivations are good. They want to find out something meaningful about the way their project is progressing or the way they are doing their job. Managers are also drawn to metrication for a variety of reasons, but their motives are not necessarily honorable. Some managers view metrics as an instrument for getting more work out of their team and detecting if they are slacking off.</description>
     </item>
     
     <item>
       <title>The Architecture Group</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-architecture-group/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-architecture-group/</link>
       <pubDate>Tue, 14 Dec 2021 11:35:32 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-architecture-group/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-architecture-group/</guid>
       <description>An organizational antipattern that I have seen a few times now is the formation of an Architecture Group. Architecture Groups generally have the following purposes: • Todesigntheenterprisearchitecturesharedbyagroupofapplications within an organization • Toreviewthedesignofprojectstoensuretheyareconsistentwiththe enterprise architecture • Toprescribethestandardtechnologiestobeusedacrossprojectsinthe organization In summary, the Architecture Group is an internal &amp;ldquo;governing body&amp;rdquo; and &amp;ldquo;standards group&amp;rdquo; rolled into one. Membership of the group tends to be restricted by seniority – the architects and senior technical staff.</description>
     </item>
     
     <item>
       <title>Great Mistakes in Technical Leadership</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-great-mistakes-in-technical-leadership/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-great-mistakes-in-technical-leadership/</link>
       <pubDate>Tue, 14 Dec 2021 11:34:58 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-great-mistakes-in-technical-leadership/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-great-mistakes-in-technical-leadership/</guid>
       <description>“If you are a good leader who talks little, they will say when your work is done and your aim fulfilled, ‘We did it ourselves.’” – Lao-Tse, cited in 1
 Perhaps the most difficult job to do on any software development project is that of Technical Lead. The Technical Lead has overall responsibility for all technical aspects of the project – design, code, technology selection, work assignment, scheduling and architecture are all within his purview.</description>
     </item>
     
     <item>
       <title>To The Management</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-to-the-management/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-to-the-management/</link>
       <pubDate>Tue, 14 Dec 2021 11:34:51 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-to-the-management/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-to-the-management/</guid>
       <description>I am frequently frustrated and disappointed in the standard of management I am subject to. Discussions with my peers in the software industry lead me to believe that I am not alone in my malaise. So on behalf of the silent multitude of software professionals who are disappointed with their management, I would like to remind you - the project manager, team leader or technical manager - of those basic rights to which your staff are entitled.</description>
     </item>
     
     <item>
       <title>Developers are from Mars, Programmers are from Venus</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-developers-are-from-mars/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-developers-are-from-mars/</link>
       <pubDate>Tue, 14 Dec 2021 11:34:42 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-developers-are-from-mars/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-developers-are-from-mars/</guid>
       <description>Many of us use the terms &amp;ldquo;programmer&amp;rdquo; and &amp;ldquo;developer&amp;rdquo; interchangeably. When someone asks me what I do for a living I tend to describe my vocation as &amp;ldquo;computer programmer&amp;rdquo; rather than &amp;ldquo;software developer&amp;rdquo;, because the former seems to be understood more readily by those unfamiliar with IT. Even when writing pieces for this site, I tend to swap back and forth between the two terms, to try and avoid sounding repetitive.</description>
     </item>
     
     <item>
       <title>Corporate Pimps: Dealing With Technical Recruiters</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-dealing-with-recruiters/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-dealing-with-recruiters/</link>
       <pubDate>Tue, 14 Dec 2021 11:34:32 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-dealing-with-recruiters/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-dealing-with-recruiters/</guid>
       <description>Anyone who has had any substantial dealings with technical recruiters invariably has a poor opinion of them. This is because the standard of practice in the recruiting industry is so low. To be a recruiter you don’t need any formal qualification, or any particular experience.
 Recruiting, as it is generally practiced, is little more than telemarketing. As with telemarketing, people are drawn to it because of the opportunity to make money without having to satisfy any particular educational requirements.</description>
     </item>
     
     <item>
       <title>Testers: Are They Vegetable or Mineral?</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-testers-vegetable-or-mineral/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-testers-vegetable-or-mineral/</link>
       <pubDate>Tue, 14 Dec 2021 11:34:26 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-testers-vegetable-or-mineral/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-testers-vegetable-or-mineral/</guid>
       <description>There are real advantages to having a group of people, separate from developers, whose job is solely to find fault with your work. They have an emotional and cognitive distance from the product that a developer can never fully imitate. Testing is a task requiring patience, attention to detail and a fairly devious mindset. Sometimes managers make the mistake of regarding testing as a second class activity, suitable to be performed by less skilled or more junior staff members.</description>
     </item>
     
     <item>
       <title>The Art of Flame War</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-art-of-the-flamewar/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-art-of-the-flamewar/</link>
       <pubDate>Tue, 14 Dec 2021 11:34:20 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-art-of-the-flamewar/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-art-of-the-flamewar/</guid>
       <description>The word &amp;ldquo;argument&amp;rdquo; has negative connotations for many people. It is associated with heated exchanges and passionate disagreement. But your experience of argument need not be so negative. Consider that the word &amp;lsquo;argument&amp;rsquo; also means &amp;lsquo;a line of reasoning&amp;rsquo;. By approaching a verbal or electronic discussion, even a hostile one, with this definition in mind, you can learn to separate the logical content of the exchange from its emotional content and thereby deal with each more effectively.</description>
     </item>
     
     <item>
       <title>Interview with the Sociopath</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-interview-with-a-sociopath/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-interview-with-a-sociopath/</link>
       <pubDate>Tue, 14 Dec 2021 11:34:11 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-interview-with-a-sociopath/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-interview-with-a-sociopath/</guid>
       <description>Recently I have had the misfortune to be playing the interview circuit again; parading from one interrogation to the next like some prisoner of technical war. The experience has been both frustrating and humiliating – and unpleasant reminder of how appallingly most technical interviews are conducted.
 So ignorant is the conduct of many interviewers, one could be forgiven for thinking they have undertaken the interview process with the deliberate intent of minimizing the chances of finding the right person for the job, and maximizing the opportunity for their own ego gratification.</description>
     </item>
     
     <item>
       <title>My Kingdom for a Door</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-my-kingdom-for-a-door/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-my-kingdom-for-a-door/</link>
       <pubDate>Tue, 14 Dec 2021 11:34:00 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-my-kingdom-for-a-door/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-my-kingdom-for-a-door/</guid>
       <description>“All men&amp;rsquo;s miseries derive from not being able to sit in a quiet room alone.” – Blaise Pascal
 In some interviews there comes a point where you realize that you don&amp;rsquo;t want the job. It might be the moment you discover that the employer has conveniently omitted from the published job description the requirement for the incumbent to spend 50% of their time maintaining a one million line legacy application, written in Visual Basic.</description>
     </item>
     
     <item>
       <title>A Dozen Ways to Sustain Irrational Technology Decisions</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-dozen-ways-to-sustain-irrational-technology-decisions/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-dozen-ways-to-sustain-irrational-technology-decisions/</link>
       <pubDate>Tue, 14 Dec 2021 11:33:54 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-dozen-ways-to-sustain-irrational-technology-decisions/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-dozen-ways-to-sustain-irrational-technology-decisions/</guid>
       <description>External observers often think of programmers as being somewhat cold and emotionless. Because our day-to-day activities are largely analytical in nature, it has become a part of the developer stereotype that we are dispassionate and rational in our manner and decision making. Those who have watched programmers up close for any length of time will know that this is far from the case. I believe that emotion plays a far larger part in IT decision making than many would be willing to admit.</description>
     </item>
     
     <item>
       <title>The Hazards of Being Quality Guy</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-hazards-of-being-quality-guy/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-hazards-of-being-quality-guy/</link>
       <pubDate>Tue, 14 Dec 2021 11:33:44 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-hazards-of-being-quality-guy/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-hazards-of-being-quality-guy/</guid>
       <description>Perhaps you&amp;rsquo;ve seen the Dilbert comic about Process Girl. At a meeting, the Pointy Haired Boss introduces Process Girl as &amp;ldquo;the one who has the answer to everything&amp;rdquo;, at which point Process Girl chimes in parrot-like with &amp;ldquo;Process!&amp;rdquo; She then denounces the meeting as inefficient because the participants have no process to describe how to conduct a meeting. By a unanimous vote she is expelled from the meeting. As he escorts her out of the room, Dilbert offers by way of consolation &amp;ldquo;at least you lasted longer than Quality Guy.</description>
     </item>
     
     <item>
       <title>The A to Z of Programmer Predilections</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-a-to-z-programmer-predilections/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-a-to-z-programmer-predilections/</link>
       <pubDate>Tue, 14 Dec 2021 11:33:36 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-peopleware-a-to-z-programmer-predilections/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-peopleware-a-to-z-programmer-predilections/</guid>
       <description>There is a realization that comes with the accrual of software development experience across a reasonable number of organizations, and it is this: Though the names change, the problems remain the same.
 Traveling from project to project, from one organization to another, across disparate geographies, domains and technologies, I am repeatedly struck more by the similarities between the projects I work on than their differences. Scenes from one job seem to replay in the next one, only with a different set of actors.</description>
     </item>
     
     <item>
       <title>Foreword</title>
-      <link>http://cwsteinbach.github.io/posts/hacknot/hacknot-foreword/</link>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-foreword/</link>
       <pubDate>Tue, 14 Dec 2021 11:32:45 -0800</pubDate>
       
-      <guid>http://cwsteinbach.github.io/posts/hacknot/hacknot-foreword/</guid>
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-foreword/</guid>
       <description>Hacknot began life in 2001 as an internal mailing list at the multinational telecommunications company I was then working for. As part of the activities of the local Software Engineering Process Group, I was looking for a way to promote discussion amongst staff about software engineering related issues, and to hopefully encourage people to learn about the methods and techniques that could be used to improve the quality of their work.</description>
     </item>
     
