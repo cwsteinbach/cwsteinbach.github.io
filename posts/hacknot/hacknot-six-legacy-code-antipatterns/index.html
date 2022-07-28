@@ -7,7 +7,7 @@
     <title>Six Legacy Code AntiPatterns | cwsteinbach.io</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="I recently began work on a J2EE project – a workflow assistance tool that has been under development for a few years. The application is totally new to me and yet is immediately familiar, for it bears the scars and wounds so common to a legacy system. Browsing through the code base and playing with the GUI, the half dozen legacy code anti-patterns that leave me with déjà vu are listed below.">
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -154,16 +154,16 @@ dozen legacy code anti-patterns that leave me with déjà vu are listed below. H
 many do you recognize?</p>
 <h2 id="nadadoc">Nadadoc</h2>
 <p>The Javadoc has been written in a perfunctory, content-free manner, giving rise to what I call Nadadoc. Here’s an example of Nadadoc:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">/**
-</span><span style="color:#75715e">  * Process an order
-</span><span style="color:#75715e">  *
-</span><span style="color:#75715e">  * @param orderID
-</span><span style="color:#75715e">  * @param purchaseID
-</span><span style="color:#75715e">  * @param purchaseDate
-</span><span style="color:#75715e">  * @return
-</span><span style="color:#75715e">  */</span>
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">processOrder</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> orderID<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> purchaseID<span style="color:#f92672">,</span> Date purchaseDate<span style="color:#f92672">);</span>
-</code></pre></div><p>Just enough text is used to assuage any niggling professionalism the author might be experiencing, without the undertaking the burden of having to communicate useful information to the reader. Commenting of code is an afterthought, achieved by invoking the IDE facility for generating a Javadoc template and performing some token customization of the result.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  * Process an order
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  *
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  * @param orderID
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  * @param purchaseID
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  * @param purchaseDate
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  * @return
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  */</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">processOrder</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> orderID<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> purchaseID<span style="color:#f92672">,</span> Date purchaseDate<span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>Just enough text is used to assuage any niggling professionalism the author might be experiencing, without the undertaking the burden of having to communicate useful information to the reader. Commenting of code is an afterthought, achieved by invoking the IDE facility for generating a Javadoc template and performing some token customization of the result.</p>
 <h2 id="abandoned-framework">Abandoned Framework</h2>
 <p>With school boy enthusiasm, the original authors have decided they know enough about their application domain to build a framework for the construction of similar applications, the first use of which will be the product they are trying to write. Such naivety is driven by grand notions of reuse not yet tarnished by contact with the real world. Classes constructed early in this project are so insanely generic that even fundamental types such as java.util.Enumeration are rewritten with bespoke versions that are ostensibly more general purpose. Classes constructed later in the project, after the team realizes that constructing a framework within the time allowed is totally infeasible, are application specific hack-fests.</p>
 <h2 id="gui-designed-by-programmers-and-written-by-borland">GUI - Designed By Programmers And Written By Borland</h2>
@@ -202,7 +202,7 @@ At the code level, the story is even worse. Many elements of the UI have been ge
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://cwsteinbach.io/" >
-    &copy;  cwsteinbach.io 2021 
+    &copy;  cwsteinbach.io 2022 
   </a>
     <div>
 

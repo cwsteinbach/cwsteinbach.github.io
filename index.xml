@@ -6,7 +6,35 @@
     <description>Recent content on cwsteinbach.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Dec 2021 11:54:38 -0800</lastBuildDate><atom:link href="http://cwsteinbach.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jul 2022 12:29:52 -0700</lastBuildDate><atom:link href="http://cwsteinbach.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HackNot</title>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot/</link>
+      <pubDate>Thu, 28 Jul 2022 12:29:52 -0700</pubDate>
+      
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot/</guid>
+      <description>Foreword Hacknot began life in 2001 as an internal mailing list at the multinational telecommunications company I was then working for. As part of the activities of the local Software Engineering Process Group, I was looking for a way to promote discussion amongst staff about software engineering related issues, and to hopefully encourage people to learn about the methods and techniques that could be used to improve the quality of their work.</description>
+    </item>
+    
+    <item>
+      <title>To The Management</title>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-to-the-management/</link>
+      <pubDate>Mon, 20 Dec 2021 16:43:59 -0800</pubDate>
+      
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-to-the-management/</guid>
+      <description>I am frequently frustrated and disappointed in the standard of management I am subject to. Discussions with my peers in the software industry lead me to believe that I am not alone in my malaise. So on behalf of the silent multitude of software professionals who are disappointed with their management, I would like to remind you - the project manager, team leader or technical manager - of those basic rights to which your staff are entitled.</description>
+    </item>
+    
+    <item>
+      <title>XP and ESP: The Truth is Out There!</title>
+      <link>http://cwsteinbach.io/posts/hacknot/hacknot-xp-and-esp/</link>
+      <pubDate>Mon, 20 Dec 2021 15:56:27 -0800</pubDate>
+      
+      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-xp-and-esp/</guid>
+      <description>“Eclipses occur, and savages are frightened. The medicine men wave wands – the sun is cured – they did it.”– Charles Fort 1
+People have a vast capacity for self-deception. Even members of the scientific community, from whom we expect objectivity, can unwittingly allow their personal beliefs and preconceptions to color their interpretation of data. Professional ambition and wishful thinking can turn their stance from one of neutral observance into passionate adherence to a position, sustained by willful ignorance of contrary evidence.</description>
+    </item>
+    
     <item>
       <title>All Aboard the Gravy Train</title>
       <link>http://cwsteinbach.io/posts/hacknot/hacknot-all-aboard-the-gravy-train/</link>
@@ -65,7 +93,7 @@ Imagine you are a surgeon. You are stitching a wound closed at the end of a majo
       
       <guid>http://cwsteinbach.io/posts/hacknot/hacknot-tulip-mania-to-dot-com-mania/</guid>
       <description>Those who cannot remember the past are condemned to repeat it. &amp;ndash; George Santayana
- Those of us working in IT tend to think of ourselves as being modern, savvy and much more advanced than our forebears. This conviction is often accompanied by a certain degree of hubris, and a somewhat derisive attitude towards older technologies and practitioners. You’ve probably encountered this ageist bias in your own work place, or even displayed it yourself.</description>
+Those of us working in IT tend to think of ourselves as being modern, savvy and much more advanced than our forebears. This conviction is often accompanied by a certain degree of hubris, and a somewhat derisive attitude towards older technologies and practitioners. You’ve probably encountered this ageist bias in your own work place, or even displayed it yourself.</description>
     </item>
     
     <item>
@@ -114,7 +142,7 @@ Consider this proposition: P(1): Pair Programming works If I were to voice that 
       
       <guid>http://cwsteinbach.io/posts/hacknot/hacknot-skeptical-software-development-manifesto/</guid>
       <description>Argumentation cannot suffice for the discovery of new work, since the subtlety of Nature is greater many times than the subtlety of argument. &amp;ndash; Fracis Bacon
- The over-enthusiastic and often uncritical adoption of XP and Agile tenets by many in the software development community is worrying.
+The over-enthusiastic and often uncritical adoption of XP and Agile tenets by many in the software development community is worrying.
 It is worrying because it attests to the willingness of many developers to accept claims made on the basis of argument and rhetoric alone.</description>
     </item>
     
@@ -264,16 +292,6 @@ I’m referring to a recent blog entry by Martin Fowler entitled AppealToAuthori
     </item>
     
     <item>
-      <title>XP and ESP: The Truth is Out There!</title>
-      <link>http://cwsteinbach.io/posts/hacknot/hacknot-xp-and-esp/</link>
-      <pubDate>Tue, 14 Dec 2021 11:36:28 -0800</pubDate>
-      
-      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-xp-and-esp/</guid>
-      <description>“Eclipses occur, and savages are frightened. The medicine men wave wands – the sun is cured – they did it.”– Charles Fort 1
-People have a vast capacity for self-deception. Even members of the scientific community, from whom we expect objectivity, can unwittingly allow their personal beliefs and preconceptions to color their interpretation of data. Professional ambition and wishful thinking can turn their stance from one of neutral observance into passionate adherence to a position, sustained by willful ignorance of contrary evidence.</description>
-    </item>
-    
-    <item>
       <title>The Deflowering of a Pair Programming Virgin</title>
       <link>http://cwsteinbach.io/posts/hacknot/hacknot-pair-programming-virgin/</link>
       <pubDate>Tue, 14 Dec 2021 11:36:21 -0800</pubDate>
@@ -346,15 +364,6 @@ Reading each I became aware of the similarities in the methods for control, mani
       <guid>http://cwsteinbach.io/posts/hacknot/hacknot-great-mistakes-in-technical-leadership/</guid>
       <description>“If you are a good leader who talks little, they will say when your work is done and your aim fulfilled, ‘We did it ourselves.’” – Lao-Tse, cited in 1
 Perhaps the most difficult job to do on any software development project is that of Technical Lead. The Technical Lead has overall responsibility for all technical aspects of the project – design, code, technology selection, work assignment, scheduling and architecture are all within his purview.</description>
-    </item>
-    
-    <item>
-      <title>To The Management</title>
-      <link>http://cwsteinbach.io/posts/hacknot/hacknot-to-the-management/</link>
-      <pubDate>Tue, 14 Dec 2021 11:34:51 -0800</pubDate>
-      
-      <guid>http://cwsteinbach.io/posts/hacknot/hacknot-to-the-management/</guid>
-      <description>I am frequently frustrated and disappointed in the standard of management I am subject to. Discussions with my peers in the software industry lead me to believe that I am not alone in my malaise. So on behalf of the silent multitude of software professionals who are disappointed with their management, I would like to remind you - the project manager, team leader or technical manager - of those basic rights to which your staff are entitled.</description>
     </item>
     
     <item>

@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://cwsteinbach.io/posts/hacknot/hacknot-all-aboard-the-gravy-train/</loc>
-    <lastmod>2021-12-14T11:54:38-08:00</lastmod>
-  </url><url>
     <loc>http://cwsteinbach.io/</loc>
-    <lastmod>2021-12-14T11:54:38-08:00</lastmod>
+    <lastmod>2022-07-28T12:29:52-07:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.io/posts/hacknot/hacknot/</loc>
+    <lastmod>2022-07-28T12:29:52-07:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.io/posts/</loc>
+    <lastmod>2022-07-28T12:29:52-07:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.io/posts/hacknot/hacknot-to-the-management/</loc>
+    <lastmod>2021-12-20T16:43:59-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.io/posts/hacknot/hacknot-xp-and-esp/</loc>
+    <lastmod>2021-12-20T15:56:27-08:00</lastmod>
+  </url><url>
+    <loc>http://cwsteinbach.io/posts/hacknot/hacknot-all-aboard-the-gravy-train/</loc>
     <lastmod>2021-12-14T11:54:38-08:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.io/posts/hacknot/hacknot-reuse-is-dead/</loc>
@@ -86,9 +95,6 @@
     <loc>http://cwsteinbach.io/posts/hacknot/hacknot-thought-leaders-and-followers/</loc>
     <lastmod>2021-12-14T11:36:37-08:00</lastmod>
   </url><url>
-    <loc>http://cwsteinbach.io/posts/hacknot/hacknot-xp-and-esp/</loc>
-    <lastmod>2021-12-14T11:36:28-08:00</lastmod>
-  </url><url>
     <loc>http://cwsteinbach.io/posts/hacknot/hacknot-pair-programming-virgin/</loc>
     <lastmod>2021-12-14T11:36:21-08:00</lastmod>
   </url><url>
@@ -112,9 +118,6 @@
   </url><url>
     <loc>http://cwsteinbach.io/posts/hacknot/hacknot-great-mistakes-in-technical-leadership/</loc>
     <lastmod>2021-12-14T11:34:58-08:00</lastmod>
-  </url><url>
-    <loc>http://cwsteinbach.io/posts/hacknot/hacknot-to-the-management/</loc>
-    <lastmod>2021-12-14T11:34:51-08:00</lastmod>
   </url><url>
     <loc>http://cwsteinbach.io/posts/hacknot/hacknot-developers-are-from-mars/</loc>
     <lastmod>2021-12-14T11:34:42-08:00</lastmod>

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="plagiarize – take (the work or an idea of someone else) and pass it off as one’s own. – New Oxford Dictionary of English
 Ours is an occupation obsessed with invention and novelty. Every week it seems that some new technology or development technique arrives, heralded by a fanfare of hype and a litany of neologisms. So keen are we to exploit the community&rsquo;s enthusiasm for newness that we will even take old ideas and rebadge them, offering them up to our colleagues as if they were original.">
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -167,13 +167,13 @@ invalid values are encountered.</p>
 <p>For example, if you write a method for finding the positive square root of a
 non-negative argument, you make the expectation of &ldquo;non-negativity&rdquo; explicit at
 the beginning of the method, like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">squareRoot</span><span style="color:#f92672">(</span><span style="color:#66d9ef">float</span> value<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>value <span style="color:#f92672">&lt;</span> 0<span style="color:#f92672">.</span><span style="color:#a6e22e">0</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> SomeException<span style="color:#f92672">(</span>value<span style="color:#f92672">);</span>
-  <span style="color:#f92672">}</span>
-  <span style="color:#75715e">// More code goes here
-</span><span style="color:#75715e"></span><span style="color:#f92672">}</span>
-</code></pre></div><p>This technique is the antithesis of defensive programming, which would encourage
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">squareRoot</span><span style="color:#f92672">(</span><span style="color:#66d9ef">float</span> value<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>value <span style="color:#f92672">&lt;</span> 0<span style="color:#f92672">.</span><span style="color:#a6e22e">0</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> SomeException<span style="color:#f92672">(</span>value<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// More code goes here
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>This technique is the antithesis of defensive programming, which would encourage
 us to make the method as tolerant of unexpected input as possible.</p>
 <p>Shore then goes to some lengths to enumerate the strengths of this technique, such as:
 • Whenfailureoccurs,theresultisastacktracethatleadsdirectlytothe source of error. Code that doesn&rsquo;t fail-fast can sometimes propagate errors to other portions of the call hierarchy, finally to fail in a location quite distant from the original point of error.
@@ -264,7 +264,7 @@ admonishment for effectively endorsing plagiarism.</p>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://cwsteinbach.io/" >
-    &copy;  cwsteinbach.io 2021 
+    &copy;  cwsteinbach.io 2022 
   </a>
     <div>
 

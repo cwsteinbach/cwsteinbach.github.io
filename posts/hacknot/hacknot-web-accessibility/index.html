@@ -7,7 +7,7 @@
     <title>Web Accessibility for the Apathetic | cwsteinbach.io</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="If you&rsquo;re like me, you approach the subject of accessibility with a certain self-conscious guilt. On the one hand, you recognize that there are excellent ethical and legal reasons for making your applications – be they web-based or rich client – accessible to those with sensory or cognitive impairments; but on the other hand you can&rsquo;t ignore the fact that the extra work required to add that accessibility is only going to make a difference to a very small percentage of your users.">
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -36,7 +36,7 @@
 <meta itemprop="name" content="Web Accessibility for the Apathetic">
 <meta itemprop="description" content="If you&rsquo;re like me, you approach the subject of accessibility with a certain self-conscious guilt. On the one hand, you recognize that there are excellent ethical and legal reasons for making your applications – be they web-based or rich client – accessible to those with sensory or cognitive impairments; but on the other hand you can&rsquo;t ignore the fact that the extra work required to add that accessibility is only going to make a difference to a very small percentage of your users.">
 <meta itemprop="dateModified" content="2021-12-14T11:42:17-08:00" />
-<meta itemprop="wordCount" content="1539">
+<meta itemprop="wordCount" content="1540">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Web Accessibility for the Apathetic"/>
 <meta name="twitter:description" content="If you&rsquo;re like me, you approach the subject of accessibility with a certain self-conscious guilt. On the one hand, you recognize that there are excellent ethical and legal reasons for making your applications – be they web-based or rich client – accessible to those with sensory or cognitive impairments; but on the other hand you can&rsquo;t ignore the fact that the extra work required to add that accessibility is only going to make a difference to a very small percentage of your users."/>
@@ -180,30 +180,30 @@ consideration of that issue.</p>
 A good portion of the details appearing below are in support of these two principles. The steps below show you how to transform a non- accessible web page into an accessible one.
 Step 1: Ensure All HTML Elements Are Structural
 Structural elements those which describe the semantic units of an HTML document. Examples of structural HTML elements are:
-• <!-- raw HTML omitted --> &hellip; <!-- raw HTML omitted --> • <!-- raw HTML omitted -->
-• <!-- raw HTML omitted -->
-• <!-- raw HTML omitted -->
-• <!-- raw HTML omitted --> • <!-- raw HTML omitted -->
-• <!-- raw HTML omitted --> • <!-- raw HTML omitted -->
+• <h1> &hellip; <h6> • <p>
+• <ol>
+• <ul>
+• <img> • <li>
+• <div> • <span>
 Over the years, browser vendors have added proprietary non-structural elements and attributes to the HTML grammar their browser understands, in an effort to differentiate their product from their competitor&rsquo;s. The result is a tag set which invites misuse, is interpreted differently (or not at all) in different browsers, and awkwardly combines content and presentation. By removing elements that specify some aspect of the document&rsquo;s presentation, accessibility can be improved.
 Examples of non-structural HTML elements you should remove are:
-• <!-- raw HTML omitted -->
-• <!-- raw HTML omitted -->
-• <!-- raw HTML omitted -->
-• <!-- raw HTML omitted -->
-• <!-- raw HTML omitted -->
-• <!-- raw HTML omitted -->
-• <!-- raw HTML omitted -->
-• <!-- raw HTML omitted --> • <!-- raw HTML omitted -->
-• <!-- raw HTML omitted --></p>
-<p>• <!-- raw HTML omitted -->
-The layout effects produced by these non-structural tags can, and should be, achieved with style sheets. Using these tags only pollutes your HTML document with presentation information that may well be useless or misleading to those with low vision. For instance, <!-- raw HTML omitted --> elements should be removed because bold text has no meaning to a blind user. This doesn&rsquo;t mean that text can&rsquo;t be made bold, but rather that CSS rather than HTML should be the means by which the bolding is achieved.
+• <hr>
+• <i>
+• <b>
+• <u>
+• <big>
+• <small>
+• <font>
+• <basefont> • <br>
+• <font></p>
+<p>• <tt>
+The layout effects produced by these non-structural tags can, and should be, achieved with style sheets. Using these tags only pollutes your HTML document with presentation information that may well be useless or misleading to those with low vision. For instance, <b> elements should be removed because bold text has no meaning to a blind user. This doesn&rsquo;t mean that text can&rsquo;t be made bold, but rather that CSS rather than HTML should be the means by which the bolding is achieved.
 Note that in some cases there is a structural tag that you should put in place of the deleted non-structural tag. For example:
-• If you have removed <!-- raw HTML omitted --> tags that were used to emphasize words, insert <!-- raw HTML omitted --> tags where the <!-- raw HTML omitted --> tags used to be.
-• Ifyouhaveremoved<!-- raw HTML omitted -->tagsthatwereusedtocreateaheading,insert a heading tag like <!-- raw HTML omitted --> where the <!-- raw HTML omitted --> tags used to be.
-• If you have removed <!-- raw HTML omitted --> tags that were used to add emphasis, insert <!-- raw HTML omitted --> tags where the <!-- raw HTML omitted --> tags used to be.
-In other cases, there is no structural element already defined in HTML that adequately captures a structural aspect of your web page, so you must invent your own using the <!-- raw HTML omitted --> or <!-- raw HTML omitted --> elements. For instance, you might create a of class &ldquo;footnote&rdquo; to denote footnote references:
-<!-- raw HTML omitted -->This is a footnote.<!-- raw HTML omitted -->
+• If you have removed <b> tags that were used to emphasize words, insert <strong> tags where the <b> tags used to be.
+• Ifyouhaveremoved<b>tagsthatwereusedtocreateaheading,insert a heading tag like <h3> where the <b> tags used to be.
+• If you have removed <b> tags that were used to add emphasis, insert <em> tags where the <b> tags used to be.
+In other cases, there is no structural element already defined in HTML that adequately captures a structural aspect of your web page, so you must invent your own using the <span> or <div> elements. For instance, you might create a of class &ldquo;footnote&rdquo; to denote footnote references:
+<span class=”footnote”>This is a footnote.</span>
 The way that span elements of class footnote are displayed is later specified in a CSS.
 Step 2: Ensure All HTML Attributes Are Structural
 Non-structural attributes should be removed for the same reasons that structural elements should be removed. Examples of non-structural attributes you can delete are:
@@ -220,13 +220,13 @@ Again, all the layout effects that were produced by these attributes can be achi
 Step 3: Remove Misused Structural HTML Elements
 Structural elements should not be used as ersatz layout mechanisms as this will confuse those accessing your web page with a text browser.
 Examples of the misuse of structural elements for layout purposes include:
-• Using empty paragraphs (<!-- raw HTML omitted -->) to put a vertical space between consecutive blocks of text.
-• Usingthe<!-- raw HTML omitted -->elementtoachievecolumnaralignmentofmaterial that is not inherently tabular.
-• Drawinglinesbystretchinga1-pixel<!-- raw HTML omitted -->.
-• Using<!-- raw HTML omitted -->purelytoachieveindentation.
+• Using empty paragraphs (<p>) to put a vertical space between consecutive blocks of text.
+• Usingthe<table>elementtoachievecolumnaralignmentofmaterial that is not inherently tabular.
+• Drawinglinesbystretchinga1-pixel<img>.
+• Using<blockquote>purelytoachieveindentation.
 Step 4:
 Ensure All Non-Textual Content Has A Textual Equivalent
-Users with visual impairment may use a text browser, Braille bar or screen reader to access your web page. These mechanisms can only deal with text as input. So you need to supply a textual equivalent to any non- textual content on your web page. A common examples is using the alt attribute of <!-- raw HTML omitted --> tags to describe the significance of the image.
+Users with visual impairment may use a text browser, Braille bar or screen reader to access your web page. These mechanisms can only deal with text as input. So you need to supply a textual equivalent to any non- textual content on your web page. A common examples is using the alt attribute of <img> tags to describe the significance of the image.
 There are certain mechanisms which should be used sparingly, if at all, because they are inherently inaccessible. These include:
 • Imagemaps
 • Javascript
@@ -238,14 +238,14 @@ they may be deliberately disabled by any user in their browser.
 Step 5:
 Add In Attributes Or Elements That Aid Accessibility
 There are a few HTML structural elements and attributes that are particularly helpful from an accessibility perspective:
-• The <!-- raw HTML omitted --> and <!-- raw HTML omitted --> elements can be used to specify the expansion of abbreviations and acronyms when they first occur in a document.
-• The <!-- raw HTML omitted --> element should be used to identify column headers. Tables are linearized in text browsers, and knowing which table cells are headers helps the user interpret them.
-• In HTML forms, use the <!-- raw HTML omitted --> element around the form labels. Additionally, field labels should be immediately to the left of, or immediately above, the field.
-• Provide a logical tab order for elements by specifying the tabindex attribute for <!-- raw HTML omitted --> elements.
-• Use the title attribute of <!-- raw HTML omitted --> elements to provide more information about the target of the hyperlink.
+• The <abbrev> and <acronym> elements can be used to specify the expansion of abbreviations and acronyms when they first occur in a document.
+• The <th> element should be used to identify column headers. Tables are linearized in text browsers, and knowing which table cells are headers helps the user interpret them.
+• In HTML forms, use the <label> element around the form labels. Additionally, field labels should be immediately to the left of, or immediately above, the field.
+• Provide a logical tab order for elements by specifying the tabindex attribute for <input> elements.
+• Use the title attribute of <a> elements to provide more information about the target of the hyperlink.
 Checkpoint
 At this point, you should have an HTML document that is marked up solely with structural elements and attributes. This is a good time to preview your page in a text browser like Lynx2, or with a screen reader like IBM Home Page Reader3.
-It is also a good time to run your HTML through one of the automated accessibility-checker sites on the web. Such sites enable you to provide your HTML – either directly with cut/paste, or by nominating a URL – and then scan the document looking for accessibility problems. I found <a href="http://www.bobby.com">www.bobby.com</a> to be quite useful.</p>
+It is also a good time to run your HTML through one of the automated accessibility-checker sites on the web. Such sites enable you to provide your HTML – either directly with cut/paste, or by nominating a URL – and then scan the document looking for accessibility problems. I found <a href="https://www.bobby.com">www.bobby.com</a> to be quite useful.</p>
 <p>Step 6:
 Recreate The Layout Using Cantankerous Style Sheets
 And now for the tricky bit. Converting your web page to use only structural HTML elements and attributes is easy compared to using CSS to achieve your desired layout. Mostly the difficulty stems from the variations in the way different browsers render CSS directives. Behavior of &ldquo;floating&rdquo; elements seems to be particularly problematic. Therefore it is essential to test the layout in as many different browsers as you can. This lack of standardization in behavior is the most frustrating aspect of using CSS. I found the following books useful in getting up to speed on CSS:
@@ -254,7 +254,7 @@ And now for the tricky bit. Converting your web page to use only structural HTML
 • MoreEricMeyeronCSS,EricMeyer,NewRiders,2004
 Once you&rsquo;ve got a style sheet that presents the HTML document the way you want, you&rsquo;re done. Just be sure that your choice of layout effects doesn&rsquo;t aggravate those suffering from particular medical conditions:
 • Those with light-triggered epilepsy can seizure when subject to blinking text or images. Sensitivity varies between the 4Hz and 59Hz frequencies, with peak sensitivity around 20Hz.
-• Colorperceptionproblemsarequitecommon–moresoinmalesthan females. Make sure your layout doesn&rsquo;t rely on color as the sole discriminator between different objects. The filter available at <a href="http://www.visicheck.com">www.visicheck.com</a> can show you what your page looks like to users with different color perception difficulties.
+• Colorperceptionproblemsarequitecommon–moresoinmalesthan females. Make sure your layout doesn&rsquo;t rely on color as the sole discriminator between different objects. The filter available at <a href="https://www.visicheck.com">www.visicheck.com</a> can show you what your page looks like to users with different color perception difficulties.
 • Do not use text sizes that are too small. The minimum size should appear to be equivalent to a 10pt font, but 12pt is preferable. Note that you should not actually use pt or px units to specify font sizes, as these don&rsquo;t scale up when the user changes the text size in their browser. The em unit should be used instead.</p>
 <p>1 <a href="http://www.w3.org/TR/WAI-WEBCONTENT/">http://www.w3.org/TR/WAI-WEBCONTENT/</a>
 2 <a href="http://lynx.browser.org/">http://lynx.browser.org/</a>
@@ -281,7 +281,7 @@ Once you&rsquo;ve got a style sheet that presents the HTML document the way you 
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://cwsteinbach.io/" >
-    &copy;  cwsteinbach.io 2021 
+    &copy;  cwsteinbach.io 2022 
   </a>
     <div>
 
